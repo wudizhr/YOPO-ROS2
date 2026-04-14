@@ -1,0 +1,451 @@
+[0.045s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.045s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x759805b33050>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x759805c83a10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x759805c83a10>>)
+[0.062s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.062s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.062s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.062s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.062s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.063s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.063s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/zhr/YOPO-ROS2/Controller'
+[0.063s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.063s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.063s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.063s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.063s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.063s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.063s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.063s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.063s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.079s] WARNING:colcon.colcon_cmake.package_identification.cmake:Ignoring 'src/CMakeLists.txt' since it seems to be a toplevel CMake file generated by 'catkin_make'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_control) by extensions ['ignore', 'ignore_ament_install']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_control) by extension 'ignore'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_control) by extension 'ignore_ament_install'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_control) by extensions ['colcon_pkg']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_control) by extension 'colcon_pkg'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_control) by extensions ['colcon_meta']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_control) by extension 'colcon_meta'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_control) by extensions ['ros']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_control) by extension 'ros'
+[0.081s] DEBUG:colcon.colcon_core.package_identification:Package 'src/so3_control' with type 'ros.ament_cmake' and name 'so3_control'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_quadrotor_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_quadrotor_simulator) by extension 'ignore'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_quadrotor_simulator) by extension 'ignore_ament_install'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_quadrotor_simulator) by extensions ['colcon_pkg']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_quadrotor_simulator) by extension 'colcon_pkg'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_quadrotor_simulator) by extensions ['colcon_meta']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_quadrotor_simulator) by extension 'colcon_meta'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_quadrotor_simulator) by extensions ['ros']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_quadrotor_simulator) by extension 'ros'
+[0.081s] DEBUG:colcon.colcon_core.package_identification:Package 'src/so3_quadrotor_simulator' with type 'ros.ament_cmake' and name 'so3_quadrotor_simulator'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extensions ['ignore', 'ignore_ament_install']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extension 'ignore'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extension 'ignore_ament_install'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extensions ['colcon_pkg']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extension 'colcon_pkg'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extensions ['colcon_meta']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extension 'colcon_meta'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extensions ['ros']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extension 'ros'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extensions ['cmake', 'python']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extension 'cmake'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extension 'python'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extensions ['python_setup_py']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extension 'python_setup_py'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/cmake_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/cmake_utils) by extension 'ignore'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/cmake_utils) by extension 'ignore_ament_install'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/cmake_utils) by extensions ['colcon_pkg']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/cmake_utils) by extension 'colcon_pkg'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/cmake_utils) by extensions ['colcon_meta']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/cmake_utils) by extension 'colcon_meta'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/cmake_utils) by extensions ['ros']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/cmake_utils) by extension 'ros'
+[0.082s] DEBUG:colcon.colcon_core.package_identification:Package 'src/utils/cmake_utils' with type 'ros.ament_cmake' and name 'cmake_utils'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/mavros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/mavros_msgs) by extension 'ignore'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/mavros_msgs) by extension 'ignore_ament_install'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/mavros_msgs) by extensions ['colcon_pkg']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/mavros_msgs) by extension 'colcon_pkg'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/mavros_msgs) by extensions ['colcon_meta']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/mavros_msgs) by extension 'colcon_meta'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/mavros_msgs) by extensions ['ros']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/mavros_msgs) by extension 'ros'
+[0.082s] DEBUG:colcon.colcon_core.package_identification:Package 'src/utils/mavros_msgs' with type 'ros.ament_cmake' and name 'mavros_msgs'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/quadrotor_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/quadrotor_msgs) by extension 'ignore'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/quadrotor_msgs) by extension 'ignore_ament_install'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/quadrotor_msgs) by extensions ['colcon_pkg']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/quadrotor_msgs) by extension 'colcon_pkg'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/quadrotor_msgs) by extensions ['colcon_meta']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/quadrotor_msgs) by extension 'colcon_meta'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/quadrotor_msgs) by extensions ['ros']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/quadrotor_msgs) by extension 'ros'
+[0.083s] DEBUG:colcon.colcon_core.package_identification:Package 'src/utils/quadrotor_msgs' with type 'ros.ament_cmake' and name 'quadrotor_msgs'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/uav_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/uav_utils) by extension 'ignore'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/uav_utils) by extension 'ignore_ament_install'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/uav_utils) by extensions ['colcon_pkg']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/uav_utils) by extension 'colcon_pkg'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/uav_utils) by extensions ['colcon_meta']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/uav_utils) by extension 'colcon_meta'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/uav_utils) by extensions ['ros']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/uav_utils) by extension 'ros'
+[0.083s] DEBUG:colcon.colcon_core.package_identification:Package 'src/utils/uav_utils' with type 'ros.ament_cmake' and name 'uav_utils'
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.093s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 286 installed packages in /opt/ros/jazzy
+[0.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.111s] Level 5:colcon.colcon_core.verb:set package 'cmake_utils' build argument 'cmake_args' from command line to 'None'
+[0.111s] Level 5:colcon.colcon_core.verb:set package 'cmake_utils' build argument 'cmake_target' from command line to 'None'
+[0.111s] Level 5:colcon.colcon_core.verb:set package 'cmake_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.111s] Level 5:colcon.colcon_core.verb:set package 'cmake_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[0.111s] Level 5:colcon.colcon_core.verb:set package 'cmake_utils' build argument 'cmake_clean_first' from command line to 'False'
+[0.111s] Level 5:colcon.colcon_core.verb:set package 'cmake_utils' build argument 'cmake_force_configure' from command line to 'False'
+[0.111s] Level 5:colcon.colcon_core.verb:set package 'cmake_utils' build argument 'ament_cmake_args' from command line to 'None'
+[0.111s] Level 5:colcon.colcon_core.verb:set package 'cmake_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[0.111s] Level 5:colcon.colcon_core.verb:set package 'cmake_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.111s] DEBUG:colcon.colcon_core.verb:Building package 'cmake_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zhr/YOPO-ROS2/Controller/build/cmake_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zhr/YOPO-ROS2/Controller/install/cmake_utils', 'merge_install': False, 'path': '/home/zhr/YOPO-ROS2/Controller/src/utils/cmake_utils', 'symlink_install': False, 'test_result_base': None}
+[0.111s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_args' from command line to 'None'
+[0.111s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_target' from command line to 'None'
+[0.111s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.111s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.111s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.111s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.111s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.111s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.111s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.111s] DEBUG:colcon.colcon_core.verb:Building package 'mavros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zhr/YOPO-ROS2/Controller/build/mavros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs', 'merge_install': False, 'path': '/home/zhr/YOPO-ROS2/Controller/src/utils/mavros_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.111s] Level 5:colcon.colcon_core.verb:set package 'quadrotor_msgs' build argument 'cmake_args' from command line to 'None'
+[0.111s] Level 5:colcon.colcon_core.verb:set package 'quadrotor_msgs' build argument 'cmake_target' from command line to 'None'
+[0.111s] Level 5:colcon.colcon_core.verb:set package 'quadrotor_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.111s] Level 5:colcon.colcon_core.verb:set package 'quadrotor_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.111s] Level 5:colcon.colcon_core.verb:set package 'quadrotor_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.111s] Level 5:colcon.colcon_core.verb:set package 'quadrotor_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.111s] Level 5:colcon.colcon_core.verb:set package 'quadrotor_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.111s] Level 5:colcon.colcon_core.verb:set package 'quadrotor_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.111s] Level 5:colcon.colcon_core.verb:set package 'quadrotor_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.111s] DEBUG:colcon.colcon_core.verb:Building package 'quadrotor_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zhr/YOPO-ROS2/Controller/build/quadrotor_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs', 'merge_install': False, 'path': '/home/zhr/YOPO-ROS2/Controller/src/utils/quadrotor_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.111s] Level 5:colcon.colcon_core.verb:set package 'so3_control' build argument 'cmake_args' from command line to 'None'
+[0.111s] Level 5:colcon.colcon_core.verb:set package 'so3_control' build argument 'cmake_target' from command line to 'None'
+[0.111s] Level 5:colcon.colcon_core.verb:set package 'so3_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.111s] Level 5:colcon.colcon_core.verb:set package 'so3_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.111s] Level 5:colcon.colcon_core.verb:set package 'so3_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.111s] Level 5:colcon.colcon_core.verb:set package 'so3_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.111s] Level 5:colcon.colcon_core.verb:set package 'so3_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.111s] Level 5:colcon.colcon_core.verb:set package 'so3_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.111s] Level 5:colcon.colcon_core.verb:set package 'so3_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.111s] DEBUG:colcon.colcon_core.verb:Building package 'so3_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zhr/YOPO-ROS2/Controller/build/so3_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zhr/YOPO-ROS2/Controller/install/so3_control', 'merge_install': False, 'path': '/home/zhr/YOPO-ROS2/Controller/src/so3_control', 'symlink_install': False, 'test_result_base': None}
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'uav_utils' build argument 'cmake_args' from command line to 'None'
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'uav_utils' build argument 'cmake_target' from command line to 'None'
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'uav_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'uav_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'uav_utils' build argument 'cmake_clean_first' from command line to 'False'
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'uav_utils' build argument 'cmake_force_configure' from command line to 'False'
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'uav_utils' build argument 'ament_cmake_args' from command line to 'None'
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'uav_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'uav_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.112s] DEBUG:colcon.colcon_core.verb:Building package 'uav_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zhr/YOPO-ROS2/Controller/build/uav_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zhr/YOPO-ROS2/Controller/install/uav_utils', 'merge_install': False, 'path': '/home/zhr/YOPO-ROS2/Controller/src/utils/uav_utils', 'symlink_install': False, 'test_result_base': None}
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'so3_quadrotor_simulator' build argument 'cmake_args' from command line to 'None'
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'so3_quadrotor_simulator' build argument 'cmake_target' from command line to 'None'
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'so3_quadrotor_simulator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'so3_quadrotor_simulator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'so3_quadrotor_simulator' build argument 'cmake_clean_first' from command line to 'False'
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'so3_quadrotor_simulator' build argument 'cmake_force_configure' from command line to 'False'
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'so3_quadrotor_simulator' build argument 'ament_cmake_args' from command line to 'None'
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'so3_quadrotor_simulator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.112s] Level 5:colcon.colcon_core.verb:set package 'so3_quadrotor_simulator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.112s] DEBUG:colcon.colcon_core.verb:Building package 'so3_quadrotor_simulator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zhr/YOPO-ROS2/Controller/build/so3_quadrotor_simulator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zhr/YOPO-ROS2/Controller/install/so3_quadrotor_simulator', 'merge_install': False, 'path': '/home/zhr/YOPO-ROS2/Controller/src/so3_quadrotor_simulator', 'symlink_install': False, 'test_result_base': None}
+[0.112s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.113s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.113s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zhr/YOPO-ROS2/Controller/src/utils/cmake_utils' with build type 'ament_cmake'
+[0.113s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zhr/YOPO-ROS2/Controller/src/utils/cmake_utils'
+[0.114s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.114s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.114s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.116s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zhr/YOPO-ROS2/Controller/src/utils/quadrotor_msgs' with build type 'ament_cmake'
+[0.116s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zhr/YOPO-ROS2/Controller/src/utils/quadrotor_msgs'
+[0.116s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.116s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.117s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zhr/YOPO-ROS2/Controller/src/utils/mavros_msgs' with build type 'ament_cmake'
+[0.117s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zhr/YOPO-ROS2/Controller/src/utils/mavros_msgs'
+[0.117s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.117s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.121s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zhr/YOPO-ROS2/Controller/build/cmake_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zhr/YOPO-ROS2/Controller/src/utils/cmake_utils -DCMAKE_INSTALL_PREFIX=/home/zhr/YOPO-ROS2/Controller/install/cmake_utils
+[0.122s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zhr/YOPO-ROS2/Controller/build/quadrotor_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zhr/YOPO-ROS2/Controller/src/utils/quadrotor_msgs -DCMAKE_INSTALL_PREFIX=/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs
+[0.124s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zhr/YOPO-ROS2/Controller/build/mavros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zhr/YOPO-ROS2/Controller/src/utils/mavros_msgs -DCMAKE_INSTALL_PREFIX=/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs
+[0.290s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zhr/YOPO-ROS2/Controller/build/cmake_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zhr/YOPO-ROS2/Controller/src/utils/cmake_utils -DCMAKE_INSTALL_PREFIX=/home/zhr/YOPO-ROS2/Controller/install/cmake_utils
+[0.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zhr/YOPO-ROS2/Controller/build/cmake_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zhr/YOPO-ROS2/Controller/build/cmake_utils -- -j32 -l32
+[0.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zhr/YOPO-ROS2/Controller/build/cmake_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zhr/YOPO-ROS2/Controller/build/cmake_utils -- -j32 -l32
+[0.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zhr/YOPO-ROS2/Controller/build/cmake_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zhr/YOPO-ROS2/Controller/build/cmake_utils
+[0.326s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cmake_utils)
+[0.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zhr/YOPO-ROS2/Controller/build/cmake_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zhr/YOPO-ROS2/Controller/build/cmake_utils
+[0.327s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/cmake_utils' for CMake module files
+[0.327s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/cmake_utils' for CMake config files
+[0.328s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmake_utils', 'cmake_prefix_path')
+[0.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zhr/YOPO-ROS2/Controller/install/cmake_utils/share/cmake_utils/hook/cmake_prefix_path.ps1'
+[0.328s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zhr/YOPO-ROS2/Controller/install/cmake_utils/share/cmake_utils/hook/cmake_prefix_path.dsv'
+[0.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zhr/YOPO-ROS2/Controller/install/cmake_utils/share/cmake_utils/hook/cmake_prefix_path.sh'
+[0.328s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/cmake_utils/bin'
+[0.329s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/cmake_utils/lib/pkgconfig/cmake_utils.pc'
+[0.329s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/cmake_utils/lib/python3.12/site-packages'
+[0.329s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/cmake_utils/bin'
+[0.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhr/YOPO-ROS2/Controller/install/cmake_utils/share/cmake_utils/package.ps1'
+[0.329s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zhr/YOPO-ROS2/Controller/install/cmake_utils/share/cmake_utils/package.dsv'
+[0.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhr/YOPO-ROS2/Controller/install/cmake_utils/share/cmake_utils/package.sh'
+[0.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhr/YOPO-ROS2/Controller/install/cmake_utils/share/cmake_utils/package.bash'
+[0.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhr/YOPO-ROS2/Controller/install/cmake_utils/share/cmake_utils/package.zsh'
+[0.330s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zhr/YOPO-ROS2/Controller/install/cmake_utils/share/colcon-core/packages/cmake_utils)
+[0.331s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cmake_utils)
+[0.331s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/cmake_utils' for CMake module files
+[0.331s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/cmake_utils' for CMake config files
+[0.331s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmake_utils', 'cmake_prefix_path')
+[0.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zhr/YOPO-ROS2/Controller/install/cmake_utils/share/cmake_utils/hook/cmake_prefix_path.ps1'
+[0.331s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zhr/YOPO-ROS2/Controller/install/cmake_utils/share/cmake_utils/hook/cmake_prefix_path.dsv'
+[0.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zhr/YOPO-ROS2/Controller/install/cmake_utils/share/cmake_utils/hook/cmake_prefix_path.sh'
+[0.332s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/cmake_utils/bin'
+[0.332s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/cmake_utils/lib/pkgconfig/cmake_utils.pc'
+[0.332s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/cmake_utils/lib/python3.12/site-packages'
+[0.332s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/cmake_utils/bin'
+[0.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhr/YOPO-ROS2/Controller/install/cmake_utils/share/cmake_utils/package.ps1'
+[0.332s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zhr/YOPO-ROS2/Controller/install/cmake_utils/share/cmake_utils/package.dsv'
+[0.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhr/YOPO-ROS2/Controller/install/cmake_utils/share/cmake_utils/package.sh'
+[0.333s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhr/YOPO-ROS2/Controller/install/cmake_utils/share/cmake_utils/package.bash'
+[0.333s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhr/YOPO-ROS2/Controller/install/cmake_utils/share/cmake_utils/package.zsh'
+[0.333s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zhr/YOPO-ROS2/Controller/install/cmake_utils/share/colcon-core/packages/cmake_utils)
+[0.333s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zhr/YOPO-ROS2/Controller/src/utils/uav_utils' with build type 'ament_cmake'
+[0.333s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zhr/YOPO-ROS2/Controller/src/utils/uav_utils'
+[0.333s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.333s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zhr/YOPO-ROS2/Controller/build/uav_utils': AMENT_PREFIX_PATH=/home/zhr/YOPO-ROS2/Controller/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zhr/YOPO-ROS2/Controller/install/cmake_utils:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zhr/YOPO-ROS2/Controller/src/utils/uav_utils -DCMAKE_INSTALL_PREFIX=/home/zhr/YOPO-ROS2/Controller/install/uav_utils
+[0.933s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zhr/YOPO-ROS2/Controller/build/uav_utils' returned '0': AMENT_PREFIX_PATH=/home/zhr/YOPO-ROS2/Controller/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zhr/YOPO-ROS2/Controller/install/cmake_utils:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zhr/YOPO-ROS2/Controller/src/utils/uav_utils -DCMAKE_INSTALL_PREFIX=/home/zhr/YOPO-ROS2/Controller/install/uav_utils
+[0.933s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zhr/YOPO-ROS2/Controller/build/uav_utils': AMENT_PREFIX_PATH=/home/zhr/YOPO-ROS2/Controller/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zhr/YOPO-ROS2/Controller/install/cmake_utils:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zhr/YOPO-ROS2/Controller/build/uav_utils -- -j32 -l32
+[0.955s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zhr/YOPO-ROS2/Controller/build/uav_utils' returned '0': AMENT_PREFIX_PATH=/home/zhr/YOPO-ROS2/Controller/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zhr/YOPO-ROS2/Controller/install/cmake_utils:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zhr/YOPO-ROS2/Controller/build/uav_utils -- -j32 -l32
+[0.955s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zhr/YOPO-ROS2/Controller/build/uav_utils': AMENT_PREFIX_PATH=/home/zhr/YOPO-ROS2/Controller/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zhr/YOPO-ROS2/Controller/install/cmake_utils:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zhr/YOPO-ROS2/Controller/build/uav_utils
+[0.960s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uav_utils)
+[0.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zhr/YOPO-ROS2/Controller/build/uav_utils' returned '0': AMENT_PREFIX_PATH=/home/zhr/YOPO-ROS2/Controller/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zhr/YOPO-ROS2/Controller/install/cmake_utils:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zhr/YOPO-ROS2/Controller/build/uav_utils
+[0.961s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/uav_utils' for CMake module files
+[0.961s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/uav_utils' for CMake config files
+[0.961s] Level 1:colcon.colcon_core.shell:create_environment_hook('uav_utils', 'cmake_prefix_path')
+[0.961s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zhr/YOPO-ROS2/Controller/install/uav_utils/share/uav_utils/hook/cmake_prefix_path.ps1'
+[0.961s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zhr/YOPO-ROS2/Controller/install/uav_utils/share/uav_utils/hook/cmake_prefix_path.dsv'
+[0.961s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zhr/YOPO-ROS2/Controller/install/uav_utils/share/uav_utils/hook/cmake_prefix_path.sh'
+[0.962s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/uav_utils/bin'
+[0.962s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/uav_utils/lib/pkgconfig/uav_utils.pc'
+[0.962s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/uav_utils/lib/python3.12/site-packages'
+[0.962s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/uav_utils/bin'
+[0.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhr/YOPO-ROS2/Controller/install/uav_utils/share/uav_utils/package.ps1'
+[0.962s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zhr/YOPO-ROS2/Controller/install/uav_utils/share/uav_utils/package.dsv'
+[0.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhr/YOPO-ROS2/Controller/install/uav_utils/share/uav_utils/package.sh'
+[0.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhr/YOPO-ROS2/Controller/install/uav_utils/share/uav_utils/package.bash'
+[0.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhr/YOPO-ROS2/Controller/install/uav_utils/share/uav_utils/package.zsh'
+[0.963s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zhr/YOPO-ROS2/Controller/install/uav_utils/share/colcon-core/packages/uav_utils)
+[0.963s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uav_utils)
+[0.963s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/uav_utils' for CMake module files
+[0.963s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/uav_utils' for CMake config files
+[0.963s] Level 1:colcon.colcon_core.shell:create_environment_hook('uav_utils', 'cmake_prefix_path')
+[0.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zhr/YOPO-ROS2/Controller/install/uav_utils/share/uav_utils/hook/cmake_prefix_path.ps1'
+[0.963s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zhr/YOPO-ROS2/Controller/install/uav_utils/share/uav_utils/hook/cmake_prefix_path.dsv'
+[0.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zhr/YOPO-ROS2/Controller/install/uav_utils/share/uav_utils/hook/cmake_prefix_path.sh'
+[0.964s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/uav_utils/bin'
+[0.964s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/uav_utils/lib/pkgconfig/uav_utils.pc'
+[0.964s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/uav_utils/lib/python3.12/site-packages'
+[0.964s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/uav_utils/bin'
+[0.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhr/YOPO-ROS2/Controller/install/uav_utils/share/uav_utils/package.ps1'
+[0.964s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zhr/YOPO-ROS2/Controller/install/uav_utils/share/uav_utils/package.dsv'
+[0.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhr/YOPO-ROS2/Controller/install/uav_utils/share/uav_utils/package.sh'
+[0.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhr/YOPO-ROS2/Controller/install/uav_utils/share/uav_utils/package.bash'
+[0.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhr/YOPO-ROS2/Controller/install/uav_utils/share/uav_utils/package.zsh'
+[0.965s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zhr/YOPO-ROS2/Controller/install/uav_utils/share/colcon-core/packages/uav_utils)
+[1.863s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zhr/YOPO-ROS2/Controller/build/mavros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zhr/YOPO-ROS2/Controller/src/utils/mavros_msgs -DCMAKE_INSTALL_PREFIX=/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs
+[1.863s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zhr/YOPO-ROS2/Controller/build/mavros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zhr/YOPO-ROS2/Controller/build/mavros_msgs -- -j32 -l32
+[1.902s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zhr/YOPO-ROS2/Controller/build/quadrotor_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zhr/YOPO-ROS2/Controller/src/utils/quadrotor_msgs -DCMAKE_INSTALL_PREFIX=/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs
+[1.903s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zhr/YOPO-ROS2/Controller/build/quadrotor_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zhr/YOPO-ROS2/Controller/build/quadrotor_msgs -- -j32 -l32
+[4.694s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zhr/YOPO-ROS2/Controller/build/mavros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zhr/YOPO-ROS2/Controller/build/mavros_msgs -- -j32 -l32
+[4.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zhr/YOPO-ROS2/Controller/build/mavros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zhr/YOPO-ROS2/Controller/build/mavros_msgs
+[4.737s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mavros_msgs)
+[4.737s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs' for CMake module files
+[4.738s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zhr/YOPO-ROS2/Controller/build/mavros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zhr/YOPO-ROS2/Controller/build/mavros_msgs
+[4.738s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs' for CMake config files
+[4.738s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros_msgs', 'cmake_prefix_path')
+[4.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/hook/cmake_prefix_path.ps1'
+[4.739s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/hook/cmake_prefix_path.dsv'
+[4.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/hook/cmake_prefix_path.sh'
+[4.739s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib'
+[4.739s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros_msgs', 'ld_library_path_lib')
+[4.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/hook/ld_library_path_lib.ps1'
+[4.740s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/hook/ld_library_path_lib.dsv'
+[4.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/hook/ld_library_path_lib.sh'
+[4.740s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/bin'
+[4.740s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/pkgconfig/mavros_msgs.pc'
+[4.740s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages'
+[4.740s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros_msgs', 'pythonpath')
+[4.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/hook/pythonpath.ps1'
+[4.740s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/hook/pythonpath.dsv'
+[4.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/hook/pythonpath.sh'
+[4.741s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/bin'
+[4.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/package.ps1'
+[4.741s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/package.dsv'
+[4.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/package.sh'
+[4.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/package.bash'
+[4.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/package.zsh'
+[4.742s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/colcon-core/packages/mavros_msgs)
+[4.742s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mavros_msgs)
+[4.743s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs' for CMake module files
+[4.743s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs' for CMake config files
+[4.743s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros_msgs', 'cmake_prefix_path')
+[4.743s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/hook/cmake_prefix_path.ps1'
+[4.743s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/hook/cmake_prefix_path.dsv'
+[4.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/hook/cmake_prefix_path.sh'
+[4.744s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib'
+[4.744s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros_msgs', 'ld_library_path_lib')
+[4.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/hook/ld_library_path_lib.ps1'
+[4.744s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/hook/ld_library_path_lib.dsv'
+[4.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/hook/ld_library_path_lib.sh'
+[4.745s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/bin'
+[4.745s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/pkgconfig/mavros_msgs.pc'
+[4.745s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages'
+[4.745s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros_msgs', 'pythonpath')
+[4.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/hook/pythonpath.ps1'
+[4.745s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/hook/pythonpath.dsv'
+[4.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/hook/pythonpath.sh'
+[4.746s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/bin'
+[4.746s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/package.ps1'
+[4.746s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/package.dsv'
+[4.746s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/package.sh'
+[4.746s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/package.bash'
+[4.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/package.zsh'
+[4.747s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/colcon-core/packages/mavros_msgs)
+[5.429s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zhr/YOPO-ROS2/Controller/build/quadrotor_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zhr/YOPO-ROS2/Controller/build/quadrotor_msgs -- -j32 -l32
+[5.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zhr/YOPO-ROS2/Controller/build/quadrotor_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zhr/YOPO-ROS2/Controller/build/quadrotor_msgs
+[5.490s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(quadrotor_msgs)
+[5.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zhr/YOPO-ROS2/Controller/build/quadrotor_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zhr/YOPO-ROS2/Controller/build/quadrotor_msgs
+[5.491s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs' for CMake module files
+[5.491s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs' for CMake config files
+[5.491s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadrotor_msgs', 'cmake_prefix_path')
+[5.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/share/quadrotor_msgs/hook/cmake_prefix_path.ps1'
+[5.492s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/share/quadrotor_msgs/hook/cmake_prefix_path.dsv'
+[5.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/share/quadrotor_msgs/hook/cmake_prefix_path.sh'
+[5.492s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/lib'
+[5.492s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadrotor_msgs', 'ld_library_path_lib')
+[5.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/share/quadrotor_msgs/hook/ld_library_path_lib.ps1'
+[5.492s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/share/quadrotor_msgs/hook/ld_library_path_lib.dsv'
+[5.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/share/quadrotor_msgs/hook/ld_library_path_lib.sh'
+[5.492s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/bin'
+[5.492s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/lib/pkgconfig/quadrotor_msgs.pc'
+[5.493s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/lib/python3.12/site-packages'
+[5.493s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadrotor_msgs', 'pythonpath')
+[5.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/share/quadrotor_msgs/hook/pythonpath.ps1'
+[5.493s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/share/quadrotor_msgs/hook/pythonpath.dsv'
+[5.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/share/quadrotor_msgs/hook/pythonpath.sh'
+[5.493s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/bin'
+[5.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/share/quadrotor_msgs/package.ps1'
+[5.493s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/share/quadrotor_msgs/package.dsv'
+[5.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/share/quadrotor_msgs/package.sh'
+[5.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/share/quadrotor_msgs/package.bash'
+[5.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/share/quadrotor_msgs/package.zsh'
+[5.494s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/share/colcon-core/packages/quadrotor_msgs)
+[5.494s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(quadrotor_msgs)
+[5.494s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs' for CMake module files
+[5.494s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs' for CMake config files
+[5.495s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadrotor_msgs', 'cmake_prefix_path')
+[5.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/share/quadrotor_msgs/hook/cmake_prefix_path.ps1'
+[5.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/share/quadrotor_msgs/hook/cmake_prefix_path.dsv'
+[5.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/share/quadrotor_msgs/hook/cmake_prefix_path.sh'
+[5.495s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/lib'
+[5.495s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadrotor_msgs', 'ld_library_path_lib')
+[5.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/share/quadrotor_msgs/hook/ld_library_path_lib.ps1'
+[5.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/share/quadrotor_msgs/hook/ld_library_path_lib.dsv'
+[5.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/share/quadrotor_msgs/hook/ld_library_path_lib.sh'
+[5.496s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/bin'
+[5.496s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/lib/pkgconfig/quadrotor_msgs.pc'
+[5.496s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/lib/python3.12/site-packages'
+[5.496s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadrotor_msgs', 'pythonpath')
+[5.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/share/quadrotor_msgs/hook/pythonpath.ps1'
+[5.496s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/share/quadrotor_msgs/hook/pythonpath.dsv'
+[5.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/share/quadrotor_msgs/hook/pythonpath.sh'
+[5.496s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/bin'
+[5.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/share/quadrotor_msgs/package.ps1'
+[5.497s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/share/quadrotor_msgs/package.dsv'
+[5.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/share/quadrotor_msgs/package.sh'
+[5.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/share/quadrotor_msgs/package.bash'
+[5.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/share/quadrotor_msgs/package.zsh'
+[5.497s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/share/colcon-core/packages/quadrotor_msgs)
+[5.498s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zhr/YOPO-ROS2/Controller/src/so3_control' with build type 'ament_cmake'
+[5.498s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zhr/YOPO-ROS2/Controller/src/so3_control'
+[5.498s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.498s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.499s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zhr/YOPO-ROS2/Controller/src/so3_quadrotor_simulator' with build type 'ament_cmake'
+[5.499s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zhr/YOPO-ROS2/Controller/src/so3_quadrotor_simulator'
+[5.499s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.499s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zhr/YOPO-ROS2/Controller/build/so3_control': AMENT_PREFIX_PATH=/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs:/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs:/home/zhr/YOPO-ROS2/Controller/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs:/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs:/home/zhr/YOPO-ROS2/Controller/install/cmake_utils:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/lib:/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/lib/python3.12/site-packages:/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/zhr/YOPO-ROS2/Controller/src/so3_control -DCMAKE_INSTALL_PREFIX=/home/zhr/YOPO-ROS2/Controller/install/so3_control
+[5.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zhr/YOPO-ROS2/Controller/build/so3_quadrotor_simulator': AMENT_PREFIX_PATH=/home/zhr/YOPO-ROS2/Controller/install/uav_utils:/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs:/home/zhr/YOPO-ROS2/Controller/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zhr/YOPO-ROS2/Controller/install/uav_utils:/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs:/home/zhr/YOPO-ROS2/Controller/install/cmake_utils:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/zhr/YOPO-ROS2/Controller/install/uav_utils/lib:/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/zhr/YOPO-ROS2/Controller/src/so3_quadrotor_simulator -DCMAKE_INSTALL_PREFIX=/home/zhr/YOPO-ROS2/Controller/install/so3_quadrotor_simulator
+[6.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zhr/YOPO-ROS2/Controller/build/so3_quadrotor_simulator' returned '0': AMENT_PREFIX_PATH=/home/zhr/YOPO-ROS2/Controller/install/uav_utils:/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs:/home/zhr/YOPO-ROS2/Controller/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zhr/YOPO-ROS2/Controller/install/uav_utils:/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs:/home/zhr/YOPO-ROS2/Controller/install/cmake_utils:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/zhr/YOPO-ROS2/Controller/install/uav_utils/lib:/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/zhr/YOPO-ROS2/Controller/src/so3_quadrotor_simulator -DCMAKE_INSTALL_PREFIX=/home/zhr/YOPO-ROS2/Controller/install/so3_quadrotor_simulator
+[6.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zhr/YOPO-ROS2/Controller/build/so3_quadrotor_simulator': AMENT_PREFIX_PATH=/home/zhr/YOPO-ROS2/Controller/install/uav_utils:/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs:/home/zhr/YOPO-ROS2/Controller/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zhr/YOPO-ROS2/Controller/install/uav_utils:/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs:/home/zhr/YOPO-ROS2/Controller/install/cmake_utils:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/zhr/YOPO-ROS2/Controller/install/uav_utils/lib:/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zhr/YOPO-ROS2/Controller/build/so3_quadrotor_simulator -- -j32 -l32
+[6.227s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zhr/YOPO-ROS2/Controller/build/so3_control' returned '0': AMENT_PREFIX_PATH=/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs:/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs:/home/zhr/YOPO-ROS2/Controller/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs:/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs:/home/zhr/YOPO-ROS2/Controller/install/cmake_utils:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/lib:/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/lib/python3.12/site-packages:/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/zhr/YOPO-ROS2/Controller/src/so3_control -DCMAKE_INSTALL_PREFIX=/home/zhr/YOPO-ROS2/Controller/install/so3_control
+[6.228s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zhr/YOPO-ROS2/Controller/build/so3_control': AMENT_PREFIX_PATH=/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs:/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs:/home/zhr/YOPO-ROS2/Controller/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs:/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs:/home/zhr/YOPO-ROS2/Controller/install/cmake_utils:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/lib:/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/lib/python3.12/site-packages:/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zhr/YOPO-ROS2/Controller/build/so3_control -- -j32 -l32
+[10.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zhr/YOPO-ROS2/Controller/build/so3_quadrotor_simulator' returned '2': AMENT_PREFIX_PATH=/home/zhr/YOPO-ROS2/Controller/install/uav_utils:/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs:/home/zhr/YOPO-ROS2/Controller/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zhr/YOPO-ROS2/Controller/install/uav_utils:/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs:/home/zhr/YOPO-ROS2/Controller/install/cmake_utils:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/zhr/YOPO-ROS2/Controller/install/uav_utils/lib:/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zhr/YOPO-ROS2/Controller/build/so3_quadrotor_simulator -- -j32 -l32
+[10.490s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(so3_quadrotor_simulator)
+[10.490s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/so3_quadrotor_simulator' for CMake module files
+[10.490s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/so3_quadrotor_simulator' for CMake config files
+[10.490s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/so3_quadrotor_simulator/bin'
+[10.490s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/so3_quadrotor_simulator/lib/pkgconfig/so3_quadrotor_simulator.pc'
+[10.490s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/so3_quadrotor_simulator/lib/python3.12/site-packages'
+[10.491s] Level 1:colcon.colcon_core.environment:checking '/home/zhr/YOPO-ROS2/Controller/install/so3_quadrotor_simulator/bin'
+[10.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhr/YOPO-ROS2/Controller/install/so3_quadrotor_simulator/share/so3_quadrotor_simulator/package.ps1'
+[10.491s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zhr/YOPO-ROS2/Controller/install/so3_quadrotor_simulator/share/so3_quadrotor_simulator/package.dsv'
+[10.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhr/YOPO-ROS2/Controller/install/so3_quadrotor_simulator/share/so3_quadrotor_simulator/package.sh'
+[10.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhr/YOPO-ROS2/Controller/install/so3_quadrotor_simulator/share/so3_quadrotor_simulator/package.bash'
+[10.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhr/YOPO-ROS2/Controller/install/so3_quadrotor_simulator/share/so3_quadrotor_simulator/package.zsh'
+[10.491s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zhr/YOPO-ROS2/Controller/install/so3_quadrotor_simulator/share/colcon-core/packages/so3_quadrotor_simulator)
+[28.372s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[28.373s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[28.373s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[28.373s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[28.375s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[28.375s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[28.376s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[28.388s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[28.389s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zhr/YOPO-ROS2/Controller/install/local_setup.ps1'
+[28.389s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zhr/YOPO-ROS2/Controller/install/_local_setup_util_ps1.py'
+[28.390s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zhr/YOPO-ROS2/Controller/install/setup.ps1'
+[28.390s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zhr/YOPO-ROS2/Controller/install/local_setup.sh'
+[28.390s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zhr/YOPO-ROS2/Controller/install/_local_setup_util_sh.py'
+[28.391s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zhr/YOPO-ROS2/Controller/install/setup.sh'
+[28.391s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zhr/YOPO-ROS2/Controller/install/local_setup.bash'
+[28.391s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zhr/YOPO-ROS2/Controller/install/setup.bash'
+[28.392s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zhr/YOPO-ROS2/Controller/install/local_setup.zsh'
+[28.392s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zhr/YOPO-ROS2/Controller/install/setup.zsh'

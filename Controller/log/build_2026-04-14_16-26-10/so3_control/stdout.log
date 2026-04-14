@@ -1,0 +1,4 @@
+[ 22%] Built target SO3Control
+[ 44%] Built target control_example
+[ 55%] [32mBuilding CXX object CMakeFiles/so3_control_node.dir/src/so3_control_nodelet.cpp.o[0m
+[ 88%] Built target network_control_node

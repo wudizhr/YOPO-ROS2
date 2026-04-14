@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-2086e8d854ae02b8ce7d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "so3_quadrotor_simulator",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "quadrotor_dynamics::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quadrotor_dynamics-Release-0525fc6cfda2e57284de.json",
+					"name" : "quadrotor_dynamics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quadrotor_simulator_so3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quadrotor_simulator_so3-Release-4d23c7f239817434e0f7.json",
+					"name" : "quadrotor_simulator_so3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "so3_quadrotor_simulator_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-so3_quadrotor_simulator_uninstall-Release-41f4ce936715412f5a68.json",
+					"name" : "so3_quadrotor_simulator_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-e2269b8a8c5320f02253.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zhr/YOPO-ROS2/Controller/build/so3_quadrotor_simulator",
+		"source" : "/home/zhr/YOPO-ROS2/Controller/src/so3_quadrotor_simulator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

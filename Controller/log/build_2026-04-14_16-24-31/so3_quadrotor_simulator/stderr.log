@@ -1,0 +1,14 @@
+[33mCMake Warning at /home/zhr/YOPO-ROS2/Controller/install/uav_utils/share/uav_utils/cmake/ament_cmake_export_libraries-extras.cmake:116 (message):
+  Package 'uav_utils' exports library 'uav_utils' which couldn't be found
+Call Stack (most recent call first):
+  /home/zhr/YOPO-ROS2/Controller/install/uav_utils/share/uav_utils/cmake/uav_utilsConfig.cmake:41 (include)
+  CMakeLists.txt:19 (find_package)
+
+[0m
+[01m[K/home/zhr/YOPO-ROS2/Controller/src/so3_quadrotor_simulator/src/quadrotor_simulator_so3.cpp:12:10:[m[K [01;31m[Kfatal error: [m[Kament_index_cpp/get_package_share_directory.hpp: 没有那个文件或目录
+   12 | #include [01;31m[K<ament_index_cpp/get_package_share_directory.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/quadrotor_simulator_so3.dir/build.make:76：CMakeFiles/quadrotor_simulator_so3.dir/src/quadrotor_simulator_so3.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/quadrotor_simulator_so3.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

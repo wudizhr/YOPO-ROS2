@@ -88,6 +88,5 @@ ament_export_dependencies(
 )
 
 ament_export_include_directories(include)
-ament_export_libraries(uav_utils)
 
 ament_package()

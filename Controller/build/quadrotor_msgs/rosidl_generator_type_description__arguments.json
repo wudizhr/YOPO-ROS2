@@ -1,0 +1,27 @@
+{
+  "package_name": "quadrotor_msgs",
+  "output_dir": "/home/zhr/YOPO-ROS2/Controller/build/quadrotor_msgs/rosidl_generator_type_description/quadrotor_msgs",
+  "idl_tuples": [
+    "/home/zhr/YOPO-ROS2/Controller/build/quadrotor_msgs/rosidl_adapter/quadrotor_msgs:msg/AuxCommand.idl",
+    "/home/zhr/YOPO-ROS2/Controller/build/quadrotor_msgs/rosidl_adapter/quadrotor_msgs:msg/Corrections.idl",
+    "/home/zhr/YOPO-ROS2/Controller/build/quadrotor_msgs/rosidl_adapter/quadrotor_msgs:msg/Gains.idl",
+    "/home/zhr/YOPO-ROS2/Controller/build/quadrotor_msgs/rosidl_adapter/quadrotor_msgs:msg/OutputData.idl",
+    "/home/zhr/YOPO-ROS2/Controller/build/quadrotor_msgs/rosidl_adapter/quadrotor_msgs:msg/PositionCommand.idl",
+    "/home/zhr/YOPO-ROS2/Controller/build/quadrotor_msgs/rosidl_adapter/quadrotor_msgs:msg/PPROutputData.idl",
+    "/home/zhr/YOPO-ROS2/Controller/build/quadrotor_msgs/rosidl_adapter/quadrotor_msgs:msg/Serial.idl",
+    "/home/zhr/YOPO-ROS2/Controller/build/quadrotor_msgs/rosidl_adapter/quadrotor_msgs:msg/SO3Command.idl",
+    "/home/zhr/YOPO-ROS2/Controller/build/quadrotor_msgs/rosidl_adapter/quadrotor_msgs:msg/StatusData.idl",
+    "/home/zhr/YOPO-ROS2/Controller/build/quadrotor_msgs/rosidl_adapter/quadrotor_msgs:msg/TRPYCommand.idl",
+    "/home/zhr/YOPO-ROS2/Controller/build/quadrotor_msgs/rosidl_adapter/quadrotor_msgs:msg/Odometry.idl",
+    "/home/zhr/YOPO-ROS2/Controller/build/quadrotor_msgs/rosidl_adapter/quadrotor_msgs:msg/PolynomialTrajectory.idl",
+    "/home/zhr/YOPO-ROS2/Controller/build/quadrotor_msgs/rosidl_adapter/quadrotor_msgs:msg/LQRTrajectory.idl",
+    "/home/zhr/YOPO-ROS2/Controller/build/quadrotor_msgs/rosidl_adapter/quadrotor_msgs:srv/SetTakeoffLand.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "nav_msgs:/opt/ros/jazzy/share/nav_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

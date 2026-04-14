@@ -14,6 +14,7 @@ set(CMAKE_BUILD_TYPE "Release")
 set(CMAKE_CXX_FLAGS_RELEASE "-O3 -Wall -g")
 
 find_package(ament_cmake REQUIRED)
+find_package(ament_index_cpp REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(quadrotor_msgs REQUIRED)
 find_package(uav_utils REQUIRED)
@@ -45,6 +46,7 @@ target_link_libraries(quadrotor_simulator_so3
 )
 
 ament_target_dependencies(quadrotor_simulator_so3
+  ament_index_cpp
   rclcpp
   quadrotor_msgs
   uav_utils
@@ -81,7 +83,14 @@ install(DIRECTORY launch/
   DESTINATION share/${PROJECT_NAME}/launch
 )
 
+# Install mesh resource
+install(FILES
+  src/uav.dae
+  DESTINATION share/${PROJECT_NAME}/meshes
+)
+
 ament_export_dependencies(
+  ament_index_cpp
   rclcpp
   quadrotor_msgs
   uav_utils

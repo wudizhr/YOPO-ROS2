@@ -1,0 +1,9 @@
+{
+  "package_name": "mavros_msgs",
+  "non_idl_tuples": [
+    "/home/zhr/YOPO-ROS2/Controller/src/utils/mavros_msgs:msg/AttitudeTarget.msg",
+    "/home/zhr/YOPO-ROS2/Controller/src/utils/mavros_msgs:msg/State.msg",
+    "/home/zhr/YOPO-ROS2/Controller/src/utils/mavros_msgs:srv/CommandBool.srv",
+    "/home/zhr/YOPO-ROS2/Controller/src/utils/mavros_msgs:srv/SetMode.srv"
+  ]
+}

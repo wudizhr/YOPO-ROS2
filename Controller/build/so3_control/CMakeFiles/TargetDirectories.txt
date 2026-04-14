@@ -1,0 +1,13 @@
+/home/zhr/YOPO-ROS2/Controller/build/so3_control/CMakeFiles/uninstall.dir
+/home/zhr/YOPO-ROS2/Controller/build/so3_control/CMakeFiles/so3_control_uninstall.dir
+/home/zhr/YOPO-ROS2/Controller/build/so3_control/CMakeFiles/SO3Control.dir
+/home/zhr/YOPO-ROS2/Controller/build/so3_control/CMakeFiles/so3_control_node.dir
+/home/zhr/YOPO-ROS2/Controller/build/so3_control/CMakeFiles/control_example.dir
+/home/zhr/YOPO-ROS2/Controller/build/so3_control/CMakeFiles/network_control_node.dir
+/home/zhr/YOPO-ROS2/Controller/build/so3_control/CMakeFiles/test.dir
+/home/zhr/YOPO-ROS2/Controller/build/so3_control/CMakeFiles/edit_cache.dir
+/home/zhr/YOPO-ROS2/Controller/build/so3_control/CMakeFiles/rebuild_cache.dir
+/home/zhr/YOPO-ROS2/Controller/build/so3_control/CMakeFiles/list_install_components.dir
+/home/zhr/YOPO-ROS2/Controller/build/so3_control/CMakeFiles/install.dir
+/home/zhr/YOPO-ROS2/Controller/build/so3_control/CMakeFiles/install/local.dir
+/home/zhr/YOPO-ROS2/Controller/build/so3_control/CMakeFiles/install/strip.dir

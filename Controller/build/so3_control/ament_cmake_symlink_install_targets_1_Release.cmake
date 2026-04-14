@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zhr/YOPO-ROS2/Controller/build/so3_control/so3_control_node" "/home/zhr/YOPO-ROS2/Controller/build/so3_control/control_example" "/home/zhr/YOPO-ROS2/Controller/build/so3_control/network_control_node" "TARGETS" "so3_control_node" "control_example" "network_control_node" "DESTINATION" "lib/so3_control")

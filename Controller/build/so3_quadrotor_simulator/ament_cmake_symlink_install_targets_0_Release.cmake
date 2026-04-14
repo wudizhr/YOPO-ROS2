@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zhr/YOPO-ROS2/Controller/build/so3_quadrotor_simulator/quadrotor_simulator_so3" "/home/zhr/YOPO-ROS2/Controller/build/so3_quadrotor_simulator/libquadrotor_dynamics.a" "TARGETS" "quadrotor_simulator_so3" "quadrotor_dynamics" "DESTINATION" "lib/so3_quadrotor_simulator")

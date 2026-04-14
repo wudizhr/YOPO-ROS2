@@ -1,0 +1,1 @@
+/home/zhr/YOPO-ROS2/Controller/build/so3_control/ament_cmake_core/so3_controlConfig-version.cmake

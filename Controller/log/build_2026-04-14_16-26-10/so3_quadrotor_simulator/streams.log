@@ -1,0 +1,30 @@
+[0.009s] Invoking command in '/home/zhr/YOPO-ROS2/Controller/build/so3_quadrotor_simulator': AMENT_PREFIX_PATH=/home/zhr/YOPO-ROS2/Controller/install/uav_utils:/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs:/home/zhr/YOPO-ROS2/Controller/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zhr/YOPO-ROS2/Controller/install/uav_utils:/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs:/home/zhr/YOPO-ROS2/Controller/install/cmake_utils:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/zhr/YOPO-ROS2/Controller/install/uav_utils/lib:/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zhr/YOPO-ROS2/Controller/build/so3_quadrotor_simulator -- -j32 -l32
+[0.021s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.133s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.137s] -- Found ament_index_cpp: 1.8.2 (/opt/ros/jazzy/share/ament_index_cpp/cmake)
+[0.137s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.149s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.153s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.158s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.163s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.191s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.192s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.226s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.258s] -- Found quadrotor_msgs: 0.0.0 (/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/share/quadrotor_msgs/cmake)
+[0.308s] -- Found uav_utils: 0.0.0 (/home/zhr/YOPO-ROS2/Controller/install/uav_utils/share/uav_utils/cmake)
+[0.327s] [33mCMake Warning at /home/zhr/YOPO-ROS2/Controller/install/uav_utils/share/uav_utils/cmake/ament_cmake_export_libraries-extras.cmake:116 (message):
+[0.327s]   Package 'uav_utils' exports library 'uav_utils' which couldn't be found
+[0.327s] Call Stack (most recent call first):
+[0.327s]   /home/zhr/YOPO-ROS2/Controller/install/uav_utils/share/uav_utils/cmake/uav_utilsConfig.cmake:41 (include)
+[0.327s]   CMakeLists.txt:20 (find_package)
+[0.327s] 
+[0.327s] [0m
+[0.327s] -- Found tf2_ros: 0.36.19 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[0.394s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[0.462s] -- Configuring done (0.4s)
+[0.474s] -- Generating done (0.0s)
+[0.476s] -- Build files have been written to: /home/zhr/YOPO-ROS2/Controller/build/so3_quadrotor_simulator
+[0.506s] [ 50%] Built target quadrotor_dynamics
+[0.516s] [ 75%] [32mBuilding CXX object CMakeFiles/quadrotor_simulator_so3.dir/src/quadrotor_simulator_so3.cpp.o[0m
+[15.497s] [100%] [32m[1mLinking CXX executable quadrotor_simulator_so3[0m
+[15.740s] [100%] Built target quadrotor_simulator_so3

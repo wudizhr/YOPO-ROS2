@@ -1,0 +1,47 @@
+[0.006s] Invoking command in '/home/zhr/YOPO-ROS2/Controller/build/so3_control': AMENT_PREFIX_PATH=/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs:/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs:/home/zhr/YOPO-ROS2/Controller/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs:/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs:/home/zhr/YOPO-ROS2/Controller/install/cmake_utils:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/lib:/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/lib/python3.12/site-packages:/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zhr/YOPO-ROS2/Controller/build/so3_control -- -j32 -l32
+[0.035s] [ 22%] Built target SO3Control
+[0.037s] [ 44%] Built target control_example
+[0.049s] [ 66%] Built target so3_control_node
+[0.052s] [100%] Built target network_control_node
+[0.059s] Invoked command in '/home/zhr/YOPO-ROS2/Controller/build/so3_control' returned '0': AMENT_PREFIX_PATH=/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs:/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs:/home/zhr/YOPO-ROS2/Controller/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs:/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs:/home/zhr/YOPO-ROS2/Controller/install/cmake_utils:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/lib:/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/lib/python3.12/site-packages:/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zhr/YOPO-ROS2/Controller/build/so3_control -- -j32 -l32
+[0.060s] Invoking command in '/home/zhr/YOPO-ROS2/Controller/build/so3_control': AMENT_PREFIX_PATH=/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs:/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs:/home/zhr/YOPO-ROS2/Controller/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs:/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs:/home/zhr/YOPO-ROS2/Controller/install/cmake_utils:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/lib:/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/lib/python3.12/site-packages:/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zhr/YOPO-ROS2/Controller/build/so3_control
+[0.065s] -- Install configuration: "Release"
+[0.065s] -- Execute custom install script
+[0.065s] -- Up-to-date symlink: /home/zhr/YOPO-ROS2/Controller/install/so3_control/lib/libSO3Control.a
+[0.065s] -- Up-to-date symlink: /home/zhr/YOPO-ROS2/Controller/install/so3_control/lib/so3_control/so3_control_node
+[0.065s] -- Up-to-date symlink: /home/zhr/YOPO-ROS2/Controller/install/so3_control/lib/so3_control/control_example
+[0.065s] -- Up-to-date symlink: /home/zhr/YOPO-ROS2/Controller/install/so3_control/lib/so3_control/network_control_node
+[0.066s] -- Up-to-date symlink: /home/zhr/YOPO-ROS2/Controller/install/so3_control/include/so3_control/HGDO.h
+[0.066s] -- Up-to-date symlink: /home/zhr/YOPO-ROS2/Controller/install/so3_control/include/so3_control/NetworkControl.h
+[0.066s] -- Up-to-date symlink: /home/zhr/YOPO-ROS2/Controller/install/so3_control/include/so3_control/SO3Control.h
+[0.066s] -- Up-to-date symlink: /home/zhr/YOPO-ROS2/Controller/install/so3_control/include/so3_control/mavros_interface.h
+[0.066s] -- Up-to-date symlink: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/launch/controller_network.launch
+[0.066s] -- Up-to-date symlink: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/launch/controller_network.launch.py
+[0.066s] -- Up-to-date symlink: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/launch/so3_control.launch.py
+[0.066s] -- Up-to-date symlink: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/config/corrections_hummingbird.yaml
+[0.066s] -- Up-to-date symlink: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/config/corrections_pelican.yaml
+[0.066s] -- Up-to-date symlink: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/config/gains.yaml
+[0.066s] -- Up-to-date symlink: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/config/gains_hummingbird.yaml
+[0.066s] -- Up-to-date symlink: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/config/gains_pelican.yaml
+[0.066s] -- Up-to-date symlink: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/logger/log_plot.py
+[0.066s] -- Up-to-date symlink: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/environment/library_path.sh
+[0.066s] -- Up-to-date symlink: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/environment/library_path.dsv
+[0.066s] -- Up-to-date symlink: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/ament_index/resource_index/package_run_dependencies/so3_control
+[0.066s] -- Up-to-date symlink: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/ament_index/resource_index/parent_prefix_path/so3_control
+[0.066s] -- Up-to-date symlink: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/environment/ament_prefix_path.sh
+[0.066s] -- Up-to-date symlink: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/environment/ament_prefix_path.dsv
+[0.067s] -- Up-to-date symlink: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/environment/path.sh
+[0.067s] -- Up-to-date symlink: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/environment/path.dsv
+[0.067s] -- Up-to-date symlink: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/local_setup.bash
+[0.067s] -- Up-to-date symlink: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/local_setup.sh
+[0.067s] -- Up-to-date symlink: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/local_setup.zsh
+[0.067s] -- Up-to-date symlink: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/local_setup.dsv
+[0.067s] -- Symlinking: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/package.dsv
+[0.072s] -- Up-to-date symlink: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/ament_index/resource_index/packages/so3_control
+[0.072s] -- Up-to-date symlink: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.072s] -- Up-to-date symlink: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.072s] -- Up-to-date symlink: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/cmake/ament_cmake_export_libraries-extras.cmake
+[0.072s] -- Up-to-date symlink: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/cmake/so3_controlConfig.cmake
+[0.072s] -- Up-to-date symlink: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/cmake/so3_controlConfig-version.cmake
+[0.073s] -- Up-to-date symlink: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/package.xml
+[0.074s] Invoked command in '/home/zhr/YOPO-ROS2/Controller/build/so3_control' returned '0': AMENT_PREFIX_PATH=/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs:/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs:/home/zhr/YOPO-ROS2/Controller/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs:/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs:/home/zhr/YOPO-ROS2/Controller/install/cmake_utils:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/lib:/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zhr/YOPO-ROS2/Controller/install/quadrotor_msgs/lib/python3.12/site-packages:/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zhr/YOPO-ROS2/Controller/build/so3_control

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "mavros_msgs__py",
+		"source" : "/home/zhr/YOPO-ROS2/Controller/build/mavros_msgs/mavros_msgs__py"
+	}
+}

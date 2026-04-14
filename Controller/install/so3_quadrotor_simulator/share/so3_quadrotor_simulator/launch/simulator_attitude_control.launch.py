@@ -1,0 +1,1 @@
+/home/zhr/YOPO-ROS2/Controller/src/so3_quadrotor_simulator/launch/simulator_attitude_control.launch.py

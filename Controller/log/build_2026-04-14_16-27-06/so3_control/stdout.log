@@ -1,0 +1,45 @@
+[ 22%] Built target SO3Control
+[ 44%] Built target control_example
+[ 55%] [32mBuilding CXX object CMakeFiles/so3_control_node.dir/src/so3_control_nodelet.cpp.o[0m
+[ 88%] Built target network_control_node
+[100%] [32m[1mLinking CXX executable so3_control_node[0m
+[100%] Built target so3_control_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/zhr/YOPO-ROS2/Controller/install/so3_control/lib/libSO3Control.a
+-- Symlinking: /home/zhr/YOPO-ROS2/Controller/install/so3_control/lib/so3_control/so3_control_node
+-- Symlinking: /home/zhr/YOPO-ROS2/Controller/install/so3_control/lib/so3_control/control_example
+-- Symlinking: /home/zhr/YOPO-ROS2/Controller/install/so3_control/lib/so3_control/network_control_node
+-- Symlinking: /home/zhr/YOPO-ROS2/Controller/install/so3_control/include/so3_control/HGDO.h
+-- Symlinking: /home/zhr/YOPO-ROS2/Controller/install/so3_control/include/so3_control/NetworkControl.h
+-- Symlinking: /home/zhr/YOPO-ROS2/Controller/install/so3_control/include/so3_control/SO3Control.h
+-- Symlinking: /home/zhr/YOPO-ROS2/Controller/install/so3_control/include/so3_control/mavros_interface.h
+-- Symlinking: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/launch/controller_network.launch
+-- Symlinking: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/launch/controller_network.launch.py
+-- Symlinking: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/launch/so3_control.launch.py
+-- Symlinking: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/config/corrections_hummingbird.yaml
+-- Symlinking: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/config/corrections_pelican.yaml
+-- Symlinking: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/config/gains.yaml
+-- Symlinking: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/config/gains_hummingbird.yaml
+-- Symlinking: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/config/gains_pelican.yaml
+-- Symlinking: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/logger/log_plot.py
+-- Symlinking: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/environment/library_path.sh
+-- Symlinking: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/environment/library_path.dsv
+-- Symlinking: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/ament_index/resource_index/package_run_dependencies/so3_control
+-- Symlinking: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/ament_index/resource_index/parent_prefix_path/so3_control
+-- Symlinking: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/environment/ament_prefix_path.sh
+-- Symlinking: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/environment/ament_prefix_path.dsv
+-- Symlinking: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/environment/path.sh
+-- Symlinking: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/environment/path.dsv
+-- Symlinking: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/local_setup.bash
+-- Symlinking: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/local_setup.sh
+-- Symlinking: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/local_setup.zsh
+-- Symlinking: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/local_setup.dsv
+-- Symlinking: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/package.dsv
+-- Symlinking: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/ament_index/resource_index/packages/so3_control
+-- Symlinking: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/cmake/so3_controlConfig.cmake
+-- Symlinking: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/cmake/so3_controlConfig-version.cmake
+-- Symlinking: /home/zhr/YOPO-ROS2/Controller/install/so3_control/share/so3_control/package.xml

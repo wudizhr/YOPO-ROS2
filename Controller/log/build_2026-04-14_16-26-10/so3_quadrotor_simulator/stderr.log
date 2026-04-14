@@ -1,0 +1,7 @@
+[33mCMake Warning at /home/zhr/YOPO-ROS2/Controller/install/uav_utils/share/uav_utils/cmake/ament_cmake_export_libraries-extras.cmake:116 (message):
+  Package 'uav_utils' exports library 'uav_utils' which couldn't be found
+Call Stack (most recent call first):
+  /home/zhr/YOPO-ROS2/Controller/install/uav_utils/share/uav_utils/cmake/uav_utilsConfig.cmake:41 (include)
+  CMakeLists.txt:20 (find_package)
+
+[0m

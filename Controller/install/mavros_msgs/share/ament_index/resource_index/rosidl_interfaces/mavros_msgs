@@ -1,0 +1,8 @@
+msg/AttitudeTarget.idl
+msg/AttitudeTarget.msg
+msg/State.idl
+msg/State.msg
+srv/CommandBool.idl
+srv/CommandBool.srv
+srv/SetMode.idl
+srv/SetMode.srv

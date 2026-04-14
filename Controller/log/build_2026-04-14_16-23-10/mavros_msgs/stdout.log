@@ -1,0 +1,343 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Configuring done (1.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/zhr/YOPO-ROS2/Controller/build/mavros_msgs
+[  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  1%] Built target ament_cmake_python_copy_mavros_msgs
+running egg_info
+creating mavros_msgs.egg-info
+writing mavros_msgs.egg-info/PKG-INFO
+writing dependency_links to mavros_msgs.egg-info/dependency_links.txt
+writing top-level names to mavros_msgs.egg-info/top_level.txt
+writing manifest file 'mavros_msgs.egg-info/SOURCES.txt'
+reading manifest file 'mavros_msgs.egg-info/SOURCES.txt'
+writing manifest file 'mavros_msgs.egg-info/SOURCES.txt'
+[  1%] Built target ament_cmake_python_build_mavros_msgs_egg
+[  1%] Built target mavros_msgs__rosidl_generator_type_description
+[  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  4%] Built target mavros_msgs__cpp
+[ 10%] [32mBuilding C object CMakeFiles/mavros_msgs__rosidl_generator_c.dir/rosidl_generator_c/mavros_msgs/msg/detail/attitude_target__type_support.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/mavros_msgs__rosidl_generator_c.dir/rosidl_generator_c/mavros_msgs/srv/detail/command_bool__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/mavros_msgs__rosidl_generator_c.dir/rosidl_generator_c/mavros_msgs/msg/detail/state__type_support.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/mavros_msgs__rosidl_generator_c.dir/rosidl_generator_c/mavros_msgs/srv/detail/command_bool__description.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/mavros_msgs__rosidl_generator_c.dir/rosidl_generator_c/mavros_msgs/srv/detail/set_mode__description.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/mavros_msgs__rosidl_generator_c.dir/rosidl_generator_c/mavros_msgs/msg/detail/attitude_target__functions.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/mavros_msgs__rosidl_generator_c.dir/rosidl_generator_c/mavros_msgs/msg/detail/state__description.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/mavros_msgs__rosidl_generator_c.dir/rosidl_generator_c/mavros_msgs/srv/detail/command_bool__type_support.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/mavros_msgs__rosidl_generator_c.dir/rosidl_generator_c/mavros_msgs/msg/detail/state__functions.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/mavros_msgs__rosidl_generator_c.dir/rosidl_generator_c/mavros_msgs/srv/detail/set_mode__functions.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/mavros_msgs__rosidl_generator_c.dir/rosidl_generator_c/mavros_msgs/srv/detail/set_mode__type_support.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/mavros_msgs__rosidl_generator_c.dir/rosidl_generator_c/mavros_msgs/msg/detail/attitude_target__description.c.o[0m
+[ 25%] [32m[1mLinking C shared library libmavros_msgs__rosidl_generator_c.so[0m
+[ 25%] Built target mavros_msgs__rosidl_generator_c
+[ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 32%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 32%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 34%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/mavros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mavros_msgs/msg/state__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/mavros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mavros_msgs/msg/attitude_target__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/mavros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mavros_msgs/srv/command_bool__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/mavros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mavros_msgs/srv/set_mode__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/mavros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mavros_msgs/srv/command_bool__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/mavros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mavros_msgs/msg/state__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/mavros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mavros_msgs/srv/set_mode__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/mavros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mavros_msgs/msg/attitude_target__type_support.cpp.o[0m
+[ 48%] [32m[1mLinking CXX shared library libmavros_msgs__rosidl_typesupport_c.so[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/mavros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mavros_msgs/srv/detail/set_mode__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/mavros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mavros_msgs/msg/detail/attitude_target__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/mavros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mavros_msgs/msg/detail/state__type_support.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/mavros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mavros_msgs/srv/detail/command_bool__type_support.cpp.o[0m
+[ 59%] [32mBuilding C object CMakeFiles/mavros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mavros_msgs/srv/detail/command_bool__type_support.c.o[0m
+[ 59%] [32mBuilding C object CMakeFiles/mavros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mavros_msgs/msg/detail/state__type_support.c.o[0m
+[ 60%] [32mBuilding C object CMakeFiles/mavros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mavros_msgs/srv/detail/set_mode__type_support.c.o[0m
+[ 60%] [32mBuilding C object CMakeFiles/mavros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mavros_msgs/msg/detail/attitude_target__type_support.c.o[0m
+[ 60%] Built target mavros_msgs__rosidl_typesupport_c
+[ 64%] [32m[1mLinking C shared library libmavros_msgs__rosidl_typesupport_introspection_c.so[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/mavros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mavros_msgs/msg/detail/dds_fastrtps/state__type_support.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/mavros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mavros_msgs/msg/detail/dds_fastrtps/attitude_target__type_support.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/mavros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mavros_msgs/srv/detail/dds_fastrtps/command_bool__type_support.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/mavros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mavros_msgs/srv/detail/dds_fastrtps/set_mode__type_support.cpp.o[0m
+[ 68%] Built target mavros_msgs__rosidl_typesupport_introspection_c
+[ 71%] [32mBuilding CXX object CMakeFiles/mavros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mavros_msgs/srv/detail/command_bool__type_support_c.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/mavros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mavros_msgs/msg/detail/attitude_target__type_support_c.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/mavros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mavros_msgs/srv/detail/set_mode__type_support_c.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/mavros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mavros_msgs/msg/detail/state__type_support_c.cpp.o[0m
+[ 76%] [32m[1mLinking CXX shared library libmavros_msgs__rosidl_typesupport_cpp.so[0m
+[ 76%] Built target mavros_msgs__rosidl_typesupport_cpp
+[ 78%] [32m[1mLinking CXX shared library libmavros_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 78%] Built target mavros_msgs__rosidl_typesupport_introspection_cpp
+[ 79%] [32m[1mLinking CXX shared library libmavros_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 81%] [32m[1mLinking CXX shared library libmavros_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 81%] Built target mavros_msgs__rosidl_typesupport_fastrtps_c
+[ 81%] Built target mavros_msgs__rosidl_typesupport_fastrtps_cpp
+[ 81%] Built target mavros_msgs
+[ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 82%] Built target mavros_msgs__py
+[ 85%] [32mBuilding C object CMakeFiles/mavros_msgs__rosidl_generator_py.dir/rosidl_generator_py/mavros_msgs/srv/_set_mode_s.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/mavros_msgs__rosidl_generator_py.dir/rosidl_generator_py/mavros_msgs/msg/_attitude_target_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/mavros_msgs__rosidl_generator_py.dir/rosidl_generator_py/mavros_msgs/srv/_command_bool_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/mavros_msgs__rosidl_generator_py.dir/rosidl_generator_py/mavros_msgs/msg/_state_s.c.o[0m
+[ 90%] [32m[1mLinking C shared library libmavros_msgs__rosidl_generator_py.so[0m
+[ 90%] Built target mavros_msgs__rosidl_generator_py
+[ 92%] [32mBuilding C object CMakeFiles/mavros_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/mavros_msgs/_mavros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/mavros_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/mavros_msgs/_mavros_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/mavros_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/mavros_msgs/_mavros_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[ 96%] [32m[1mLinking C shared module rosidl_generator_py/mavros_msgs/mavros_msgs_s__rosidl_typesupport_c.so[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/mavros_msgs/mavros_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/mavros_msgs/mavros_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[100%] Built target mavros_msgs_s__rosidl_typesupport_fastrtps_c
+[100%] Built target mavros_msgs_s__rosidl_typesupport_c
+[100%] Built target mavros_msgs_s__rosidl_typesupport_introspection_c
+-- Install configuration: ""
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/ament_index/resource_index/rosidl_interfaces/mavros_msgs
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/msg/AttitudeTarget.json
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/msg/State.json
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/srv/CommandBool.json
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/srv/SetMode.json
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/detail
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/detail/attitude_target__type_support.c
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/detail/state__functions.h
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/detail/state__functions.c
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/detail/attitude_target__description.c
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/detail/state__description.c
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/detail/attitude_target__struct.h
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/detail/state__type_support.c
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/detail/state__struct.h
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/detail/state__type_support.h
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/detail/attitude_target__functions.h
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/detail/attitude_target__type_support.h
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/detail/attitude_target__functions.c
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/attitude_target.h
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/state.h
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/detail
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/detail/set_mode__description.c
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/detail/set_mode__struct.h
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/detail/command_bool__functions.c
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/detail/set_mode__functions.h
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/detail/command_bool__type_support.c
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/detail/command_bool__type_support.h
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/detail/command_bool__struct.h
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/detail/set_mode__functions.c
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/detail/command_bool__description.c
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/detail/set_mode__type_support.h
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/detail/set_mode__type_support.c
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/detail/command_bool__functions.h
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/command_bool.h
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/set_mode.h
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/environment/library_path.sh
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/environment/library_path.dsv
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/libmavros_msgs__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/libmavros_msgs__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs
+-- Up-to-date: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/detail
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/detail/state__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/detail/attitude_target__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv
+-- Up-to-date: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/detail
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/detail/command_bool__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/detail/set_mode__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/libmavros_msgs__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/libmavros_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs
+-- Up-to-date: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/state.hpp
+-- Up-to-date: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/detail
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/detail/attitude_target__builder.hpp
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/detail/state__struct.hpp
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/detail/state__traits.hpp
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/detail/state__type_support.hpp
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/detail/attitude_target__type_support.hpp
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/detail/state__builder.hpp
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/detail/attitude_target__struct.hpp
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/detail/attitude_target__traits.hpp
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/attitude_target.hpp
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/set_mode.hpp
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/command_bool.hpp
+-- Up-to-date: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/detail
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/detail/command_bool__struct.hpp
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/detail/set_mode__type_support.hpp
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/detail/set_mode__builder.hpp
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/detail/set_mode__struct.hpp
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/detail/set_mode__traits.hpp
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/detail/command_bool__builder.hpp
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/detail/command_bool__traits.hpp
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/detail/command_bool__type_support.hpp
+-- Up-to-date: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs
+-- Up-to-date: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg
+-- Up-to-date: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/detail
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/detail/dds_fastrtps
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/detail/state__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/detail/attitude_target__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv
+-- Up-to-date: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/detail
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/detail/command_bool__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/detail/dds_fastrtps
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/detail/set_mode__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/libmavros_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/libmavros_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs
+-- Up-to-date: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg
+-- Up-to-date: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/detail
+-- Up-to-date: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/detail/attitude_target__type_support.c
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/detail/state__rosidl_typesupport_introspection_c.h
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/detail/attitude_target__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/detail/state__type_support.c
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv
+-- Up-to-date: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/detail
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/detail/command_bool__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/detail/command_bool__type_support.c
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/detail/set_mode__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/detail/set_mode__type_support.c
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/libmavros_msgs__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/libmavros_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/libmavros_msgs__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/libmavros_msgs__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs
+-- Up-to-date: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg
+-- Up-to-date: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/detail
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/detail/state__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/detail/state__type_support.cpp
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/detail/attitude_target__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/msg/detail/attitude_target__type_support.cpp
+-- Up-to-date: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv
+-- Up-to-date: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/detail
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/detail/command_bool__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/detail/set_mode__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/detail/set_mode__type_support.cpp
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/include/mavros_msgs/mavros_msgs/srv/detail/command_bool__type_support.cpp
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/libmavros_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/libmavros_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/libmavros_msgs__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/libmavros_msgs__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/environment/pythonpath.sh
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/environment/pythonpath.dsv
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs-1.16.0-py3.12.egg-info
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs-1.16.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs-1.16.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs-1.16.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs-1.16.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs/mavros_msgs_s__rosidl_typesupport_c.so
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs/msg
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs/msg/_attitude_target.py
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs/msg/__init__.py
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs/msg/_state.py
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs/msg/_attitude_target_s.c
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs/msg/_state_s.c
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs/__init__.py
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs/srv
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs/srv/_command_bool.py
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs/srv/__init__.py
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs/srv/_command_bool_s.c
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs/srv/_set_mode.py
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs/srv/_set_mode_s.c
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs/_mavros_msgs_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs/mavros_msgs_s__rosidl_typesupport_fastrtps_c.so
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs/_mavros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs/mavros_msgs_s__rosidl_typesupport_introspection_c.so
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs/_mavros_msgs_s.ep.rosidl_typesupport_c.c
+Listing '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs'...
+Compiling '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs/__init__.py'...
+Listing '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs/msg'...
+Compiling '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs/msg/__init__.py'...
+Compiling '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs/msg/_attitude_target.py'...
+Compiling '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs/msg/_state.py'...
+Listing '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs/srv'...
+Compiling '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs/srv/__init__.py'...
+Compiling '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs/srv/_command_bool.py'...
+Compiling '/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs/srv/_set_mode.py'...
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs/mavros_msgs_s__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs/mavros_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs/mavros_msgs_s__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs/mavros_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs/mavros_msgs_s__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/python3.12/site-packages/mavros_msgs/mavros_msgs_s__rosidl_typesupport_c.so" to ""
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/libmavros_msgs__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/lib/libmavros_msgs__rosidl_generator_py.so" to ""
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/msg/AttitudeTarget.idl
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/msg/State.idl
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/srv/CommandBool.idl
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/srv/SetMode.idl
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/msg/AttitudeTarget.msg
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/msg/State.msg
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/srv/CommandBool.srv
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/srv/SetMode.srv
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/ament_index/resource_index/package_run_dependencies/mavros_msgs
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/ament_index/resource_index/parent_prefix_path/mavros_msgs
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/environment/ament_prefix_path.sh
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/environment/ament_prefix_path.dsv
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/environment/path.sh
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/environment/path.dsv
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/local_setup.bash
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/local_setup.sh
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/local_setup.zsh
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/local_setup.dsv
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/package.dsv
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/ament_index/resource_index/packages/mavros_msgs
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/cmake/export_mavros_msgs__rosidl_generator_cExport.cmake
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/cmake/export_mavros_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/cmake/export_mavros_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/cmake/export_mavros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/cmake/export_mavros_msgs__rosidl_generator_cppExport.cmake
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/cmake/export_mavros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/cmake/export_mavros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/cmake/mavros_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/cmake/mavros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/cmake/mavros_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/cmake/mavros_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/cmake/mavros_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/cmake/mavros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/cmake/mavros_msgs__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/cmake/mavros_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/cmake/export_mavros_msgs__rosidl_generator_pyExport.cmake
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/cmake/export_mavros_msgs__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/cmake/mavros_msgsConfig.cmake
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/cmake/mavros_msgsConfig-version.cmake
+-- Installing: /home/zhr/YOPO-ROS2/Controller/install/mavros_msgs/share/mavros_msgs/package.xml

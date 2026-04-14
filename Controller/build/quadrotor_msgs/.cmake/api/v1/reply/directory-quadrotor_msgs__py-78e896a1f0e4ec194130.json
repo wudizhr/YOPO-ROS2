@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "quadrotor_msgs__py",
+		"source" : "/home/zhr/YOPO-ROS2/Controller/build/quadrotor_msgs/quadrotor_msgs__py"
+	}
+}

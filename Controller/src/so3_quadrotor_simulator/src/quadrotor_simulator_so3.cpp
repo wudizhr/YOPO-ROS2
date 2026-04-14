@@ -372,9 +372,11 @@ odomToTF(const nav_msgs::msg::Odometry& odom_msg, geometry_msgs::msg::TransformS
 
 void 
 odomToMesh(const nav_msgs::msg::Odometry& odom_msg, visualization_msgs::msg::Marker& meshROS) {
-  // Note: ros::package::getPath is not available in ROS2
-  // You may need to use ament_index_cpp to get the package path
-  meshROS.mesh_resource = "file:///home/hu/YOPO_backup/YOPO/Controller/src/so3_quadrotor_simulator/config/uav.dae";
+  static const std::string mesh_resource =
+    "file://" +
+    ament_index_cpp::get_package_share_directory("so3_quadrotor_simulator") +
+    "/meshes/uav.dae";
+  meshROS.mesh_resource = mesh_resource;
   meshROS.mesh_use_embedded_materials = true;
 
   meshROS.header = odom_msg.header;

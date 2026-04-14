@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "quadrotor_msgs/msg/Corrections",
+      "fields": [
+        {
+          "name": "kf_correction",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "angle_corrections",
+          "type": {
+            "type_id": 59,
+            "capacity": 2,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "quadrotor_msgs/msg/Corrections",
+      "hash_string": "RIHS01_4335acbda2032a55376e76a80f12b4725afd94a5132e1c8e0b1523eb3fdf5f97"
+    }
+  ]
+}
