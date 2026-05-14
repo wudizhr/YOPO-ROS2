@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from quadrotor_msgs/srv/SetTakeoffLand.srv
+// generated code does not contain a copyright notice
+
+
+module quadrotor_msgs {
+  module srv {
+    struct SetTakeoffLand_Request {
+      boolean takeoff;
+
+      float takeoff_altitude;
+    };
+    struct SetTakeoffLand_Response {
+      boolean res;
+    };
+  };
+};

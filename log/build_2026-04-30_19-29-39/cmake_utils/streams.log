@@ -1,0 +1,46 @@
+[0.009s] Invoking command in '/home/zhr/YOPO-ROS2/build/cmake_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zhr/YOPO-ROS2/Controller/src/utils/cmake_utils -DCMAKE_INSTALL_PREFIX=/home/zhr/YOPO-ROS2/install/cmake_utils
+[0.035s] -- The C compiler identification is GNU 13.3.0
+[0.059s] -- The CXX compiler identification is GNU 13.3.0
+[0.067s] -- Detecting C compiler ABI info
+[0.103s] -- Detecting C compiler ABI info - done
+[0.107s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.107s] -- Detecting C compile features
+[0.107s] -- Detecting C compile features - done
+[0.111s] -- Detecting CXX compiler ABI info
+[0.153s] -- Detecting CXX compiler ABI info - done
+[0.158s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.158s] -- Detecting CXX compile features
+[0.158s] -- Detecting CXX compile features - done
+[0.159s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.226s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.316s] -- Configuring done (0.3s)
+[0.317s] -- Generating done (0.0s)
+[0.318s] -- Build files have been written to: /home/zhr/YOPO-ROS2/build/cmake_utils
+[0.320s] Invoked command in '/home/zhr/YOPO-ROS2/build/cmake_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zhr/YOPO-ROS2/Controller/src/utils/cmake_utils -DCMAKE_INSTALL_PREFIX=/home/zhr/YOPO-ROS2/install/cmake_utils
+[0.322s] Invoking command in '/home/zhr/YOPO-ROS2/build/cmake_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zhr/YOPO-ROS2/build/cmake_utils -- -j32 -l32
+[0.338s] Invoked command in '/home/zhr/YOPO-ROS2/build/cmake_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zhr/YOPO-ROS2/build/cmake_utils -- -j32 -l32
+[0.343s] Invoking command in '/home/zhr/YOPO-ROS2/build/cmake_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zhr/YOPO-ROS2/build/cmake_utils
+[0.345s] -- Install configuration: ""
+[0.345s] -- Installing: /home/zhr/YOPO-ROS2/install/cmake_utils/share/ament_index/resource_index/package_run_dependencies/cmake_utils
+[0.345s] -- Installing: /home/zhr/YOPO-ROS2/install/cmake_utils/share/ament_index/resource_index/parent_prefix_path/cmake_utils
+[0.345s] -- Installing: /home/zhr/YOPO-ROS2/install/cmake_utils/share/cmake_utils/environment/ament_prefix_path.sh
+[0.345s] -- Installing: /home/zhr/YOPO-ROS2/install/cmake_utils/share/cmake_utils/environment/ament_prefix_path.dsv
+[0.346s] -- Installing: /home/zhr/YOPO-ROS2/install/cmake_utils/share/cmake_utils/environment/path.sh
+[0.346s] -- Installing: /home/zhr/YOPO-ROS2/install/cmake_utils/share/cmake_utils/environment/path.dsv
+[0.346s] -- Installing: /home/zhr/YOPO-ROS2/install/cmake_utils/share/cmake_utils/local_setup.bash
+[0.346s] -- Installing: /home/zhr/YOPO-ROS2/install/cmake_utils/share/cmake_utils/local_setup.sh
+[0.346s] -- Installing: /home/zhr/YOPO-ROS2/install/cmake_utils/share/cmake_utils/local_setup.zsh
+[0.346s] -- Installing: /home/zhr/YOPO-ROS2/install/cmake_utils/share/cmake_utils/local_setup.dsv
+[0.346s] -- Installing: /home/zhr/YOPO-ROS2/install/cmake_utils/share/cmake_utils/package.dsv
+[0.346s] -- Installing: /home/zhr/YOPO-ROS2/install/cmake_utils/share/ament_index/resource_index/packages/cmake_utils
+[0.346s] -- Installing: /home/zhr/YOPO-ROS2/install/cmake_utils/share/cmake_utils/cmake/arch.cmake
+[0.346s] -- Installing: /home/zhr/YOPO-ROS2/install/cmake_utils/share/cmake_utils/cmake/cmake_modules.cmake
+[0.346s] -- Installing: /home/zhr/YOPO-ROS2/install/cmake_utils/share/cmake_utils/cmake/color.cmake
+[0.346s] -- Installing: /home/zhr/YOPO-ROS2/install/cmake_utils/share/cmake_utils/cmake/cmake_utilsConfig.cmake
+[0.346s] -- Installing: /home/zhr/YOPO-ROS2/install/cmake_utils/share/cmake_utils/cmake/cmake_utilsConfig-version.cmake
+[0.346s] -- Installing: /home/zhr/YOPO-ROS2/install/cmake_utils/share/cmake_utils/package.xml
+[0.346s] -- Up-to-date: /home/zhr/YOPO-ROS2/install/cmake_utils/share/cmake_utils/cmake
+[0.346s] -- Up-to-date: /home/zhr/YOPO-ROS2/install/cmake_utils/share/cmake_utils/cmake/cmake_modules.cmake
+[0.346s] -- Up-to-date: /home/zhr/YOPO-ROS2/install/cmake_utils/share/cmake_utils/cmake/arch.cmake
+[0.346s] -- Up-to-date: /home/zhr/YOPO-ROS2/install/cmake_utils/share/cmake_utils/cmake/color.cmake
+[0.347s] Invoked command in '/home/zhr/YOPO-ROS2/build/cmake_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zhr/YOPO-ROS2/build/cmake_utils

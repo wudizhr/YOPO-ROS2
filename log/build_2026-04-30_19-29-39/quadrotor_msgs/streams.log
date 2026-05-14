@@ -1,0 +1,705 @@
+[0.007s] Invoking command in '/home/zhr/YOPO-ROS2/build/quadrotor_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zhr/YOPO-ROS2/Controller/src/utils/quadrotor_msgs -DCMAKE_INSTALL_PREFIX=/home/zhr/YOPO-ROS2/install/quadrotor_msgs
+[0.032s] -- The C compiler identification is GNU 13.3.0
+[0.057s] -- The CXX compiler identification is GNU 13.3.0
+[0.064s] -- Detecting C compiler ABI info
+[0.101s] -- Detecting C compiler ABI info - done
+[0.106s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.106s] -- Detecting C compile features
+[0.106s] -- Detecting C compile features - done
+[0.110s] -- Detecting CXX compiler ABI info
+[0.150s] -- Detecting CXX compiler ABI info - done
+[0.154s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.154s] -- Detecting CXX compile features
+[0.155s] -- Detecting CXX compile features - done
+[0.156s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.223s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.272s] -- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[0.288s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.294s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.301s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.309s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.316s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.331s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.349s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.355s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.689s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.103s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.262s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.264s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.330s] -- Found PythonExtra: /usr/bin/python3  
+[1.607s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.640s] -- Configuring done (1.6s)
+[1.670s] -- Generating done (0.0s)
+[1.676s] -- Build files have been written to: /home/zhr/YOPO-ROS2/build/quadrotor_msgs
+[1.684s] Invoked command in '/home/zhr/YOPO-ROS2/build/quadrotor_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zhr/YOPO-ROS2/Controller/src/utils/quadrotor_msgs -DCMAKE_INSTALL_PREFIX=/home/zhr/YOPO-ROS2/install/quadrotor_msgs
+[1.685s] Invoking command in '/home/zhr/YOPO-ROS2/build/quadrotor_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zhr/YOPO-ROS2/build/quadrotor_msgs -- -j32 -l32
+[1.710s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[1.713s] [  1%] Built target ament_cmake_python_copy_quadrotor_msgs
+[1.797s] running egg_info
+[1.798s] creating quadrotor_msgs.egg-info
+[1.803s] writing quadrotor_msgs.egg-info/PKG-INFO
+[1.804s] writing dependency_links to quadrotor_msgs.egg-info/dependency_links.txt
+[1.804s] writing top-level names to quadrotor_msgs.egg-info/top_level.txt
+[1.804s] writing manifest file 'quadrotor_msgs.egg-info/SOURCES.txt'
+[1.821s] reading manifest file 'quadrotor_msgs.egg-info/SOURCES.txt'
+[1.822s] writing manifest file 'quadrotor_msgs.egg-info/SOURCES.txt'
+[1.836s] [  1%] Built target ament_cmake_python_build_quadrotor_msgs_egg
+[2.014s] [  1%] Built target quadrotor_msgs__rosidl_generator_type_description
+[2.019s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.023s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.519s] [  2%] Built target quadrotor_msgs__cpp
+[2.613s] [  4%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/msg/detail/aux_command__type_support.c.o[0m
+[2.613s] [  4%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/msg/detail/corrections__description.c.o[0m
+[2.613s] [  4%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/msg/detail/aux_command__functions.c.o[0m
+[2.613s] [  4%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/msg/detail/aux_command__description.c.o[0m
+[2.613s] [  4%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/msg/detail/corrections__type_support.c.o[0m
+[2.613s] [  5%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/msg/detail/gains__description.c.o[0m
+[2.613s] [  5%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/msg/detail/gains__functions.c.o[0m
+[2.614s] [  6%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/msg/detail/output_data__description.c.o[0m
+[2.614s] [  6%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/msg/detail/position_command__description.c.o[0m
+[2.614s] [ 10%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/msg/detail/output_data__type_support.c.o[0m
+[2.614s] [ 10%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/msg/detail/corrections__functions.c.o[0m
+[2.614s] [ 11%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/msg/detail/position_command__type_support.c.o[0m
+[2.614s] [ 11%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/msg/detail/position_command__functions.c.o[0m
+[2.614s] [ 11%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/msg/detail/gains__type_support.c.o[0m
+[2.614s] [ 11%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/msg/detail/output_data__functions.c.o[0m
+[2.615s] [ 12%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/msg/detail/serial__description.c.o[0m
+[2.615s] [ 12%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/msg/detail/ppr_output_data__type_support.c.o[0m
+[2.615s] [ 13%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/msg/detail/ppr_output_data__functions.c.o[0m
+[2.615s] [ 13%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/msg/detail/ppr_output_data__description.c.o[0m
+[2.615s] [ 14%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/msg/detail/serial__functions.c.o[0m
+[2.617s] [ 14%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/msg/detail/serial__type_support.c.o[0m
+[2.617s] [ 15%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/msg/detail/so3_command__description.c.o[0m
+[2.617s] [ 15%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/msg/detail/so3_command__functions.c.o[0m
+[2.618s] [ 16%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/msg/detail/so3_command__type_support.c.o[0m
+[2.628s] [ 16%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/msg/detail/status_data__functions.c.o[0m
+[2.636s] [ 17%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/msg/detail/status_data__description.c.o[0m
+[2.638s] [ 18%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/msg/detail/trpy_command__functions.c.o[0m
+[2.640s] [ 18%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/msg/detail/trpy_command__description.c.o[0m
+[2.640s] [ 20%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/msg/detail/trpy_command__type_support.c.o[0m
+[2.640s] [ 20%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/msg/detail/odometry__functions.c.o[0m
+[2.642s] [ 21%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/msg/detail/odometry__description.c.o[0m
+[2.642s] [ 21%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/msg/detail/status_data__type_support.c.o[0m
+[2.644s] [ 22%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/msg/detail/polynomial_trajectory__description.c.o[0m
+[2.644s] [ 22%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/msg/detail/odometry__type_support.c.o[0m
+[2.645s] [ 23%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/msg/detail/polynomial_trajectory__functions.c.o[0m
+[2.646s] [ 23%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/msg/detail/lqr_trajectory__functions.c.o[0m
+[2.647s] [ 23%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/msg/detail/polynomial_trajectory__type_support.c.o[0m
+[2.650s] [ 24%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/msg/detail/lqr_trajectory__description.c.o[0m
+[2.651s] [ 25%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/msg/detail/lqr_trajectory__type_support.c.o[0m
+[2.652s] [ 25%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/srv/detail/set_takeoff_land__description.c.o[0m
+[2.652s] [ 26%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/srv/detail/set_takeoff_land__functions.c.o[0m
+[2.655s] [ 27%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadrotor_msgs/srv/detail/set_takeoff_land__type_support.c.o[0m
+[2.694s] [ 27%] [32m[1mLinking C shared library libquadrotor_msgs__rosidl_generator_c.so[0m
+[2.719s] [ 27%] Built target quadrotor_msgs__rosidl_generator_c
+[2.727s] [ 27%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.727s] [ 28%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.727s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.727s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.727s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.727s] [ 30%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.175s] [ 30%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quadrotor_msgs/msg/corrections__type_support.cpp.o[0m
+[3.175s] [ 31%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quadrotor_msgs/msg/position_command__type_support.cpp.o[0m
+[3.176s] [ 31%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quadrotor_msgs/msg/ppr_output_data__type_support.cpp.o[0m
+[3.176s] [ 31%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quadrotor_msgs/msg/output_data__type_support.cpp.o[0m
+[3.176s] [ 33%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quadrotor_msgs/msg/gains__type_support.cpp.o[0m
+[3.176s] [ 33%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quadrotor_msgs/msg/aux_command__type_support.cpp.o[0m
+[3.176s] [ 35%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quadrotor_msgs/msg/so3_command__type_support.cpp.o[0m
+[3.176s] [ 35%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quadrotor_msgs/msg/serial__type_support.cpp.o[0m
+[3.176s] [ 35%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quadrotor_msgs/msg/status_data__type_support.cpp.o[0m
+[3.176s] [ 36%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quadrotor_msgs/msg/polynomial_trajectory__type_support.cpp.o[0m
+[3.176s] [ 36%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quadrotor_msgs/msg/odometry__type_support.cpp.o[0m
+[3.176s] [ 37%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quadrotor_msgs/msg/trpy_command__type_support.cpp.o[0m
+[3.176s] [ 37%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quadrotor_msgs/srv/set_takeoff_land__type_support.cpp.o[0m
+[3.176s] [ 38%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quadrotor_msgs/msg/lqr_trajectory__type_support.cpp.o[0m
+[3.185s] [ 39%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/quadrotor_msgs/msg/corrections__type_support.cpp.o[0m
+[3.185s] [ 39%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/quadrotor_msgs/msg/gains__type_support.cpp.o[0m
+[3.185s] [ 40%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/quadrotor_msgs/msg/ppr_output_data__type_support.cpp.o[0m
+[3.185s] [ 41%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/quadrotor_msgs/msg/output_data__type_support.cpp.o[0m
+[3.185s] [ 43%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/quadrotor_msgs/msg/serial__type_support.cpp.o[0m
+[3.185s] [ 43%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/quadrotor_msgs/msg/trpy_command__type_support.cpp.o[0m
+[3.185s] [ 43%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/quadrotor_msgs/msg/status_data__type_support.cpp.o[0m
+[3.185s] [ 43%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/quadrotor_msgs/msg/so3_command__type_support.cpp.o[0m
+[3.185s] [ 43%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/quadrotor_msgs/msg/position_command__type_support.cpp.o[0m
+[3.185s] [ 44%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/quadrotor_msgs/msg/aux_command__type_support.cpp.o[0m
+[3.187s] [ 45%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/quadrotor_msgs/msg/odometry__type_support.cpp.o[0m
+[3.189s] [ 46%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/quadrotor_msgs/msg/lqr_trajectory__type_support.cpp.o[0m
+[3.189s] [ 46%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/quadrotor_msgs/srv/set_takeoff_land__type_support.cpp.o[0m
+[3.193s] [ 47%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/quadrotor_msgs/msg/polynomial_trajectory__type_support.cpp.o[0m
+[3.238s] [ 47%] [32m[1mLinking CXX shared library libquadrotor_msgs__rosidl_typesupport_c.so[0m
+[3.279s] [ 47%] Built target quadrotor_msgs__rosidl_typesupport_c
+[3.290s] [ 48%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadrotor_msgs/msg/detail/gains__type_support.c.o[0m
+[3.290s] [ 48%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadrotor_msgs/msg/detail/so3_command__type_support.c.o[0m
+[3.290s] [ 50%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadrotor_msgs/msg/detail/ppr_output_data__type_support.c.o[0m
+[3.291s] [ 50%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadrotor_msgs/msg/detail/aux_command__type_support.c.o[0m
+[3.291s] [ 48%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadrotor_msgs/msg/detail/position_command__type_support.c.o[0m
+[3.291s] [ 50%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadrotor_msgs/msg/detail/serial__type_support.c.o[0m
+[3.291s] [ 52%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadrotor_msgs/msg/detail/corrections__type_support.c.o[0m
+[3.292s] [ 52%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadrotor_msgs/msg/detail/status_data__type_support.c.o[0m
+[3.292s] [ 53%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadrotor_msgs/msg/detail/output_data__type_support.c.o[0m
+[3.295s] [ 53%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadrotor_msgs/msg/detail/trpy_command__type_support.c.o[0m
+[3.295s] [ 54%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadrotor_msgs/msg/detail/polynomial_trajectory__type_support.c.o[0m
+[3.295s] [ 55%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadrotor_msgs/msg/detail/odometry__type_support.c.o[0m
+[3.296s] [ 56%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadrotor_msgs/srv/detail/set_takeoff_land__type_support.c.o[0m
+[3.298s] [ 56%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadrotor_msgs/msg/detail/lqr_trajectory__type_support.c.o[0m
+[3.357s] [ 56%] [32m[1mLinking C shared library libquadrotor_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.373s] [ 58%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quadrotor_msgs/msg/detail/position_command__type_support.cpp.o[0m
+[3.373s] [ 58%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quadrotor_msgs/msg/detail/aux_command__type_support.cpp.o[0m
+[3.373s] [ 58%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quadrotor_msgs/msg/detail/corrections__type_support.cpp.o[0m
+[3.373s] [ 59%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quadrotor_msgs/msg/detail/trpy_command__type_support.cpp.o[0m
+[3.378s] [ 59%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quadrotor_msgs/msg/detail/status_data__type_support.cpp.o[0m
+[3.378s] [ 59%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quadrotor_msgs/srv/detail/set_takeoff_land__type_support.cpp.o[0m
+[3.378s] [ 60%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quadrotor_msgs/msg/detail/lqr_trajectory__type_support.cpp.o[0m
+[3.378s] [ 61%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quadrotor_msgs/msg/detail/ppr_output_data__type_support.cpp.o[0m
+[3.381s] [ 61%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quadrotor_msgs/msg/detail/polynomial_trajectory__type_support.cpp.o[0m
+[3.382s] [ 61%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quadrotor_msgs/msg/detail/serial__type_support.cpp.o[0m
+[3.382s] [ 63%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quadrotor_msgs/msg/detail/so3_command__type_support.cpp.o[0m
+[3.382s] [ 63%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quadrotor_msgs/msg/detail/output_data__type_support.cpp.o[0m
+[3.382s] [ 64%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quadrotor_msgs/msg/detail/odometry__type_support.cpp.o[0m
+[3.383s] [ 64%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quadrotor_msgs/msg/detail/gains__type_support.cpp.o[0m
+[3.390s] [ 64%] Built target quadrotor_msgs__rosidl_typesupport_introspection_c
+[3.464s] [ 65%] [32m[1mLinking CXX shared library libquadrotor_msgs__rosidl_typesupport_cpp.so[0m
+[3.511s] [ 66%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quadrotor_msgs/msg/detail/aux_command__type_support_c.cpp.o[0m
+[3.511s] [ 66%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quadrotor_msgs/msg/detail/gains__type_support_c.cpp.o[0m
+[3.517s] [ 69%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quadrotor_msgs/msg/detail/corrections__type_support_c.cpp.o[0m
+[3.517s] [ 69%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quadrotor_msgs/msg/detail/output_data__type_support_c.cpp.o[0m
+[3.517s] [ 69%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quadrotor_msgs/msg/detail/ppr_output_data__type_support_c.cpp.o[0m
+[3.517s] [ 70%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quadrotor_msgs/msg/detail/serial__type_support_c.cpp.o[0m
+[3.517s] [ 70%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quadrotor_msgs/msg/detail/so3_command__type_support_c.cpp.o[0m
+[3.518s] [ 70%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quadrotor_msgs/msg/detail/position_command__type_support_c.cpp.o[0m
+[3.521s] [ 71%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quadrotor_msgs/msg/detail/trpy_command__type_support_c.cpp.o[0m
+[3.523s] [ 71%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quadrotor_msgs/msg/detail/status_data__type_support_c.cpp.o[0m
+[3.534s] [ 72%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quadrotor_msgs/msg/detail/odometry__type_support_c.cpp.o[0m
+[3.538s] [ 73%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quadrotor_msgs/msg/detail/polynomial_trajectory__type_support_c.cpp.o[0m
+[3.541s] [ 73%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quadrotor_msgs/msg/detail/lqr_trajectory__type_support_c.cpp.o[0m
+[3.559s] [ 74%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quadrotor_msgs/srv/detail/set_takeoff_land__type_support_c.cpp.o[0m
+[3.574s] [ 74%] Built target quadrotor_msgs__rosidl_typesupport_cpp
+[3.618s] [ 74%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quadrotor_msgs/msg/detail/dds_fastrtps/output_data__type_support.cpp.o[0m
+[3.618s] [ 74%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quadrotor_msgs/msg/detail/dds_fastrtps/corrections__type_support.cpp.o[0m
+[3.618s] [ 75%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quadrotor_msgs/msg/detail/dds_fastrtps/serial__type_support.cpp.o[0m
+[3.618s] [ 75%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quadrotor_msgs/msg/detail/dds_fastrtps/ppr_output_data__type_support.cpp.o[0m
+[3.618s] [ 76%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quadrotor_msgs/msg/detail/dds_fastrtps/gains__type_support.cpp.o[0m
+[3.618s] [ 77%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quadrotor_msgs/msg/detail/dds_fastrtps/aux_command__type_support.cpp.o[0m
+[3.620s] [ 79%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quadrotor_msgs/msg/detail/dds_fastrtps/so3_command__type_support.cpp.o[0m
+[3.620s] [ 79%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quadrotor_msgs/msg/detail/dds_fastrtps/position_command__type_support.cpp.o[0m
+[3.624s] [ 80%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quadrotor_msgs/msg/detail/dds_fastrtps/trpy_command__type_support.cpp.o[0m
+[3.627s] [ 81%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quadrotor_msgs/msg/detail/dds_fastrtps/status_data__type_support.cpp.o[0m
+[3.628s] [ 81%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quadrotor_msgs/msg/detail/dds_fastrtps/odometry__type_support.cpp.o[0m
+[3.631s] [ 82%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quadrotor_msgs/msg/detail/dds_fastrtps/lqr_trajectory__type_support.cpp.o[0m
+[3.633s] [ 82%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quadrotor_msgs/srv/detail/dds_fastrtps/set_takeoff_land__type_support.cpp.o[0m
+[3.642s] [ 82%] [32mBuilding CXX object CMakeFiles/quadrotor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quadrotor_msgs/msg/detail/dds_fastrtps/polynomial_trajectory__type_support.cpp.o[0m
+[3.702s] [ 83%] [32m[1mLinking CXX shared library libquadrotor_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.897s] [ 83%] Built target quadrotor_msgs__rosidl_typesupport_introspection_cpp
+[3.963s] [ 83%] [32m[1mLinking CXX shared library libquadrotor_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[4.006s] [ 83%] Built target quadrotor_msgs__rosidl_typesupport_fastrtps_c
+[4.097s] [ 84%] [32m[1mLinking CXX shared library libquadrotor_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.133s] [ 84%] Built target quadrotor_msgs__rosidl_typesupport_fastrtps_cpp
+[4.143s] [ 84%] Built target quadrotor_msgs
+[4.151s] [ 84%] [32mBuilding CXX object CMakeFiles/encode_msgs.dir/src/encode_msgs.cpp.o[0m
+[4.151s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.370s] [ 86%] [32m[1mLinking CXX shared library libencode_msgs.so[0m
+[4.405s] [ 86%] Built target encode_msgs
+[4.412s] [ 86%] [32mBuilding CXX object CMakeFiles/decode_msgs.dir/src/decode_msgs.cpp.o[0m
+[4.983s] [ 87%] [32m[1mLinking CXX shared library libdecode_msgs.so[0m
+[5.024s] [ 87%] Built target decode_msgs
+[5.025s] [ 87%] Built target quadrotor_msgs__py
+[5.035s] [ 88%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_py.dir/rosidl_generator_py/quadrotor_msgs/msg/_aux_command_s.c.o[0m
+[5.035s] [ 88%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_py.dir/rosidl_generator_py/quadrotor_msgs/msg/_position_command_s.c.o[0m
+[5.035s] [ 89%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_py.dir/rosidl_generator_py/quadrotor_msgs/msg/_gains_s.c.o[0m
+[5.035s] [ 90%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_py.dir/rosidl_generator_py/quadrotor_msgs/msg/_ppr_output_data_s.c.o[0m
+[5.035s] [ 91%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_py.dir/rosidl_generator_py/quadrotor_msgs/msg/_output_data_s.c.o[0m
+[5.036s] [ 92%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_py.dir/rosidl_generator_py/quadrotor_msgs/msg/_so3_command_s.c.o[0m
+[5.036s] [ 92%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_py.dir/rosidl_generator_py/quadrotor_msgs/msg/_trpy_command_s.c.o[0m
+[5.036s] [ 94%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_py.dir/rosidl_generator_py/quadrotor_msgs/msg/_status_data_s.c.o[0m
+[5.036s] [ 94%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_py.dir/rosidl_generator_py/quadrotor_msgs/msg/_odometry_s.c.o[0m
+[5.036s] [ 94%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_py.dir/rosidl_generator_py/quadrotor_msgs/msg/_polynomial_trajectory_s.c.o[0m
+[5.037s] [ 95%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_py.dir/rosidl_generator_py/quadrotor_msgs/srv/_set_takeoff_land_s.c.o[0m
+[5.037s] [ 96%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_py.dir/rosidl_generator_py/quadrotor_msgs/msg/_corrections_s.c.o[0m
+[5.037s] [ 96%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_py.dir/rosidl_generator_py/quadrotor_msgs/msg/_serial_s.c.o[0m
+[5.037s] [ 96%] [32mBuilding C object CMakeFiles/quadrotor_msgs__rosidl_generator_py.dir/rosidl_generator_py/quadrotor_msgs/msg/_lqr_trajectory_s.c.o[0m
+[5.128s] [ 96%] [32m[1mLinking C shared library libquadrotor_msgs__rosidl_generator_py.so[0m
+[5.153s] [ 96%] Built target quadrotor_msgs__rosidl_generator_py
+[5.162s] [ 97%] [32mBuilding C object CMakeFiles/quadrotor_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/quadrotor_msgs/_quadrotor_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.162s] [ 98%] [32mBuilding C object CMakeFiles/quadrotor_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/quadrotor_msgs/_quadrotor_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[5.162s] [ 99%] [32mBuilding C object CMakeFiles/quadrotor_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/quadrotor_msgs/_quadrotor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.228s] [100%] [32m[1mLinking C shared module rosidl_generator_py/quadrotor_msgs/quadrotor_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[5.228s] [100%] [32m[1mLinking C shared module rosidl_generator_py/quadrotor_msgs/quadrotor_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[5.228s] [100%] [32m[1mLinking C shared module rosidl_generator_py/quadrotor_msgs/quadrotor_msgs_s__rosidl_typesupport_c.so[0m
+[5.243s] [100%] Built target quadrotor_msgs_s__rosidl_typesupport_c
+[5.243s] [100%] Built target quadrotor_msgs_s__rosidl_typesupport_fastrtps_c
+[5.243s] [100%] Built target quadrotor_msgs_s__rosidl_typesupport_introspection_c
+[5.248s] Invoked command in '/home/zhr/YOPO-ROS2/build/quadrotor_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zhr/YOPO-ROS2/build/quadrotor_msgs -- -j32 -l32
+[5.249s] Invoking command in '/home/zhr/YOPO-ROS2/build/quadrotor_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zhr/YOPO-ROS2/build/quadrotor_msgs
+[5.253s] -- Install configuration: ""
+[5.253s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/ament_index/resource_index/rosidl_interfaces/quadrotor_msgs
+[5.253s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/msg/AuxCommand.json
+[5.253s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/msg/Corrections.json
+[5.253s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/msg/Gains.json
+[5.253s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/msg/OutputData.json
+[5.253s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/msg/PositionCommand.json
+[5.253s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/msg/PPROutputData.json
+[5.253s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/msg/Serial.json
+[5.253s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/msg/SO3Command.json
+[5.253s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/msg/StatusData.json
+[5.253s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/msg/TRPYCommand.json
+[5.253s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/msg/Odometry.json
+[5.253s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/msg/PolynomialTrajectory.json
+[5.253s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/msg/LQRTrajectory.json
+[5.254s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/srv/SetTakeoffLand.json
+[5.254s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs
+[5.254s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg
+[5.254s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/so3_command.h
+[5.254s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/output_data.h
+[5.254s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/trpy_command.h
+[5.254s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/lqr_trajectory.h
+[5.254s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/gains.h
+[5.254s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/polynomial_trajectory.h
+[5.254s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail
+[5.254s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__description.c
+[5.254s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__functions.c
+[5.254s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__description.c
+[5.254s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__description.c
+[5.254s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__type_support.c
+[5.254s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__type_support.h
+[5.254s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__functions.h
+[5.254s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__functions.c
+[5.254s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__type_support.c
+[5.254s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__functions.c
+[5.254s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__type_support.h
+[5.254s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__functions.h
+[5.254s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__type_support.c
+[5.255s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__functions.h
+[5.255s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__struct.h
+[5.255s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__functions.h
+[5.255s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__functions.h
+[5.255s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__functions.c
+[5.255s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__functions.c
+[5.255s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__type_support.h
+[5.255s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__type_support.h
+[5.255s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__functions.c
+[5.255s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__struct.h
+[5.255s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__type_support.c
+[5.255s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__description.c
+[5.255s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__functions.h
+[5.255s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__struct.h
+[5.255s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__type_support.h
+[5.255s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__struct.h
+[5.255s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__type_support.c
+[5.255s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__struct.h
+[5.255s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__functions.c
+[5.255s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__struct.h
+[5.255s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__type_support.h
+[5.255s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__functions.h
+[5.255s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__type_support.h
+[5.255s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__struct.h
+[5.255s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__description.c
+[5.255s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__type_support.h
+[5.255s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__type_support.h
+[5.255s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__description.c
+[5.255s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__struct.h
+[5.256s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__type_support.c
+[5.256s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__type_support.c
+[5.256s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__type_support.h
+[5.256s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__description.c
+[5.256s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__description.c
+[5.256s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__type_support.c
+[5.256s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__description.c
+[5.256s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__functions.h
+[5.256s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__type_support.c
+[5.256s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__functions.h
+[5.256s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__functions.c
+[5.256s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__type_support.c
+[5.256s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__type_support.h
+[5.256s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__functions.c
+[5.256s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__functions.c
+[5.256s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__description.c
+[5.256s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__type_support.h
+[5.256s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__type_support.c
+[5.256s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__struct.h
+[5.256s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__struct.h
+[5.256s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__functions.h
+[5.256s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__type_support.h
+[5.256s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__description.c
+[5.256s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__type_support.c
+[5.256s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__type_support.c
+[5.256s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__functions.c
+[5.256s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__struct.h
+[5.256s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__struct.h
+[5.257s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__description.c
+[5.257s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__struct.h
+[5.257s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__functions.c
+[5.257s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__functions.c
+[5.257s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__functions.h
+[5.257s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__functions.h
+[5.257s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__description.c
+[5.257s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__functions.h
+[5.257s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/status_data.h
+[5.257s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/aux_command.h
+[5.257s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/corrections.h
+[5.257s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/odometry.h
+[5.257s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.257s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/position_command.h
+[5.257s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/ppr_output_data.h
+[5.257s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/serial.h
+[5.257s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/srv
+[5.257s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/srv/detail
+[5.257s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/srv/detail/set_takeoff_land__type_support.h
+[5.257s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/srv/detail/set_takeoff_land__type_support.c
+[5.257s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/srv/detail/set_takeoff_land__functions.c
+[5.257s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/srv/detail/set_takeoff_land__struct.h
+[5.257s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/srv/detail/set_takeoff_land__functions.h
+[5.257s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/srv/detail/set_takeoff_land__description.c
+[5.257s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/srv/set_takeoff_land.h
+[5.257s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/environment/library_path.sh
+[5.258s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/environment/library_path.dsv
+[5.258s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/libquadrotor_msgs__rosidl_generator_c.so
+[5.258s] -- Set non-toolchain portion of runtime path of "/home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/libquadrotor_msgs__rosidl_generator_c.so" to ""
+[5.258s] -- Up-to-date: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs
+[5.258s] -- Up-to-date: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg
+[5.258s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.258s] -- Up-to-date: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail
+[5.258s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__rosidl_typesupport_fastrtps_c.h
+[5.258s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__rosidl_typesupport_fastrtps_c.h
+[5.258s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__rosidl_typesupport_fastrtps_c.h
+[5.258s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__rosidl_typesupport_fastrtps_c.h
+[5.258s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__rosidl_typesupport_fastrtps_c.h
+[5.258s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__rosidl_typesupport_fastrtps_c.h
+[5.258s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__rosidl_typesupport_fastrtps_c.h
+[5.258s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__rosidl_typesupport_fastrtps_c.h
+[5.258s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__rosidl_typesupport_fastrtps_c.h
+[5.258s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__rosidl_typesupport_fastrtps_c.h
+[5.258s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__rosidl_typesupport_fastrtps_c.h
+[5.258s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__rosidl_typesupport_fastrtps_c.h
+[5.258s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__rosidl_typesupport_fastrtps_c.h
+[5.258s] -- Up-to-date: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/srv
+[5.258s] -- Up-to-date: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/srv/detail
+[5.258s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/srv/detail/set_takeoff_land__rosidl_typesupport_fastrtps_c.h
+[5.258s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/libquadrotor_msgs__rosidl_typesupport_fastrtps_c.so
+[5.259s] -- Set non-toolchain portion of runtime path of "/home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/libquadrotor_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[5.259s] -- Up-to-date: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs
+[5.259s] -- Up-to-date: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg
+[5.259s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/polynomial_trajectory.hpp
+[5.259s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/aux_command.hpp
+[5.259s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/corrections.hpp
+[5.259s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/trpy_command.hpp
+[5.259s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/so3_command.hpp
+[5.259s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/gains.hpp
+[5.259s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/status_data.hpp
+[5.259s] -- Up-to-date: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail
+[5.259s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__traits.hpp
+[5.259s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__builder.hpp
+[5.259s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__type_support.hpp
+[5.259s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__type_support.hpp
+[5.259s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__struct.hpp
+[5.259s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__traits.hpp
+[5.259s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__builder.hpp
+[5.259s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__builder.hpp
+[5.259s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__builder.hpp
+[5.260s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__type_support.hpp
+[5.260s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__traits.hpp
+[5.260s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__builder.hpp
+[5.260s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__traits.hpp
+[5.260s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__traits.hpp
+[5.260s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__traits.hpp
+[5.260s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__struct.hpp
+[5.260s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__builder.hpp
+[5.260s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__traits.hpp
+[5.260s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__struct.hpp
+[5.260s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__traits.hpp
+[5.260s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__type_support.hpp
+[5.260s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__struct.hpp
+[5.260s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__builder.hpp
+[5.260s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__struct.hpp
+[5.260s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__type_support.hpp
+[5.260s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__traits.hpp
+[5.260s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__traits.hpp
+[5.260s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__struct.hpp
+[5.260s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__builder.hpp
+[5.260s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__struct.hpp
+[5.260s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__type_support.hpp
+[5.260s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__traits.hpp
+[5.260s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__traits.hpp
+[5.260s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__struct.hpp
+[5.260s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__struct.hpp
+[5.261s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__type_support.hpp
+[5.261s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__type_support.hpp
+[5.261s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__builder.hpp
+[5.261s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__traits.hpp
+[5.261s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__builder.hpp
+[5.261s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__type_support.hpp
+[5.261s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__builder.hpp
+[5.261s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__struct.hpp
+[5.261s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__builder.hpp
+[5.261s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__struct.hpp
+[5.261s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__builder.hpp
+[5.261s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__type_support.hpp
+[5.261s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__type_support.hpp
+[5.261s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__struct.hpp
+[5.261s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__struct.hpp
+[5.261s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__type_support.hpp
+[5.261s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__type_support.hpp
+[5.261s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.261s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/odometry.hpp
+[5.261s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/output_data.hpp
+[5.261s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/position_command.hpp
+[5.261s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/ppr_output_data.hpp
+[5.261s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/serial.hpp
+[5.261s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/lqr_trajectory.hpp
+[5.261s] -- Up-to-date: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/srv
+[5.261s] -- Up-to-date: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/srv/detail
+[5.261s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/srv/detail/set_takeoff_land__traits.hpp
+[5.261s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/srv/detail/set_takeoff_land__builder.hpp
+[5.261s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/srv/detail/set_takeoff_land__struct.hpp
+[5.261s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/srv/detail/set_takeoff_land__type_support.hpp
+[5.261s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/srv/set_takeoff_land.hpp
+[5.262s] -- Up-to-date: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs
+[5.262s] -- Up-to-date: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg
+[5.262s] -- Up-to-date: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail
+[5.262s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__rosidl_typesupport_fastrtps_cpp.hpp
+[5.262s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__rosidl_typesupport_fastrtps_cpp.hpp
+[5.262s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__rosidl_typesupport_fastrtps_cpp.hpp
+[5.262s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/dds_fastrtps
+[5.262s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__rosidl_typesupport_fastrtps_cpp.hpp
+[5.262s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__rosidl_typesupport_fastrtps_cpp.hpp
+[5.262s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__rosidl_typesupport_fastrtps_cpp.hpp
+[5.262s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[5.262s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__rosidl_typesupport_fastrtps_cpp.hpp
+[5.262s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__rosidl_typesupport_fastrtps_cpp.hpp
+[5.262s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__rosidl_typesupport_fastrtps_cpp.hpp
+[5.262s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__rosidl_typesupport_fastrtps_cpp.hpp
+[5.262s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[5.262s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__rosidl_typesupport_fastrtps_cpp.hpp
+[5.262s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.262s] -- Up-to-date: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/srv
+[5.262s] -- Up-to-date: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/srv/detail
+[5.262s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/srv/detail/dds_fastrtps
+[5.262s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/srv/detail/set_takeoff_land__rosidl_typesupport_fastrtps_cpp.hpp
+[5.262s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/libquadrotor_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.262s] -- Set non-toolchain portion of runtime path of "/home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/libquadrotor_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.263s] -- Up-to-date: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs
+[5.263s] -- Up-to-date: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg
+[5.263s] -- Up-to-date: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail
+[5.263s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__rosidl_typesupport_introspection_c.h
+[5.263s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__rosidl_typesupport_introspection_c.h
+[5.263s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__type_support.c
+[5.263s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__type_support.c
+[5.263s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__rosidl_typesupport_introspection_c.h
+[5.263s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__type_support.c
+[5.263s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__rosidl_typesupport_introspection_c.h
+[5.263s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__type_support.c
+[5.263s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__type_support.c
+[5.263s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__type_support.c
+[5.263s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__type_support.c
+[5.263s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__rosidl_typesupport_introspection_c.h
+[5.263s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__rosidl_typesupport_introspection_c.h
+[5.263s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__type_support.c
+[5.263s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__type_support.c
+[5.263s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__type_support.c
+[5.263s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__type_support.c
+[5.263s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__rosidl_typesupport_introspection_c.h
+[5.263s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__type_support.c
+[5.263s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__type_support.c
+[5.263s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__rosidl_typesupport_introspection_c.h
+[5.263s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__rosidl_typesupport_introspection_c.h
+[5.263s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__rosidl_typesupport_introspection_c.h
+[5.263s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__rosidl_typesupport_introspection_c.h
+[5.264s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__rosidl_typesupport_introspection_c.h
+[5.264s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__rosidl_typesupport_introspection_c.h
+[5.264s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.264s] -- Up-to-date: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/srv
+[5.264s] -- Up-to-date: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/srv/detail
+[5.264s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/srv/detail/set_takeoff_land__rosidl_typesupport_introspection_c.h
+[5.264s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/srv/detail/set_takeoff_land__type_support.c
+[5.264s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/libquadrotor_msgs__rosidl_typesupport_introspection_c.so
+[5.264s] -- Set non-toolchain portion of runtime path of "/home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/libquadrotor_msgs__rosidl_typesupport_introspection_c.so" to ""
+[5.264s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/libquadrotor_msgs__rosidl_typesupport_c.so
+[5.264s] -- Set non-toolchain portion of runtime path of "/home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/libquadrotor_msgs__rosidl_typesupport_c.so" to ""
+[5.264s] -- Up-to-date: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs
+[5.264s] -- Up-to-date: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg
+[5.264s] -- Up-to-date: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail
+[5.264s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__rosidl_typesupport_introspection_cpp.hpp
+[5.264s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__type_support.cpp
+[5.264s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__type_support.cpp
+[5.264s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__type_support.cpp
+[5.264s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__type_support.cpp
+[5.264s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__type_support.cpp
+[5.264s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__type_support.cpp
+[5.264s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[5.264s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__rosidl_typesupport_introspection_cpp.hpp
+[5.264s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__rosidl_typesupport_introspection_cpp.hpp
+[5.265s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__type_support.cpp
+[5.265s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__type_support.cpp
+[5.265s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__rosidl_typesupport_introspection_cpp.hpp
+[5.265s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__rosidl_typesupport_introspection_cpp.hpp
+[5.265s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__type_support.cpp
+[5.265s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__type_support.cpp
+[5.265s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__type_support.cpp
+[5.265s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[5.265s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__rosidl_typesupport_introspection_cpp.hpp
+[5.265s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__rosidl_typesupport_introspection_cpp.hpp
+[5.265s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__rosidl_typesupport_introspection_cpp.hpp
+[5.265s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__rosidl_typesupport_introspection_cpp.hpp
+[5.265s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__type_support.cpp
+[5.265s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__rosidl_typesupport_introspection_cpp.hpp
+[5.265s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__rosidl_typesupport_introspection_cpp.hpp
+[5.265s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__type_support.cpp
+[5.265s] -- Up-to-date: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/srv
+[5.265s] -- Up-to-date: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/srv/detail
+[5.265s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/srv/detail/set_takeoff_land__type_support.cpp
+[5.265s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/srv/detail/set_takeoff_land__rosidl_typesupport_introspection_cpp.hpp
+[5.265s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/libquadrotor_msgs__rosidl_typesupport_introspection_cpp.so
+[5.266s] -- Set non-toolchain portion of runtime path of "/home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/libquadrotor_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[5.266s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/libquadrotor_msgs__rosidl_typesupport_cpp.so
+[5.266s] -- Set non-toolchain portion of runtime path of "/home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/libquadrotor_msgs__rosidl_typesupport_cpp.so" to ""
+[5.266s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/environment/pythonpath.sh
+[5.266s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/environment/pythonpath.dsv
+[5.266s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs-0.0.0-py3.12.egg-info
+[5.266s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[5.266s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[5.266s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[5.266s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[5.266s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs
+[5.266s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg
+[5.266s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/_corrections_s.c
+[5.266s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/_aux_command_s.c
+[5.266s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/_ppr_output_data.py
+[5.266s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/_lqr_trajectory.py
+[5.266s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/_position_command_s.c
+[5.266s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/_odometry_s.c
+[5.266s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/_lqr_trajectory_s.c
+[5.266s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/_polynomial_trajectory.py
+[5.266s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/__init__.py
+[5.266s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/_serial_s.c
+[5.266s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/_trpy_command.py
+[5.266s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/_gains_s.c
+[5.266s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/_ppr_output_data_s.c
+[5.266s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/_so3_command_s.c
+[5.267s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/_position_command.py
+[5.267s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/_gains.py
+[5.267s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/_output_data.py
+[5.267s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/_output_data_s.c
+[5.267s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/_aux_command.py
+[5.267s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/_corrections.py
+[5.267s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/_so3_command.py
+[5.267s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/_trpy_command_s.c
+[5.267s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/_status_data.py
+[5.267s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/_polynomial_trajectory_s.c
+[5.267s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/_serial.py
+[5.267s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/_odometry.py
+[5.267s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/_status_data_s.c
+[5.267s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/quadrotor_msgs_s__rosidl_typesupport_fastrtps_c.so
+[5.267s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/__init__.py
+[5.267s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/_quadrotor_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.267s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/srv
+[5.267s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/srv/__init__.py
+[5.267s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/srv/_set_takeoff_land_s.c
+[5.267s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/srv/_set_takeoff_land.py
+[5.267s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/_quadrotor_msgs_s.ep.rosidl_typesupport_c.c
+[5.267s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/_quadrotor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.267s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/quadrotor_msgs_s__rosidl_typesupport_introspection_c.so
+[5.268s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/quadrotor_msgs_s__rosidl_typesupport_c.so
+[5.304s] Listing '/home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs'...
+[5.304s] Compiling '/home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/__init__.py'...
+[5.304s] Listing '/home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg'...
+[5.304s] Compiling '/home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/__init__.py'...
+[5.304s] Compiling '/home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/_aux_command.py'...
+[5.304s] Compiling '/home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/_corrections.py'...
+[5.304s] Compiling '/home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/_gains.py'...
+[5.304s] Compiling '/home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/_lqr_trajectory.py'...
+[5.304s] Compiling '/home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/_odometry.py'...
+[5.304s] Compiling '/home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/_output_data.py'...
+[5.304s] Compiling '/home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/_polynomial_trajectory.py'...
+[5.304s] Compiling '/home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/_position_command.py'...
+[5.304s] Compiling '/home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/_ppr_output_data.py'...
+[5.304s] Compiling '/home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/_serial.py'...
+[5.304s] Compiling '/home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/_so3_command.py'...
+[5.304s] Compiling '/home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/_status_data.py'...
+[5.304s] Compiling '/home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/msg/_trpy_command.py'...
+[5.304s] Listing '/home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/srv'...
+[5.305s] Compiling '/home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/srv/__init__.py'...
+[5.305s] Compiling '/home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/srv/_set_takeoff_land.py'...
+[5.307s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/quadrotor_msgs_s__rosidl_typesupport_fastrtps_c.so
+[5.308s] -- Set non-toolchain portion of runtime path of "/home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/quadrotor_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[5.308s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/quadrotor_msgs_s__rosidl_typesupport_introspection_c.so
+[5.308s] -- Set non-toolchain portion of runtime path of "/home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/quadrotor_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[5.308s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/quadrotor_msgs_s__rosidl_typesupport_c.so
+[5.308s] -- Set non-toolchain portion of runtime path of "/home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/python3.12/site-packages/quadrotor_msgs/quadrotor_msgs_s__rosidl_typesupport_c.so" to ""
+[5.308s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/libquadrotor_msgs__rosidl_generator_py.so
+[5.308s] -- Set non-toolchain portion of runtime path of "/home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/libquadrotor_msgs__rosidl_generator_py.so" to ""
+[5.308s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/msg/AuxCommand.idl
+[5.308s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/msg/Corrections.idl
+[5.308s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/msg/Gains.idl
+[5.308s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/msg/OutputData.idl
+[5.308s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/msg/PositionCommand.idl
+[5.308s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/msg/PPROutputData.idl
+[5.308s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/msg/Serial.idl
+[5.309s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/msg/SO3Command.idl
+[5.309s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/msg/StatusData.idl
+[5.309s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/msg/TRPYCommand.idl
+[5.309s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/msg/Odometry.idl
+[5.309s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/msg/PolynomialTrajectory.idl
+[5.309s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/msg/LQRTrajectory.idl
+[5.309s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/srv/SetTakeoffLand.idl
+[5.309s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/msg/AuxCommand.msg
+[5.309s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/msg/Corrections.msg
+[5.309s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/msg/Gains.msg
+[5.309s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/msg/OutputData.msg
+[5.309s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/msg/PositionCommand.msg
+[5.309s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/msg/PPROutputData.msg
+[5.309s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/msg/Serial.msg
+[5.309s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/msg/SO3Command.msg
+[5.309s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/msg/StatusData.msg
+[5.309s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/msg/TRPYCommand.msg
+[5.309s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/msg/Odometry.msg
+[5.309s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/msg/PolynomialTrajectory.msg
+[5.309s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/msg/LQRTrajectory.msg
+[5.309s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/srv/SetTakeoffLand.srv
+[5.310s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/libdecode_msgs.so
+[5.310s] -- Set non-toolchain portion of runtime path of "/home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/libdecode_msgs.so" to ""
+[5.310s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/libencode_msgs.so
+[5.310s] -- Set non-toolchain portion of runtime path of "/home/zhr/YOPO-ROS2/install/quadrotor_msgs/lib/libencode_msgs.so" to ""
+[5.310s] -- Up-to-date: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include
+[5.310s] -- Up-to-date: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs
+[5.310s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/comm_types.h
+[5.310s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/decode_msgs.h
+[5.310s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/include/quadrotor_msgs/encode_msgs.h
+[5.310s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/ament_index/resource_index/package_run_dependencies/quadrotor_msgs
+[5.310s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/ament_index/resource_index/parent_prefix_path/quadrotor_msgs
+[5.310s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/environment/ament_prefix_path.sh
+[5.310s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/environment/ament_prefix_path.dsv
+[5.310s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/environment/path.sh
+[5.310s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/environment/path.dsv
+[5.310s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/local_setup.bash
+[5.310s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/local_setup.sh
+[5.310s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/local_setup.zsh
+[5.310s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/local_setup.dsv
+[5.311s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/package.dsv
+[5.311s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/ament_index/resource_index/packages/quadrotor_msgs
+[5.311s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/cmake/export_quadrotor_msgs__rosidl_generator_cExport.cmake
+[5.311s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/cmake/export_quadrotor_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.311s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/cmake/export_quadrotor_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.311s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/cmake/export_quadrotor_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.311s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/cmake/export_quadrotor_msgs__rosidl_generator_cppExport.cmake
+[5.311s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/cmake/export_quadrotor_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.311s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/cmake/export_quadrotor_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.311s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.311s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.311s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgs__rosidl_typesupport_cExport.cmake
+[5.311s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.311s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.311s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.311s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgs__rosidl_typesupport_cppExport.cmake
+[5.311s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.311s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/cmake/export_quadrotor_msgs__rosidl_generator_pyExport.cmake
+[5.311s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/cmake/export_quadrotor_msgs__rosidl_generator_pyExport-noconfig.cmake
+[5.312s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/cmake/rosidl_cmake-extras.cmake
+[5.312s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.312s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.312s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.312s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.312s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.312s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.312s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgsConfig.cmake
+[5.312s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgsConfig-version.cmake
+[5.312s] -- Installing: /home/zhr/YOPO-ROS2/install/quadrotor_msgs/share/quadrotor_msgs/package.xml
+[5.313s] Invoked command in '/home/zhr/YOPO-ROS2/build/quadrotor_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zhr/YOPO-ROS2/build/quadrotor_msgs

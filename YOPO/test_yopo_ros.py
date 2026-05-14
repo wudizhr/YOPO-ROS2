@@ -95,7 +95,7 @@ class YopoNet(Node):
         # ros subscriber
         self.odom_sub = self.create_subscription(Odometry, self.config['odom_topic'], self.callback_odometry, 1)
         self.depth_sub = self.create_subscription(Image, self.config['depth_topic'], self.callback_depth, 1)
-        self.goal_sub = self.create_subscription(PoseStamped, "/move_base_simple/goal", self.callback_set_goal, 1)
+        self.goal_sub = self.create_subscription(PoseStamped, "/goal_pose", self.callback_set_goal, 1)
         
         # ros timer
         self.timer_ctrl = self.create_timer(self.ctrl_dt, self.control_pub)
@@ -365,7 +365,7 @@ def main(args=None):
     print("load weight from:", weight)
 
     settings = {'use_tensorrt': parsed_args.use_tensorrt,
-                'goal': [50, 0, 2],      # 目标点位置
+                'goal': [0, 0, 2],      # 目标点位置
                 'env': 'simulation',     # 深度图来源 ('435' or 'simulation', 和深度单位有关)
                 'pitch_angle_deg': -0,   # 相机俯仰角(仰为负)
                 'odom_topic': '/sim/odom',                   # 里程计话题

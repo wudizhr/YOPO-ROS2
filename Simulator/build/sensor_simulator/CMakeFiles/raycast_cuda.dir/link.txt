@@ -1,0 +1,2 @@
+/usr/bin/ar qc libraycast_cuda.a CMakeFiles/raycast_cuda.dir/src/raycast_cuda_generated_sensor_simulator.cu.o
+/usr/bin/ranlib libraycast_cuda.a

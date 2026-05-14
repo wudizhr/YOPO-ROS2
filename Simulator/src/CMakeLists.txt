@@ -2,8 +2,8 @@ cmake_minimum_required(VERSION 3.8)
 project(sensor_simulator)
 
 # 显式设置编译器为统一版本
-set(CMAKE_C_COMPILER /usr/bin/gcc-11)
-set(CMAKE_CXX_COMPILER /usr/bin/g++-11)
+set(CMAKE_C_COMPILER /usr/bin/gcc-13)
+set(CMAKE_CXX_COMPILER /usr/bin/g++-13)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -21,8 +21,8 @@ set(CMAKE_BUILD_TYPE "Release")
 set(CMAKE_CXX_FLAGS "-O3")
 set(CMAKE_CUDA_FLAGS_RELEASE "-O3")
 
-# 显式设置CUDA主机编译器为g++-11
-set(CMAKE_CUDA_HOST_COMPILER /usr/bin/g++-11)
+# 显式设置CUDA主机编译器为g++-13
+set(CMAKE_CUDA_HOST_COMPILER /usr/bin/g++-13)
 set(CUDA_TOOLKIT_ROOT_DIR "/usr/local/cuda")
 
 find_package(ament_cmake REQUIRED)
@@ -131,6 +131,11 @@ install(DIRECTORY include/
 # Install config files
 install(DIRECTORY config/
   DESTINATION share/${PROJECT_NAME}/config
+)
+
+# Install point cloud assets referenced by config.yaml
+install(DIRECTORY pointcloud/
+  DESTINATION share/${PROJECT_NAME}/pointcloud
 )
 
 

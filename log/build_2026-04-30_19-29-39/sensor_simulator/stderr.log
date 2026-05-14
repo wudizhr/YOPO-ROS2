@@ -1,0 +1,221 @@
+[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  CMake variable FLANN_ROOT is set to:
+
+    /usr
+
+  For compatibility, find_package is ignoring the variable, but code in a
+  .cmake module might still use it.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+  CMakeLists.txt:39 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[0m** WARNING ** io features related to pcap will be disabled[0m
+[33mCMake Warning (dev) at CMakeLists.txt:46 (find_package):
+  Policy CMP0146 is not set: The FindCUDA module is removed.  Run "cmake
+  --help-policy CMP0146" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning at CMakeLists.txt:56 (message):
+  CUDA Architecture:
+  -gencode;arch=compute_86,code=sm_86;-gencode;arch=compute_86,code=compute_86
+
+[0m
+/usr/include/opencv4/opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::buildMaps" is only partially overridden in class "cv::detail::AffineWarper"
+  class AffineWarper : public PlaneWarper
+        ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+/usr/include/opencv4/opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::warp" is only partially overridden in class "cv::detail::AffineWarper"
+  class AffineWarper : public PlaneWarper
+        ^
+
+/usr/include/opencv4/opencv2/stitching/detail/blenders.hpp(100): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::FeatherBlender"
+  class FeatherBlender : public Blender
+        ^
+
+/usr/include/opencv4/opencv2/stitching/detail/blenders.hpp(127): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::MultiBandBlender"
+  class MultiBandBlender : public Blender
+        ^
+
+/usr/include/eigen3/Eigen/src/Core/DenseStorage.h(223): warning #20012-D: __host__ annotation is ignored on a function("DenseStorage") that is explicitly defaulted on its first declaration
+     __attribute__((host)) __attribute__((device)) 
+                    ^
+
+/usr/include/eigen3/Eigen/src/Core/DenseStorage.h(223): warning #20012-D: __device__ annotation is ignored on a function("DenseStorage") that is explicitly defaulted on its first declaration
+     __attribute__((host)) __attribute__((device)) 
+                                          ^
+
+/usr/include/eigen3/Eigen/src/Core/DenseStorage.h(233): warning #20012-D: __host__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+     __attribute__((host)) __attribute__((device)) 
+                    ^
+
+/usr/include/eigen3/Eigen/src/Core/DenseStorage.h(233): warning #20012-D: __device__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+     __attribute__((host)) __attribute__((device)) 
+                                          ^
+
+/usr/include/eigen3/Eigen/src/Core/DenseStorage.h(248): warning #20012-D: __host__ annotation is ignored on a function("DenseStorage") that is explicitly defaulted on its first declaration
+     __attribute__((host)) __attribute__((device)) 
+                    ^
+
+/usr/include/eigen3/Eigen/src/Core/DenseStorage.h(248): warning #20012-D: __device__ annotation is ignored on a function("DenseStorage") that is explicitly defaulted on its first declaration
+     __attribute__((host)) __attribute__((device)) 
+                                          ^
+
+/usr/include/eigen3/Eigen/src/Core/DenseStorage.h(249): warning #20012-D: __host__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+     __attribute__((host)) __attribute__((device)) 
+                    ^
+
+/usr/include/eigen3/Eigen/src/Core/DenseStorage.h(249): warning #20012-D: __device__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+     __attribute__((host)) __attribute__((device)) 
+                                          ^
+
+/usr/include/opencv4/opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::buildMaps" is only partially overridden in class "cv::detail::AffineWarper"
+  class AffineWarper : public PlaneWarper
+        ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+/usr/include/opencv4/opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::warp" is only partially overridden in class "cv::detail::AffineWarper"
+  class AffineWarper : public PlaneWarper
+        ^
+
+/usr/include/opencv4/opencv2/stitching/detail/blenders.hpp(100): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::FeatherBlender"
+  class FeatherBlender : public Blender
+        ^
+
+/usr/include/opencv4/opencv2/stitching/detail/blenders.hpp(127): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::MultiBandBlender"
+  class MultiBandBlender : public Blender
+        ^
+
+Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+
+Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+
+Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+
+Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+
+Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+
+Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+
+Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+
+Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+
+Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+
+Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+
+Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+
+Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+
+Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+
+Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+
+Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+
+Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+
+Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+
+Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+
+Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+
+Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+
+Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+
+Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+
+Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+
+Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+
+/usr/include/eigen3/Eigen/src/Core/DenseStorage.h(223): warning #20012-D: __host__ annotation is ignored on a function("DenseStorage") that is explicitly defaulted on its first declaration
+     __attribute__((host)) __attribute__((device)) 
+                    ^
+
+/usr/include/eigen3/Eigen/src/Core/DenseStorage.h(223): warning #20012-D: __device__ annotation is ignored on a function("DenseStorage") that is explicitly defaulted on its first declaration
+     __attribute__((host)) __attribute__((device)) 
+                                          ^
+
+/usr/include/eigen3/Eigen/src/Core/DenseStorage.h(233): warning #20012-D: __host__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+     __attribute__((host)) __attribute__((device)) 
+                    ^
+
+/usr/include/eigen3/Eigen/src/Core/DenseStorage.h(233): warning #20012-D: __device__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+     __attribute__((host)) __attribute__((device)) 
+                                          ^
+
+/usr/include/eigen3/Eigen/src/Core/DenseStorage.h(248): warning #20012-D: __host__ annotation is ignored on a function("DenseStorage") that is explicitly defaulted on its first declaration
+     __attribute__((host)) __attribute__((device)) 
+                    ^
+
+/usr/include/eigen3/Eigen/src/Core/DenseStorage.h(248): warning #20012-D: __device__ annotation is ignored on a function("DenseStorage") that is explicitly defaulted on its first declaration
+     __attribute__((host)) __attribute__((device)) 
+                                          ^
+
+/usr/include/eigen3/Eigen/src/Core/DenseStorage.h(249): warning #20012-D: __host__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+     __attribute__((host)) __attribute__((device)) 
+                    ^
+
+/usr/include/eigen3/Eigen/src/Core/DenseStorage.h(249): warning #20012-D: __device__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+     __attribute__((host)) __attribute__((device)) 
+                                          ^
+
+Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+          detected during instantiation of "std::complex<T> Eigen::complex_operator_detail::complex_multiply(const std::complex<T> &, const std::complex<T> &) [with T=float]" at line 234 of /usr/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
+
+Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+          detected during:
+            instantiation of "std::complex<T> Eigen::complex_operator_detail::complex_divide_fast(const std::complex<T> &, const std::complex<T> &) [with T=float]" at line 96 of /usr/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
+            instantiation of "std::complex<T> Eigen::complex_operator_detail::complex_divide(const std::complex<T> &, const std::complex<T> &) [with T=float]" at line 234 of /usr/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
+
+Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+          detected during instantiation of "std::complex<T> Eigen::complex_operator_detail::complex_multiply(const std::complex<T> &, const std::complex<T> &) [with T=double]" at line 235 of /usr/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
+
+Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.
+          detected during:
+            instantiation of "std::complex<T> Eigen::complex_operator_detail::complex_divide_fast(const std::complex<T> &, const std::complex<T> &) [with T=double]" at line 96 of /usr/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
+            instantiation of "std::complex<T> Eigen::complex_operator_detail::complex_divide(const std::complex<T> &, const std::complex<T> &) [with T=double]" at line 235 of /usr/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
+
+[01m[K/home/zhr/YOPO-ROS2/Simulator/src/src/maps.cpp:[m[K In member function ‘[01m[Kvoid mocka::Maps::[01;32m[KrecursiveDivision[m[K(int, int, int, int, Eigen::MatrixXi&)[m[K’:
+[01m[K/home/zhr/YOPO-ROS2/Simulator/src/src/maps.cpp:379:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvalid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  379 |     bool [01;35m[Kvalid[m[K     = false; // used to judge whether the wall selection is valid
+      |          [01;35m[K^~~~~[m[K
+[01m[K/home/zhr/YOPO-ROS2/Simulator/src/src/maps.cpp:[m[K In member function ‘[01m[Kvoid mocka::Maps::[01;32m[KMaze3DGen[m[K()[m[K’:
+[01m[K/home/zhr/YOPO-ROS2/Simulator/src/src/maps.cpp:869:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KnodeRad[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  869 |   int    [01;35m[KnodeRad[m[K = 4;
+      |          [01;35m[K^~~~~~~[m[K
+[01m[K/home/zhr/YOPO-ROS2/Simulator/src/src/maps.cpp:[m[K In member function ‘[01m[Kvoid mocka::Maps::[01;32m[KrecursiveDivision[m[K(int, int, int, int, Eigen::MatrixXi&)[m[K’:
+[01m[K/home/zhr/YOPO-ROS2/Simulator/src/src/maps.cpp:379:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvalid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  379 |     bool [01;35m[Kvalid[m[K     = false; // used to judge whether the wall selection is valid
+      |          [01;35m[K^~~~~[m[K
+[01m[K/home/zhr/YOPO-ROS2/Simulator/src/src/maps.cpp:[m[K In member function ‘[01m[Kvoid mocka::Maps::[01;32m[KMaze3DGen[m[K()[m[K’:
+[01m[K/home/zhr/YOPO-ROS2/Simulator/src/src/maps.cpp:869:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KnodeRad[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  869 |   int    [01;35m[KnodeRad[m[K = 4;
+      |          [01;35m[K^~~~~~~[m[K
+[01m[K/home/zhr/YOPO-ROS2/Simulator/src/src/dataset_generator.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/zhr/YOPO-ROS2/Simulator/src/src/dataset_generator.cpp:201:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfound_num[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  201 |                 int [01;35m[Kfound_num[m[K = kdtree.nearestKSearch(searchPoint, 1, pointIdxNKNSearch, pointNKNSquaredDistance);
+      |                     [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/zhr/YOPO-ROS2/Simulator/src/src/dataset_generator.cpp:83:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   83 | int main([01;35m[Kint argc[m[K, char **argv)
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/zhr/YOPO-ROS2/Simulator/src/src/dataset_generator.cpp:83:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   83 | int main(int argc, [01;35m[Kchar **argv[m[K)
+      |                    [01;35m[K~~~~~~~^~~~[m[K

@@ -1,0 +1,57 @@
+CMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  CMake variable FLANN_ROOT is set to:
+
+    /usr
+
+  For compatibility, find_package is ignoring the variable, but code in a
+  .cmake module might still use it.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+  CMakeLists.txt:39 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+** WARNING ** io features related to pcap will be disabled
+CMake Warning (dev) at CMakeLists.txt:46 (find_package):
+  Policy CMP0146 is not set: The FindCUDA module is removed.  Run "cmake
+  --help-policy CMP0146" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning at CMakeLists.txt:56 (message):
+  CUDA Architecture:
+  -gencode;arch=compute_86,code=sm_86;-gencode;arch=compute_86,code=compute_86
+
+
+/home/zhr/YOPO-ROS2/Simulator/src/src/maps.cpp: In member function ‘void mocka::Maps::recursiveDivision(int, int, int, int, Eigen::MatrixXi&)’:
+/home/zhr/YOPO-ROS2/Simulator/src/src/maps.cpp:379:10: warning: unused variable ‘valid’ [-Wunused-variable]
+  379 |     bool valid     = false; // used to judge whether the wall selection is valid
+      |          ^~~~~
+/home/zhr/YOPO-ROS2/Simulator/src/src/maps.cpp: In member function ‘void mocka::Maps::recursiveDivision(int, int, int, int, Eigen::MatrixXi&)’:
+/home/zhr/YOPO-ROS2/Simulator/src/src/maps.cpp:379:10: warning: unused variable ‘valid’ [-Wunused-variable]
+  379 |     bool valid     = false; // used to judge whether the wall selection is valid
+      |          ^~~~~
+/home/zhr/YOPO-ROS2/Simulator/src/src/maps.cpp: In member function ‘void mocka::Maps::Maze3DGen()’:
+/home/zhr/YOPO-ROS2/Simulator/src/src/maps.cpp:869:10: warning: unused variable ‘nodeRad’ [-Wunused-variable]
+  869 |   int    nodeRad = 4;
+      |          ^~~~~~~
+/home/zhr/YOPO-ROS2/Simulator/src/src/maps.cpp: In member function ‘void mocka::Maps::Maze3DGen()’:
+/home/zhr/YOPO-ROS2/Simulator/src/src/maps.cpp:869:10: warning: unused variable ‘nodeRad’ [-Wunused-variable]
+  869 |   int    nodeRad = 4;
+      |          ^~~~~~~
+/home/zhr/YOPO-ROS2/Simulator/src/src/dataset_generator.cpp: In function ‘int main(int, char**)’:
+/home/zhr/YOPO-ROS2/Simulator/src/src/dataset_generator.cpp:201:21: warning: unused variable ‘found_num’ [-Wunused-variable]
+  201 |                 int found_num = kdtree.nearestKSearch(searchPoint, 1, pointIdxNKNSearch, pointNKNSquaredDistance);
+      |                     ^~~~~~~~~
+/home/zhr/YOPO-ROS2/Simulator/src/src/dataset_generator.cpp:83:14: warning: unused parameter ‘argc’ [-Wunused-parameter]
+   83 | int main(int argc, char **argv)
+      |          ~~~~^~~~
+/home/zhr/YOPO-ROS2/Simulator/src/src/dataset_generator.cpp:83:27: warning: unused parameter ‘argv’ [-Wunused-parameter]
+   83 | int main(int argc, char **argv)
+      |                    ~~~~~~~^~~~

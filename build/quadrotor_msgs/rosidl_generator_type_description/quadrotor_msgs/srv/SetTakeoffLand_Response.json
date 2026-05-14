@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "quadrotor_msgs/srv/SetTakeoffLand_Response",
+      "fields": [
+        {
+          "name": "res",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "quadrotor_msgs/srv/SetTakeoffLand_Response",
+      "hash_string": "RIHS01_c417c461971ff5bbd90927077a0d68c69a2785a30764e247d21e5a4663b9e11e"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+-- Found tf2: 0.36.19 (/opt/ros/jazzy/share/tf2/cmake)
+-- Found tf2_ros: 0.36.19 (/opt/ros/jazzy/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.36.19 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+CMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  CMake variable FLANN_ROOT is set to:
+
+    /usr
+
+  For compatibility, find_package is ignoring the variable, but code in a
+  .cmake module might still use it.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+  CMakeLists.txt:39 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found flann version 1.9.2
+-- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+** WARNING ** io features related to pcap will be disabled
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Found Qhull version 8.0.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- looking for PCL_COMMON
+-- looking for PCL_KDTREE
+-- looking for PCL_OCTREE
+-- looking for PCL_SEARCH
+-- looking for PCL_SAMPLE_CONSENSUS
+-- looking for PCL_FILTERS
+-- looking for PCL_2D
+-- looking for PCL_GEOMETRY
+-- looking for PCL_IO
+-- looking for PCL_FEATURES
+-- looking for PCL_ML
+-- looking for PCL_SEGMENTATION
+-- looking for PCL_VISUALIZATION
+-- looking for PCL_SURFACE
+-- looking for PCL_REGISTRATION
+-- looking for PCL_KEYPOINTS
+-- looking for PCL_TRACKING
+-- looking for PCL_RECOGNITION
+-- looking for PCL_STEREO
+-- looking for PCL_APPS
+-- looking for PCL_IN_HAND_SCANNER
+-- looking for PCL_MODELER
+-- looking for PCL_POINT_CLOUD_EDITOR
+-- looking for PCL_OUTOFCORE
+-- looking for PCL_PEOPLE
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Found pcl_ros: 2.6.2 (/opt/ros/jazzy/share/pcl_ros/cmake)
+CMake Warning (dev) at CMakeLists.txt:46 (find_package):
+  Policy CMP0146 is not set: The FindCUDA module is removed.  Run "cmake
+  --help-policy CMP0146" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Autodetected CUDA architecture(s):  8.6+PTX
+CMake Warning at CMakeLists.txt:56 (message):
+  CUDA Architecture:
+  -gencode;arch=compute_86,code=sm_86;-gencode;arch=compute_86,code=compute_86
+
+
+-- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Configuring done (1.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/zhr/YOPO-ROS2/Simulator/build/sensor_simulator
+[  7%] Linking CXX static library libraycast_cuda.a
+[ 30%] Built target sensor_simulator
+[ 38%] Built target raycast_cuda
+[ 53%] Building CXX object CMakeFiles/sensor_simulator_cuda.dir/src/test_simulator_cuda.cpp.o
+[ 53%] Building CXX object CMakeFiles/dataset_generator.dir/src/dataset_generator.cpp.o
+[ 61%] Building CXX object CMakeFiles/dataset_generator.dir/src/maps.cpp.o
+[ 69%] Building CXX object CMakeFiles/sensor_simulator_cuda.dir/src/maps.cpp.o
+/home/zhr/YOPO-ROS2/Simulator/src/src/maps.cpp: In member function ‘void mocka::Maps::recursiveDivision(int, int, int, int, Eigen::MatrixXi&)’:
+/home/zhr/YOPO-ROS2/Simulator/src/src/maps.cpp:379:10: warning: unused variable ‘valid’ [-Wunused-variable]
+  379 |     bool valid     = false; // used to judge whether the wall selection is valid
+      |          ^~~~~
+/home/zhr/YOPO-ROS2/Simulator/src/src/maps.cpp: In member function ‘void mocka::Maps::recursiveDivision(int, int, int, int, Eigen::MatrixXi&)’:
+/home/zhr/YOPO-ROS2/Simulator/src/src/maps.cpp:379:10: warning: unused variable ‘valid’ [-Wunused-variable]
+  379 |     bool valid     = false; // used to judge whether the wall selection is valid
+      |          ^~~~~
+/home/zhr/YOPO-ROS2/Simulator/src/src/maps.cpp: In member function ‘void mocka::Maps::Maze3DGen()’:
+/home/zhr/YOPO-ROS2/Simulator/src/src/maps.cpp:869:10: warning: unused variable ‘nodeRad’ [-Wunused-variable]
+  869 |   int    nodeRad = 4;
+      |          ^~~~~~~
+/home/zhr/YOPO-ROS2/Simulator/src/src/maps.cpp: In member function ‘void mocka::Maps::Maze3DGen()’:
+/home/zhr/YOPO-ROS2/Simulator/src/src/maps.cpp:869:10: warning: unused variable ‘nodeRad’ [-Wunused-variable]
+  869 |   int    nodeRad = 4;
+      |          ^~~~~~~
+/home/zhr/YOPO-ROS2/Simulator/src/src/dataset_generator.cpp: In function ‘int main(int, char**)’:
+/home/zhr/YOPO-ROS2/Simulator/src/src/dataset_generator.cpp:201:21: warning: unused variable ‘found_num’ [-Wunused-variable]
+  201 |                 int found_num = kdtree.nearestKSearch(searchPoint, 1, pointIdxNKNSearch, pointNKNSquaredDistance);
+      |                     ^~~~~~~~~
+/home/zhr/YOPO-ROS2/Simulator/src/src/dataset_generator.cpp:83:14: warning: unused parameter ‘argc’ [-Wunused-parameter]
+   83 | int main(int argc, char **argv)
+      |          ~~~~^~~~
+/home/zhr/YOPO-ROS2/Simulator/src/src/dataset_generator.cpp:83:27: warning: unused parameter ‘argv’ [-Wunused-parameter]
+   83 | int main(int argc, char **argv)
+      |                    ~~~~~~~^~~~
+[ 76%] Linking CXX executable dataset_generator
+[ 84%] Built target dataset_generator
+[ 92%] Linking CXX executable sensor_simulator_cuda
+[100%] Built target sensor_simulator_cuda
+-- Install configuration: "Release"
+-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/lib/sensor_simulator/sensor_simulator
+-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/lib/sensor_simulator/sensor_simulator_cuda
+-- Set non-toolchain portion of runtime path of "/home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/lib/sensor_simulator/sensor_simulator_cuda" to ""
+-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/lib/sensor_simulator/dataset_generator
+-- Set non-toolchain portion of runtime path of "/home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/lib/sensor_simulator/dataset_generator" to ""
+-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/include
+-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/include/perlinnoise.hpp
+-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/include/sensor_simulator.cuh
+-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/include/maps.hpp
+-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/include/sensor_simulator.h
+-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/include/cuda_toolkit
+-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/include/cuda_toolkit/matrix.cuh
+-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/include/cuda_toolkit/se3.cuh
+-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/include/cuda_toolkit/helper_math.h
+-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/config
+-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/config/config.yaml
+-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/pointcloud
+-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/pointcloud/tree.ply
+-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/ament_index/resource_index/package_run_dependencies/sensor_simulator
+-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/ament_index/resource_index/parent_prefix_path/sensor_simulator
+-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/environment/ament_prefix_path.sh
+-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/environment/path.sh
+-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/environment/path.dsv
+-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/local_setup.bash
+-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/local_setup.sh
+-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/local_setup.zsh
+-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/local_setup.dsv
+-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/package.dsv
+-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/ament_index/resource_index/packages/sensor_simulator
+-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/cmake/sensor_simulatorConfig.cmake
+-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/cmake/sensor_simulatorConfig-version.cmake
+-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/package.xml

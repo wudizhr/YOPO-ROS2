@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f8f3013270718941d80e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "sensor_simulator",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "dataset_generator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dataset_generator-Release-87c02d14f2207dce920e.json",
+					"name" : "dataset_generator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "raycast_cuda::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-raycast_cuda-Release-47de11c60217346d3706.json",
+					"name" : "raycast_cuda",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_simulator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_simulator-Release-4c615b47b0206957f604.json",
+					"name" : "sensor_simulator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_simulator_cuda::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_simulator_cuda-Release-a99c04bd1e111f3f8c4c.json",
+					"name" : "sensor_simulator_cuda",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_simulator_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_simulator_uninstall-Release-52ec0c1468d578b4fb0c.json",
+					"name" : "sensor_simulator_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-588dcabb9ad52328ec17.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zhr/YOPO-ROS2/Simulator/build/sensor_simulator",
+		"source" : "/home/zhr/YOPO-ROS2/Simulator/src"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

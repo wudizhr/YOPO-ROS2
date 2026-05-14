@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-a9726b6e0f755cf45a75.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "so3_control",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "SO3Control::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SO3Control-Release-113f2b6bd3c70ef3b9f3.json",
+					"name" : "SO3Control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "control_example::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-control_example-Release-7ab5b26368efa9b56ec7.json",
+					"name" : "control_example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "network_control_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-network_control_node-Release-e662626386c75b8a4882.json",
+					"name" : "network_control_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "so3_control_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-so3_control_node-Release-7b7b634621142d2cbd58.json",
+					"name" : "so3_control_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "so3_control_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-so3_control_uninstall-Release-21d550ea00cb21673a04.json",
+					"name" : "so3_control_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-bf24ac97dc884811df9b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zhr/YOPO-ROS2/build/so3_control",
+		"source" : "/home/zhr/YOPO-ROS2/Controller/src/so3_control"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,14 @@
+/home/zhr/YOPO-ROS2/build/quadrotor_msgs/rosidl_adapter/quadrotor_msgs:msg/AuxCommand.idl
+/home/zhr/YOPO-ROS2/build/quadrotor_msgs/rosidl_adapter/quadrotor_msgs:msg/Corrections.idl
+/home/zhr/YOPO-ROS2/build/quadrotor_msgs/rosidl_adapter/quadrotor_msgs:msg/Gains.idl
+/home/zhr/YOPO-ROS2/build/quadrotor_msgs/rosidl_adapter/quadrotor_msgs:msg/OutputData.idl
+/home/zhr/YOPO-ROS2/build/quadrotor_msgs/rosidl_adapter/quadrotor_msgs:msg/PositionCommand.idl
+/home/zhr/YOPO-ROS2/build/quadrotor_msgs/rosidl_adapter/quadrotor_msgs:msg/PPROutputData.idl
+/home/zhr/YOPO-ROS2/build/quadrotor_msgs/rosidl_adapter/quadrotor_msgs:msg/Serial.idl
+/home/zhr/YOPO-ROS2/build/quadrotor_msgs/rosidl_adapter/quadrotor_msgs:msg/SO3Command.idl
+/home/zhr/YOPO-ROS2/build/quadrotor_msgs/rosidl_adapter/quadrotor_msgs:msg/StatusData.idl
+/home/zhr/YOPO-ROS2/build/quadrotor_msgs/rosidl_adapter/quadrotor_msgs:msg/TRPYCommand.idl
+/home/zhr/YOPO-ROS2/build/quadrotor_msgs/rosidl_adapter/quadrotor_msgs:msg/Odometry.idl
+/home/zhr/YOPO-ROS2/build/quadrotor_msgs/rosidl_adapter/quadrotor_msgs:msg/PolynomialTrajectory.idl
+/home/zhr/YOPO-ROS2/build/quadrotor_msgs/rosidl_adapter/quadrotor_msgs:msg/LQRTrajectory.idl
+/home/zhr/YOPO-ROS2/build/quadrotor_msgs/rosidl_adapter/quadrotor_msgs:srv/SetTakeoffLand.idl

@@ -1,0 +1,306 @@
+[0.000000] (-) TimerEvent: {}
+[0.000082] (sensor_simulator) JobQueued: {'identifier': 'sensor_simulator', 'dependencies': OrderedDict()}
+[0.000270] (sensor_simulator) JobStarted: {'identifier': 'sensor_simulator'}
+[0.003751] (sensor_simulator) JobProgress: {'identifier': 'sensor_simulator', 'progress': 'cmake'}
+[0.004145] (sensor_simulator) JobProgress: {'identifier': 'sensor_simulator', 'progress': 'build'}
+[0.004515] (sensor_simulator) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zhr/YOPO-ROS2/Simulator/build/sensor_simulator', '--', '-j32', '-l32'], 'cwd': '/home/zhr/YOPO-ROS2/Simulator/build/sensor_simulator', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/zhr/YOPO-ROS2', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'CONDA_PROMPT_MODIFIER': '(base)', 'CODEX_CI': '1', 'LANGUAGE': 'zh_CN', 'USER': 'zhr', 'SNAP_COMMON': '/var/snap/code/common', 'CODEX_INTERNAL_ORIGINATOR_OVERRIDE': 'codex_vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/snap/code/233/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/zhr/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/tcf.json","messagesFile":"/home/zhr/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/41dd792b5e652393e7787322889ed5fdc58bd75b/nls.messages.json","corruptMarkerFile":"/home/zhr/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/zhr/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/tcf.json","_cacheRoot":"/home/zhr/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn","_resolvedLanguagePackCoreLocation":"/home/zhr/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/41dd792b5e652393e7787322889ed5fdc58bd75b","_corruptedFile":"/home/zhr/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/corrupted.info"}', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/zhr/snap/code/common/.cache/gio-modules', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'x11', 'DEBUG': 'release', 'SNAP_UID': '1000', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/zhr', 'CHROME_DESKTOP': 'code.desktop', 'CONDA_SHLVL': '1', 'SNAP_LIBRARY_PATH': '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32', 'OLDPWD': '/home/zhr', 'DESKTOP_SESSION': 'ubuntu', 'SNAP_USER_DATA': '/home/zhr/snap/code/233', 'GTK_PATH': '/snap/code/233/usr/lib/x86_64-linux-gnu/gtk-3.0', 'VSCODE_IPC_HOOK': '/run/user/1000/vscode-9b34bd8d-1.11-main.sock', 'GTK_IM_MODULE_FILE': '/home/zhr/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'PAGER': 'cat', 'MANAGERPID': '2346', 'LC_CTYPE': 'C.UTF-8', 'SYSTEMD_EXEC_PID': '2614', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'NO_COLOR': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'SNAP_REVISION': '233', 'COLORTERM': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', '_CONDA_ROOT': '/home/zhr/miniconda3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '7243', 'VSCODE_CRASH_REPORTER_PROCESS_TYPE': 'extensionHost', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'zhr', 'SNAP_CONTEXT': 'qHIpudB2nF2Mjy7pv66iEofR4n7-eQaJzR1UtyF5Q1zftUL0AGC_', 'JOURNAL_STREAM': '9:13212', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'SNAP_VERSION': '41dd792b', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'RUST_LOG': 'warn', 'TERM': 'dumb', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'SNAP_INSTANCE_NAME': 'code', 'FC_FONTATIONS': '1', 'PATH': '/home/zhr/.codex/tmp/arg0/codex-arg0rTiY3D:/home/zhr/miniconda3/bin:/home/zhr/miniconda3/condabin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/zhr/.vscode/extensions/openai.chatgpt-26.415.20818-linux-x64/bin/linux-x86_64', 'SESSION_MANAGER': 'local/zhr-lab-PC:@/tmp/.ICE-unix/2576,unix/zhr-lab-PC:/tmp/.ICE-unix/2576', 'GTK_EXE_PREFIX': '/snap/code/233/usr', 'GDM_LANG': 'zh_CN', 'INVOCATION_ID': '7f02b2d5fe594cb7a06c5df8a67e9cff', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'gnome-', 'SNAP_DATA': '/var/snap/code/233', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/233/usr/lib/locale', 'CODEX_SANDBOX_NETWORK_DISABLED': '1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XDG_DATA_HOME': '/home/zhr/snap/code/233/.local/share', 'XMODIFIERS': '@im=ibus', 'GH_PAGER': 'cat', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/home/zhr/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SNAP_USER_COMMON': '/home/zhr/snap/code/common', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/zhr/snap/code/233/.local/share/glib-2.0/schemas', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/zhr', 'SNAP_ARCH': 'amd64', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SNAP_COOKIE': 'qHIpudB2nF2Mjy7pv66iEofR4n7-eQaJzR1UtyF5Q1zftUL0AGC_', 'CONDA_PYTHON_EXE': '/home/zhr/miniconda3/bin/python', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:9d7c5c55-26b6-4219-82a1-87014f2bf0fb', 'GDK_PIXBUF_MODULEDIR': '/snap/code/233/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders', 'QT_ACCESSIBILITY': '1', 'ELECTRON_RUN_AS_NODE': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'base', 'SNAP_NAME': 'code', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'CODEX_THREAD_ID': '019dde21-ab0d-79e3-9110-6b97bdc81057', 'GDK_PIXBUF_MODULE_FILE': '/home/zhr/snap/code/common/.cache/gdk-pixbuf-loaders.cache', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', '_CONDA_EXE': '/home/zhr/miniconda3/bin/conda', 'FLIGHTMARE_PATH': '/home/zhr/flightmare', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'SNAP_LAUNCHER_ARCH_TRIPLET': 'x86_64-linux-gnu', 'GIT_PAGER': 'cat', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/zhr/YOPO-ROS2/Simulator/build/sensor_simulator', 'VSCODE_CLI': '1', 'LC_ALL': 'C.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/zhr/miniconda3/bin/conda', 'SNAP_REAL_HOME': '/home/zhr', 'VSCODE_CODE_CACHE_PATH': '/home/zhr/.config/Code/CachedData/41dd792b5e652393e7787322889ed5fdc58bd75b', 'XDG_DATA_DIRS': '/home/zhr/snap/code/233/.local/share:/home/zhr/snap/code/233:/snap/code/233/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'SNAP_EUID': '1000', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'SNAP': '/snap/code/233', 'CONDA_PREFIX': '/home/zhr/miniconda3', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'ELECTRON_NO_ATTACH_CONSOLE': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'VSCODE_PID': '8173'}), 'shell': False}
+[0.020209] (sensor_simulator) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099844] (-) TimerEvent: {}
+[0.121749] (sensor_simulator) StdoutLine: {'line': b'-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.133531] (sensor_simulator) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.137154] (sensor_simulator) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.141901] (sensor_simulator) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.147456] (sensor_simulator) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.175372] (sensor_simulator) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.175894] (sensor_simulator) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.199903] (-) TimerEvent: {}
+[0.207083] (sensor_simulator) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.238738] (sensor_simulator) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[0.267626] (sensor_simulator) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[0.279532] (sensor_simulator) StdoutLine: {'line': b'-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)\n'}
+[0.284549] (sensor_simulator) StdoutLine: {'line': b'-- Found tf2: 0.36.19 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[0.286204] (sensor_simulator) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.19 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[0.299958] (-) TimerEvent: {}
+[0.338878] (sensor_simulator) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.36.19 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)\n'}
+[0.340342] (sensor_simulator) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[0.340958] (sensor_simulator) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[0.341014] (sensor_simulator) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.350723] (sensor_simulator) StderrLine: {'line': b'CMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):\n'}
+[0.350775] (sensor_simulator) StderrLine: {'line': b'  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n'}
+[0.350802] (sensor_simulator) StderrLine: {'line': b'  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the\n'}
+[0.350824] (sensor_simulator) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[0.350845] (sensor_simulator) StderrLine: {'line': b'\n'}
+[0.350867] (sensor_simulator) StderrLine: {'line': b'  CMake variable FLANN_ROOT is set to:\n'}
+[0.350888] (sensor_simulator) StderrLine: {'line': b'\n'}
+[0.350908] (sensor_simulator) StderrLine: {'line': b'    /usr\n'}
+[0.350928] (sensor_simulator) StderrLine: {'line': b'\n'}
+[0.350948] (sensor_simulator) StderrLine: {'line': b'  For compatibility, find_package is ignoring the variable, but code in a\n'}
+[0.350970] (sensor_simulator) StderrLine: {'line': b'  .cmake module might still use it.\n'}
+[0.351005] (sensor_simulator) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.351026] (sensor_simulator) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)\n'}
+[0.351048] (sensor_simulator) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)\n'}
+[0.351071] (sensor_simulator) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)\n'}
+[0.351093] (sensor_simulator) StderrLine: {'line': b'  CMakeLists.txt:39 (find_package)\n'}
+[0.351147] (sensor_simulator) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.351167] (sensor_simulator) StderrLine: {'line': b'\n'}
+[0.351187] (sensor_simulator) StdoutLine: {'line': b'-- Found flann version 1.9.2\n'}
+[0.352097] (sensor_simulator) StdoutLine: {'line': b'-- Found OpenMP: TRUE (found version "4.5") found components: CXX \n'}
+[0.400036] (-) TimerEvent: {}
+[0.454926] (sensor_simulator) StdoutLine: {'line': b'-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") \n'}
+[0.500101] (-) TimerEvent: {}
+[0.563207] (sensor_simulator) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.566193] (sensor_simulator) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[0.567431] (sensor_simulator) StdoutLine: {'line': b'-- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) \n'}
+[0.567461] (sensor_simulator) StderrLine: {'line': b'** WARNING ** io features related to pcap will be disabled\n'}
+[0.600193] (-) TimerEvent: {}
+[0.700349] (-) TimerEvent: {}
+[0.784266] (sensor_simulator) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.786764] (sensor_simulator) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[0.800397] (-) TimerEvent: {}
+[0.900492] (-) TimerEvent: {}
+[0.975776] (sensor_simulator) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[1.000558] (-) TimerEvent: {}
+[1.100655] (-) TimerEvent: {}
+[1.170400] (sensor_simulator) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.200715] (-) TimerEvent: {}
+[1.300798] (-) TimerEvent: {}
+[1.358763] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[1.358940] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[1.359107] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[1.359232] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[1.359376] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[1.359524] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[1.359683] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[1.359816] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[1.359929] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[1.360090] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[1.360252] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[1.360422] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[1.360580] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[1.360735] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[1.360892] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[1.361071] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[1.361237] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[1.361388] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[1.361582] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[1.361719] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[1.362036] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[1.362152] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[1.362276] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[1.362446] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[1.362599] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[1.366506] (sensor_simulator) StdoutLine: {'line': b'-- Found OpenMP: TRUE (found version "4.5")  \n'}
+[1.366974] (sensor_simulator) StdoutLine: {'line': b'-- Found pcl_ros: 2.6.2 (/opt/ros/jazzy/share/pcl_ros/cmake)\n'}
+[1.393395] (sensor_simulator) StderrLine: {'line': b'CMake Warning (dev) at CMakeLists.txt:46 (find_package):\n'}
+[1.393454] (sensor_simulator) StderrLine: {'line': b'  Policy CMP0146 is not set: The FindCUDA module is removed.  Run "cmake\n'}
+[1.393490] (sensor_simulator) StderrLine: {'line': b'  --help-policy CMP0146" for policy details.  Use the cmake_policy command to\n'}
+[1.393522] (sensor_simulator) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[1.393552] (sensor_simulator) StderrLine: {'line': b'\n'}
+[1.393579] (sensor_simulator) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.393608] (sensor_simulator) StderrLine: {'line': b'\n'}
+[1.396065] (sensor_simulator) StdoutLine: {'line': b'-- Autodetected CUDA architecture(s):  8.6+PTX\n'}
+[1.396164] (sensor_simulator) StderrLine: {'line': b'CMake Warning at CMakeLists.txt:56 (message):\n'}
+[1.396202] (sensor_simulator) StderrLine: {'line': b'  CUDA Architecture:\n'}
+[1.396232] (sensor_simulator) StderrLine: {'line': b'  -gencode;arch=compute_86,code=sm_86;-gencode;arch=compute_86,code=compute_86\n'}
+[1.396261] (sensor_simulator) StderrLine: {'line': b'\n'}
+[1.396288] (sensor_simulator) StderrLine: {'line': b'\n'}
+[1.400864] (-) TimerEvent: {}
+[1.403697] (sensor_simulator) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.445025] (sensor_simulator) StdoutLine: {'line': b'-- Configuring done (1.4s)\n'}
+[1.490182] (sensor_simulator) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.496227] (sensor_simulator) StdoutLine: {'line': b'-- Build files have been written to: /home/zhr/YOPO-ROS2/Simulator/build/sensor_simulator\n'}
+[1.500934] (-) TimerEvent: {}
+[1.524433] (sensor_simulator) StdoutLine: {'line': b'[  7%] Linking CXX static library libraycast_cuda.a\n'}
+[1.532753] (sensor_simulator) StdoutLine: {'line': b'[ 30%] Built target sensor_simulator\n'}
+[1.536893] (sensor_simulator) StdoutLine: {'line': b'[ 38%] Built target raycast_cuda\n'}
+[1.561053] (sensor_simulator) StdoutLine: {'line': b'[ 53%] Building CXX object CMakeFiles/sensor_simulator_cuda.dir/src/test_simulator_cuda.cpp.o\n'}
+[1.561189] (sensor_simulator) StdoutLine: {'line': b'[ 53%] Building CXX object CMakeFiles/dataset_generator.dir/src/dataset_generator.cpp.o\n'}
+[1.561278] (sensor_simulator) StdoutLine: {'line': b'[ 61%] Building CXX object CMakeFiles/dataset_generator.dir/src/maps.cpp.o\n'}
+[1.561531] (sensor_simulator) StdoutLine: {'line': b'[ 69%] Building CXX object CMakeFiles/sensor_simulator_cuda.dir/src/maps.cpp.o\n'}
+[1.601021] (-) TimerEvent: {}
+[1.701135] (-) TimerEvent: {}
+[1.801229] (-) TimerEvent: {}
+[1.901323] (-) TimerEvent: {}
+[2.001411] (-) TimerEvent: {}
+[2.101508] (-) TimerEvent: {}
+[2.201652] (-) TimerEvent: {}
+[2.301803] (-) TimerEvent: {}
+[2.401921] (-) TimerEvent: {}
+[2.502021] (-) TimerEvent: {}
+[2.602103] (-) TimerEvent: {}
+[2.702194] (-) TimerEvent: {}
+[2.802286] (-) TimerEvent: {}
+[2.902374] (-) TimerEvent: {}
+[3.002463] (-) TimerEvent: {}
+[3.102565] (-) TimerEvent: {}
+[3.202671] (-) TimerEvent: {}
+[3.302774] (-) TimerEvent: {}
+[3.402878] (-) TimerEvent: {}
+[3.502969] (-) TimerEvent: {}
+[3.603073] (-) TimerEvent: {}
+[3.703173] (-) TimerEvent: {}
+[3.803264] (-) TimerEvent: {}
+[3.903343] (-) TimerEvent: {}
+[4.003420] (-) TimerEvent: {}
+[4.103520] (-) TimerEvent: {}
+[4.203631] (-) TimerEvent: {}
+[4.239509] (sensor_simulator) StderrLine: {'line': b'/home/zhr/YOPO-ROS2/Simulator/src/src/maps.cpp: In member function \xe2\x80\x98void mocka::Maps::recursiveDivision(int, int, int, int, Eigen::MatrixXi&)\xe2\x80\x99:\n'}
+[4.239647] (sensor_simulator) StderrLine: {'line': b'/home/zhr/YOPO-ROS2/Simulator/src/src/maps.cpp:379:10: warning: unused variable \xe2\x80\x98valid\xe2\x80\x99 [-Wunused-variable]\n'}
+[4.239685] (sensor_simulator) StderrLine: {'line': b'  379 |     bool valid     = false; // used to judge whether the wall selection is valid\n'}
+[4.239715] (sensor_simulator) StderrLine: {'line': b'      |          ^~~~~\n'}
+[4.245365] (sensor_simulator) StderrLine: {'line': b'/home/zhr/YOPO-ROS2/Simulator/src/src/maps.cpp: In member function \xe2\x80\x98void mocka::Maps::recursiveDivision(int, int, int, int, Eigen::MatrixXi&)\xe2\x80\x99:\n'}
+[4.245397] (sensor_simulator) StderrLine: {'line': b'/home/zhr/YOPO-ROS2/Simulator/src/src/maps.cpp:379:10: warning: unused variable \xe2\x80\x98valid\xe2\x80\x99 [-Wunused-variable]\n'}
+[4.245426] (sensor_simulator) StderrLine: {'line': b'  379 |     bool valid     = false; // used to judge whether the wall selection is valid\n'}
+[4.245452] (sensor_simulator) StderrLine: {'line': b'      |          ^~~~~\n'}
+[4.248387] (sensor_simulator) StderrLine: {'line': b'/home/zhr/YOPO-ROS2/Simulator/src/src/maps.cpp: In member function \xe2\x80\x98void mocka::Maps::Maze3DGen()\xe2\x80\x99:\n'}
+[4.248419] (sensor_simulator) StderrLine: {'line': b'/home/zhr/YOPO-ROS2/Simulator/src/src/maps.cpp:869:10: warning: unused variable \xe2\x80\x98nodeRad\xe2\x80\x99 [-Wunused-variable]\n'}
+[4.248441] (sensor_simulator) StderrLine: {'line': b'  869 |   int    nodeRad = 4;\n'}
+[4.248461] (sensor_simulator) StderrLine: {'line': b'      |          ^~~~~~~\n'}
+[4.254720] (sensor_simulator) StderrLine: {'line': b'/home/zhr/YOPO-ROS2/Simulator/src/src/maps.cpp: In member function \xe2\x80\x98void mocka::Maps::Maze3DGen()\xe2\x80\x99:\n'}
+[4.254752] (sensor_simulator) StderrLine: {'line': b'/home/zhr/YOPO-ROS2/Simulator/src/src/maps.cpp:869:10: warning: unused variable \xe2\x80\x98nodeRad\xe2\x80\x99 [-Wunused-variable]\n'}
+[4.254778] (sensor_simulator) StderrLine: {'line': b'  869 |   int    nodeRad = 4;\n'}
+[4.254808] (sensor_simulator) StderrLine: {'line': b'      |          ^~~~~~~\n'}
+[4.303700] (-) TimerEvent: {}
+[4.403801] (-) TimerEvent: {}
+[4.503894] (-) TimerEvent: {}
+[4.597382] (sensor_simulator) StderrLine: {'line': b'/home/zhr/YOPO-ROS2/Simulator/src/src/dataset_generator.cpp: In function \xe2\x80\x98int main(int, char**)\xe2\x80\x99:\n'}
+[4.597471] (sensor_simulator) StderrLine: {'line': b'/home/zhr/YOPO-ROS2/Simulator/src/src/dataset_generator.cpp:201:21: warning: unused variable \xe2\x80\x98found_num\xe2\x80\x99 [-Wunused-variable]\n'}
+[4.597517] (sensor_simulator) StderrLine: {'line': b'  201 |                 int found_num = kdtree.nearestKSearch(searchPoint, 1, pointIdxNKNSearch, pointNKNSquaredDistance);\n'}
+[4.597547] (sensor_simulator) StderrLine: {'line': b'      |                     ^~~~~~~~~\n'}
+[4.598647] (sensor_simulator) StderrLine: {'line': b'/home/zhr/YOPO-ROS2/Simulator/src/src/dataset_generator.cpp:83:14: warning: unused parameter \xe2\x80\x98argc\xe2\x80\x99 [-Wunused-parameter]\n'}
+[4.598705] (sensor_simulator) StderrLine: {'line': b'   83 | int main(int argc, char **argv)\n'}
+[4.598737] (sensor_simulator) StderrLine: {'line': b'      |          ~~~~^~~~\n'}
+[4.598764] (sensor_simulator) StderrLine: {'line': b'/home/zhr/YOPO-ROS2/Simulator/src/src/dataset_generator.cpp:83:27: warning: unused parameter \xe2\x80\x98argv\xe2\x80\x99 [-Wunused-parameter]\n'}
+[4.598792] (sensor_simulator) StderrLine: {'line': b'   83 | int main(int argc, char **argv)\n'}
+[4.598824] (sensor_simulator) StderrLine: {'line': b'      |                    ~~~~~~~^~~~\n'}
+[4.603963] (-) TimerEvent: {}
+[4.704053] (-) TimerEvent: {}
+[4.804147] (-) TimerEvent: {}
+[4.904242] (-) TimerEvent: {}
+[5.004369] (-) TimerEvent: {}
+[5.104505] (-) TimerEvent: {}
+[5.204614] (-) TimerEvent: {}
+[5.304708] (-) TimerEvent: {}
+[5.404846] (-) TimerEvent: {}
+[5.504953] (-) TimerEvent: {}
+[5.605081] (-) TimerEvent: {}
+[5.705211] (-) TimerEvent: {}
+[5.805301] (-) TimerEvent: {}
+[5.905381] (-) TimerEvent: {}
+[6.005460] (-) TimerEvent: {}
+[6.105582] (-) TimerEvent: {}
+[6.205730] (-) TimerEvent: {}
+[6.305821] (-) TimerEvent: {}
+[6.405937] (-) TimerEvent: {}
+[6.506048] (-) TimerEvent: {}
+[6.606143] (-) TimerEvent: {}
+[6.706229] (-) TimerEvent: {}
+[6.806316] (-) TimerEvent: {}
+[6.906405] (-) TimerEvent: {}
+[7.006494] (-) TimerEvent: {}
+[7.106584] (-) TimerEvent: {}
+[7.206671] (-) TimerEvent: {}
+[7.253282] (sensor_simulator) StdoutLine: {'line': b'[ 76%] Linking CXX executable dataset_generator\n'}
+[7.306746] (-) TimerEvent: {}
+[7.406808] (-) TimerEvent: {}
+[7.506904] (-) TimerEvent: {}
+[7.606994] (-) TimerEvent: {}
+[7.707132] (-) TimerEvent: {}
+[7.807314] (-) TimerEvent: {}
+[7.898834] (sensor_simulator) StdoutLine: {'line': b'[ 84%] Built target dataset_generator\n'}
+[7.907368] (-) TimerEvent: {}
+[8.007466] (-) TimerEvent: {}
+[8.107578] (-) TimerEvent: {}
+[8.207710] (-) TimerEvent: {}
+[8.307867] (-) TimerEvent: {}
+[8.408031] (-) TimerEvent: {}
+[8.508157] (-) TimerEvent: {}
+[8.608297] (-) TimerEvent: {}
+[8.708435] (-) TimerEvent: {}
+[8.808528] (-) TimerEvent: {}
+[8.908609] (-) TimerEvent: {}
+[9.008694] (-) TimerEvent: {}
+[9.108783] (-) TimerEvent: {}
+[9.208866] (-) TimerEvent: {}
+[9.308947] (-) TimerEvent: {}
+[9.409031] (-) TimerEvent: {}
+[9.509138] (-) TimerEvent: {}
+[9.609278] (-) TimerEvent: {}
+[9.709388] (-) TimerEvent: {}
+[9.809473] (-) TimerEvent: {}
+[9.909554] (-) TimerEvent: {}
+[10.009640] (-) TimerEvent: {}
+[10.109729] (-) TimerEvent: {}
+[10.209811] (-) TimerEvent: {}
+[10.309888] (-) TimerEvent: {}
+[10.409975] (-) TimerEvent: {}
+[10.510068] (-) TimerEvent: {}
+[10.610148] (-) TimerEvent: {}
+[10.710228] (-) TimerEvent: {}
+[10.810307] (-) TimerEvent: {}
+[10.910386] (-) TimerEvent: {}
+[11.010466] (-) TimerEvent: {}
+[11.110545] (-) TimerEvent: {}
+[11.210626] (-) TimerEvent: {}
+[11.310705] (-) TimerEvent: {}
+[11.410785] (-) TimerEvent: {}
+[11.510874] (-) TimerEvent: {}
+[11.610953] (-) TimerEvent: {}
+[11.711035] (-) TimerEvent: {}
+[11.811115] (-) TimerEvent: {}
+[11.911201] (-) TimerEvent: {}
+[12.011292] (-) TimerEvent: {}
+[12.111374] (-) TimerEvent: {}
+[12.211463] (-) TimerEvent: {}
+[12.311551] (-) TimerEvent: {}
+[12.411630] (-) TimerEvent: {}
+[12.511714] (-) TimerEvent: {}
+[12.611789] (-) TimerEvent: {}
+[12.700289] (sensor_simulator) StdoutLine: {'line': b'[ 92%] Linking CXX executable sensor_simulator_cuda\n'}
+[12.711852] (-) TimerEvent: {}
+[12.811936] (-) TimerEvent: {}
+[12.912057] (-) TimerEvent: {}
+[13.012182] (-) TimerEvent: {}
+[13.112290] (-) TimerEvent: {}
+[13.185680] (sensor_simulator) StdoutLine: {'line': b'[100%] Built target sensor_simulator_cuda\n'}
+[13.191124] (sensor_simulator) CommandEnded: {'returncode': 0}
+[13.191563] (sensor_simulator) JobProgress: {'identifier': 'sensor_simulator', 'progress': 'install'}
+[13.195183] (sensor_simulator) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zhr/YOPO-ROS2/Simulator/build/sensor_simulator'], 'cwd': '/home/zhr/YOPO-ROS2/Simulator/build/sensor_simulator', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/zhr/YOPO-ROS2', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'CONDA_PROMPT_MODIFIER': '(base)', 'CODEX_CI': '1', 'LANGUAGE': 'zh_CN', 'USER': 'zhr', 'SNAP_COMMON': '/var/snap/code/common', 'CODEX_INTERNAL_ORIGINATOR_OVERRIDE': 'codex_vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/snap/code/233/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/zhr/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/tcf.json","messagesFile":"/home/zhr/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/41dd792b5e652393e7787322889ed5fdc58bd75b/nls.messages.json","corruptMarkerFile":"/home/zhr/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/zhr/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/tcf.json","_cacheRoot":"/home/zhr/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn","_resolvedLanguagePackCoreLocation":"/home/zhr/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/41dd792b5e652393e7787322889ed5fdc58bd75b","_corruptedFile":"/home/zhr/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/corrupted.info"}', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/zhr/snap/code/common/.cache/gio-modules', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'x11', 'DEBUG': 'release', 'SNAP_UID': '1000', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/zhr', 'CHROME_DESKTOP': 'code.desktop', 'CONDA_SHLVL': '1', 'SNAP_LIBRARY_PATH': '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32', 'OLDPWD': '/home/zhr', 'DESKTOP_SESSION': 'ubuntu', 'SNAP_USER_DATA': '/home/zhr/snap/code/233', 'GTK_PATH': '/snap/code/233/usr/lib/x86_64-linux-gnu/gtk-3.0', 'VSCODE_IPC_HOOK': '/run/user/1000/vscode-9b34bd8d-1.11-main.sock', 'GTK_IM_MODULE_FILE': '/home/zhr/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'PAGER': 'cat', 'MANAGERPID': '2346', 'LC_CTYPE': 'C.UTF-8', 'SYSTEMD_EXEC_PID': '2614', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'NO_COLOR': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'SNAP_REVISION': '233', 'COLORTERM': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', '_CONDA_ROOT': '/home/zhr/miniconda3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '7243', 'VSCODE_CRASH_REPORTER_PROCESS_TYPE': 'extensionHost', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'zhr', 'SNAP_CONTEXT': 'qHIpudB2nF2Mjy7pv66iEofR4n7-eQaJzR1UtyF5Q1zftUL0AGC_', 'JOURNAL_STREAM': '9:13212', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'SNAP_VERSION': '41dd792b', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'RUST_LOG': 'warn', 'TERM': 'dumb', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'SNAP_INSTANCE_NAME': 'code', 'FC_FONTATIONS': '1', 'PATH': '/home/zhr/.codex/tmp/arg0/codex-arg0rTiY3D:/home/zhr/miniconda3/bin:/home/zhr/miniconda3/condabin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/zhr/.vscode/extensions/openai.chatgpt-26.415.20818-linux-x64/bin/linux-x86_64', 'SESSION_MANAGER': 'local/zhr-lab-PC:@/tmp/.ICE-unix/2576,unix/zhr-lab-PC:/tmp/.ICE-unix/2576', 'GTK_EXE_PREFIX': '/snap/code/233/usr', 'GDM_LANG': 'zh_CN', 'INVOCATION_ID': '7f02b2d5fe594cb7a06c5df8a67e9cff', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'gnome-', 'SNAP_DATA': '/var/snap/code/233', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/233/usr/lib/locale', 'CODEX_SANDBOX_NETWORK_DISABLED': '1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XDG_DATA_HOME': '/home/zhr/snap/code/233/.local/share', 'XMODIFIERS': '@im=ibus', 'GH_PAGER': 'cat', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/home/zhr/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SNAP_USER_COMMON': '/home/zhr/snap/code/common', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/zhr/snap/code/233/.local/share/glib-2.0/schemas', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/zhr', 'SNAP_ARCH': 'amd64', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SNAP_COOKIE': 'qHIpudB2nF2Mjy7pv66iEofR4n7-eQaJzR1UtyF5Q1zftUL0AGC_', 'CONDA_PYTHON_EXE': '/home/zhr/miniconda3/bin/python', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:9d7c5c55-26b6-4219-82a1-87014f2bf0fb', 'GDK_PIXBUF_MODULEDIR': '/snap/code/233/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders', 'QT_ACCESSIBILITY': '1', 'ELECTRON_RUN_AS_NODE': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'base', 'SNAP_NAME': 'code', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'CODEX_THREAD_ID': '019dde21-ab0d-79e3-9110-6b97bdc81057', 'GDK_PIXBUF_MODULE_FILE': '/home/zhr/snap/code/common/.cache/gdk-pixbuf-loaders.cache', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', '_CONDA_EXE': '/home/zhr/miniconda3/bin/conda', 'FLIGHTMARE_PATH': '/home/zhr/flightmare', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'SNAP_LAUNCHER_ARCH_TRIPLET': 'x86_64-linux-gnu', 'GIT_PAGER': 'cat', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/zhr/YOPO-ROS2/Simulator/build/sensor_simulator', 'VSCODE_CLI': '1', 'LC_ALL': 'C.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/zhr/miniconda3/bin/conda', 'SNAP_REAL_HOME': '/home/zhr', 'VSCODE_CODE_CACHE_PATH': '/home/zhr/.config/Code/CachedData/41dd792b5e652393e7787322889ed5fdc58bd75b', 'XDG_DATA_DIRS': '/home/zhr/snap/code/233/.local/share:/home/zhr/snap/code/233:/snap/code/233/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'SNAP_EUID': '1000', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'SNAP': '/snap/code/233', 'CONDA_PREFIX': '/home/zhr/miniconda3', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'ELECTRON_NO_ATTACH_CONSOLE': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'VSCODE_PID': '8173'}), 'shell': False}
+[13.198264] (sensor_simulator) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[13.198579] (sensor_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/lib/sensor_simulator/sensor_simulator\n'}
+[13.198690] (sensor_simulator) StdoutLine: {'line': b'-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/lib/sensor_simulator/sensor_simulator_cuda\n'}
+[13.199656] (sensor_simulator) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/lib/sensor_simulator/sensor_simulator_cuda" to ""\n'}
+[13.199897] (sensor_simulator) StdoutLine: {'line': b'-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/lib/sensor_simulator/dataset_generator\n'}
+[13.200594] (sensor_simulator) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/lib/sensor_simulator/dataset_generator" to ""\n'}
+[13.200678] (sensor_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/include\n'}
+[13.200705] (sensor_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/include/perlinnoise.hpp\n'}
+[13.200729] (sensor_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/include/sensor_simulator.cuh\n'}
+[13.200829] (sensor_simulator) StdoutLine: {'line': b'-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/include/maps.hpp\n'}
+[13.200995] (sensor_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/include/sensor_simulator.h\n'}
+[13.201066] (sensor_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/include/cuda_toolkit\n'}
+[13.201093] (sensor_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/include/cuda_toolkit/matrix.cuh\n'}
+[13.201116] (sensor_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/include/cuda_toolkit/se3.cuh\n'}
+[13.201138] (sensor_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/include/cuda_toolkit/helper_math.h\n'}
+[13.201159] (sensor_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/config\n'}
+[13.201179] (sensor_simulator) StdoutLine: {'line': b'-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/config/config.yaml\n'}
+[13.201209] (sensor_simulator) StdoutLine: {'line': b'-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/pointcloud\n'}
+[13.201229] (sensor_simulator) StdoutLine: {'line': b'-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/pointcloud/tree.ply\n'}
+[13.201864] (sensor_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/ament_index/resource_index/package_run_dependencies/sensor_simulator\n'}
+[13.201910] (sensor_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/ament_index/resource_index/parent_prefix_path/sensor_simulator\n'}
+[13.201953] (sensor_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/environment/ament_prefix_path.sh\n'}
+[13.201991] (sensor_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/environment/ament_prefix_path.dsv\n'}
+[13.202027] (sensor_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/environment/path.sh\n'}
+[13.202056] (sensor_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/environment/path.dsv\n'}
+[13.202086] (sensor_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/local_setup.bash\n'}
+[13.202105] (sensor_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/local_setup.sh\n'}
+[13.202124] (sensor_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/local_setup.zsh\n'}
+[13.202142] (sensor_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/local_setup.dsv\n'}
+[13.202161] (sensor_simulator) StdoutLine: {'line': b'-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/package.dsv\n'}
+[13.202200] (sensor_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/ament_index/resource_index/packages/sensor_simulator\n'}
+[13.202235] (sensor_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.202264] (sensor_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/cmake/sensor_simulatorConfig.cmake\n'}
+[13.202283] (sensor_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/cmake/sensor_simulatorConfig-version.cmake\n'}
+[13.202301] (sensor_simulator) StdoutLine: {'line': b'-- Up-to-date: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/package.xml\n'}
+[13.202845] (sensor_simulator) CommandEnded: {'returncode': 0}
+[13.209116] (sensor_simulator) JobEnded: {'identifier': 'sensor_simulator', 'rc': 0}
+[13.209360] (-) EventReactorShutdown: {}

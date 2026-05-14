@@ -111,7 +111,7 @@ int main(int argc, char **argv)
     sizeZ *= scale;
 
     // 3. 数据集参数
-    std::string save_path = config["save_path"].as<std::string>();
+    std::string save_path = resolvePathRelativeToConfig(CONFIG_FILE_PATH, config["save_path"].as<std::string>());
     int env_num = config["env_num"].as<int>();
     int image_num = config["image_num"].as<int>();
     float roll_range = config["roll_range"].as<float>();

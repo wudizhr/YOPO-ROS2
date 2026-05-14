@@ -751,7 +751,7 @@ Maps::setParam(const YAML::Node& config)
   addWallX = config["add_wall_x"].as<int>();
   addWallY = config["add_wall_y"].as<int>();
   // tree
-  tree_file = config["tree_file"].as<std::string>();
+  tree_file = resolvePathRelativeToConfig(CONFIG_FILE_PATH, config["tree_file"].as<std::string>());
   tree_dist = config["tree_dist"].as<double>();
   // room
   room_number = config["room_number"].as<int>();
@@ -987,7 +987,8 @@ void Maps::forest()
   pcl::PointCloud<pcl::PointXYZ>::Ptr tree_cloud(new pcl::PointCloud<pcl::PointXYZ>());
   if (pcl::io::loadPLYFile(tree_file, *tree_cloud) == -1)
   {
-    std::cerr << "Error: Cannot read the tree PLY file. Please check the config.yaml." << std::endl;
+    std::cerr << "Error: Cannot read the tree PLY file: " << tree_file
+              << ". Please check the config.yaml path." << std::endl;
     return;
   }
 

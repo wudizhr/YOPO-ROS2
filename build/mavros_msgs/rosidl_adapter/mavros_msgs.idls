@@ -1,0 +1,4 @@
+/home/zhr/YOPO-ROS2/build/mavros_msgs/rosidl_adapter/mavros_msgs:msg/AttitudeTarget.idl
+/home/zhr/YOPO-ROS2/build/mavros_msgs/rosidl_adapter/mavros_msgs:msg/State.idl
+/home/zhr/YOPO-ROS2/build/mavros_msgs/rosidl_adapter/mavros_msgs:srv/CommandBool.idl
+/home/zhr/YOPO-ROS2/build/mavros_msgs/rosidl_adapter/mavros_msgs:srv/SetMode.idl

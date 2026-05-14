@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "mavros_msgs/srv/CommandBool_Request",
+      "fields": [
+        {
+          "name": "value",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "mavros_msgs/srv/CommandBool_Request",
+      "hash_string": "RIHS01_983e93fca15a6cf12689a4ef28a10bafbe576a984f5908bf4da70af8936b61c5"
+    }
+  ]
+}

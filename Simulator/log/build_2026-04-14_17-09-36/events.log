@@ -1,0 +1,660 @@
+[0.000000] (-) TimerEvent: {}
+[0.000115] (sensor_simulator) JobQueued: {'identifier': 'sensor_simulator', 'dependencies': OrderedDict()}
+[0.000355] (sensor_simulator) JobStarted: {'identifier': 'sensor_simulator'}
+[0.003944] (sensor_simulator) JobProgress: {'identifier': 'sensor_simulator', 'progress': 'cmake'}
+[0.004157] (sensor_simulator) Command: {'cmd': ['/usr/bin/cmake', '/home/zhr/YOPO-ROS2/Simulator/src', '-DCMAKE_INSTALL_PREFIX=/home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator'], 'cwd': '/home/zhr/YOPO-ROS2/Simulator/build/sensor_simulator', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '', 'LANGUAGE': 'zh_CN', 'USER': 'zhr', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/zhr/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/snap/code/233/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/zhr', 'CHROME_DESKTOP': 'code.desktop', 'CONDA_SHLVL': '0', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/zhr/YOPO-ROS2', 'TERM_PROGRAM_VERSION': '1.115.0', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/233/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/zhr/snap/code/common/.cache/immodules/immodules.cache', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/233/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/233/usr/share/code/code', 'MANAGERPID': '2269', 'SYSTEMD_EXEC_PID': '2664', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', '_CONDA_ROOT': '/home/zhr/miniconda3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3577', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'zhr', 'JOURNAL_STREAM': '9:20044', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'FC_FONTATIONS': '1', 'PATH': '/home/zhr/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/zhr/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/zhr/miniconda3/condabin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/zhr-lab-PC:@/tmp/.ICE-unix/2511,unix/zhr-lab-PC:/tmp/.ICE-unix/2511', 'GTK_EXE_PREFIX': '/snap/code/233/usr', 'GDM_LANG': 'zh_CN', 'INVOCATION_ID': '2af8aa3a4b0e4746b5a8b6ed91be4186', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/233/usr/lib/locale', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/zhr/snap/code/233/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/home/zhr/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-9feb23b85d.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/zhr/snap/code/233/.local/share/glib-2.0/schemas', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/zhr', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/zhr/miniconda3/bin/python', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:185e0225-422e-4f04-bea7-4b1800b12a50', 'QT_ACCESSIBILITY': '1', 'NO_AT_BRIDGE': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'CONDA_DEFAULT_ENV': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', '_CONDA_EXE': '/home/zhr/miniconda3/bin/conda', 'FLIGHTMARE_PATH': '/home/zhr/flightmare', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/zhr/YOPO-ROS2/Simulator/build/sensor_simulator', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/zhr/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/home/zhr/snap/code/233/.local/share:/home/zhr/snap/code/233:/snap/code/233/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'CONDA_PREFIX': '', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.034552] (sensor_simulator) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.064655] (sensor_simulator) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.073345] (sensor_simulator) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099913] (-) TimerEvent: {}
+[0.113915] (sensor_simulator) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.118327] (sensor_simulator) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.118505] (sensor_simulator) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.118695] (sensor_simulator) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.123363] (sensor_simulator) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.167179] (sensor_simulator) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.172175] (sensor_simulator) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.172317] (sensor_simulator) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.172542] (sensor_simulator) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.173699] (sensor_simulator) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.199993] (-) TimerEvent: {}
+[0.244568] (sensor_simulator) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.293385] (sensor_simulator) StdoutLine: {'line': b'-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.300099] (-) TimerEvent: {}
+[0.310088] (sensor_simulator) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.316692] (sensor_simulator) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.325216] (sensor_simulator) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.331815] (sensor_simulator) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.364932] (sensor_simulator) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.365888] (sensor_simulator) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.396952] (sensor_simulator) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[0.400156] (-) TimerEvent: {}
+[0.407351] (sensor_simulator) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[0.420413] (sensor_simulator) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.455542] (sensor_simulator) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[0.485818] (sensor_simulator) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[0.498668] (sensor_simulator) StdoutLine: {'line': b'-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)\n'}
+[0.500217] (-) TimerEvent: {}
+[0.505019] (sensor_simulator) StdoutLine: {'line': b'-- Found tf2: 0.36.19 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[0.507198] (sensor_simulator) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.19 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[0.572356] (sensor_simulator) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.36.19 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)\n'}
+[0.580074] (sensor_simulator) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[0.580812] (sensor_simulator) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[0.580869] (sensor_simulator) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.594878] (sensor_simulator) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found suitable version "1.83.0", minimum required is "1.65.0") found components: system filesystem iostreams serialization \n'}
+[0.595599] (sensor_simulator) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):\n'}
+[0.595665] (sensor_simulator) StderrLine: {'line': b'  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n'}
+[0.595696] (sensor_simulator) StderrLine: {'line': b'  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the\n'}
+[0.595722] (sensor_simulator) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[0.595748] (sensor_simulator) StderrLine: {'line': b'\n'}
+[0.595774] (sensor_simulator) StderrLine: {'line': b'  CMake variable FLANN_ROOT is set to:\n'}
+[0.595801] (sensor_simulator) StderrLine: {'line': b'\n'}
+[0.595826] (sensor_simulator) StderrLine: {'line': b'    /usr\n'}
+[0.595850] (sensor_simulator) StderrLine: {'line': b'\n'}
+[0.595874] (sensor_simulator) StderrLine: {'line': b'  For compatibility, find_package is ignoring the variable, but code in a\n'}
+[0.595899] (sensor_simulator) StderrLine: {'line': b'  .cmake module might still use it.\n'}
+[0.595924] (sensor_simulator) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.595948] (sensor_simulator) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)\n'}
+[0.595974] (sensor_simulator) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)\n'}
+[0.595998] (sensor_simulator) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)\n'}
+[0.596022] (sensor_simulator) StderrLine: {'line': b'  CMakeLists.txt:39 (find_package)\n'}
+[0.596047] (sensor_simulator) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.596100] (sensor_simulator) StderrLine: {'line': b'\x1b[0m\n'}
+[0.596125] (sensor_simulator) StdoutLine: {'line': b'-- Found flann version 1.9.2\n'}
+[0.600295] (-) TimerEvent: {}
+[0.700497] (-) TimerEvent: {}
+[0.755727] (sensor_simulator) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[0.755887] (sensor_simulator) StdoutLine: {'line': b'-- Found OpenMP: TRUE (found version "4.5") found components: CXX \n'}
+[0.773071] (sensor_simulator) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.800595] (-) TimerEvent: {}
+[0.818852] (sensor_simulator) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.819473] (sensor_simulator) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.820964] (sensor_simulator) StdoutLine: {'line': b'-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  \n'}
+[0.825282] (sensor_simulator) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX \n'}
+[0.900704] (-) TimerEvent: {}
+[0.914725] (sensor_simulator) StdoutLine: {'line': b'-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") \n'}
+[0.914887] (sensor_simulator) StdoutLine: {'line': b'-- Found MPI: TRUE (found version "3.1") found components: C \n'}
+[0.916419] (sensor_simulator) StdoutLine: {'line': b'-- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") \n'}
+[0.924514] (sensor_simulator) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  \n'}
+[0.936468] (sensor_simulator) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") \n'}
+[0.941916] (sensor_simulator) StdoutLine: {'line': b'-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") \n'}
+[1.000795] (-) TimerEvent: {}
+[1.010521] (sensor_simulator) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[1.010743] (sensor_simulator) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[1.054533] (sensor_simulator) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[1.054710] (sensor_simulator) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[1.093737] (sensor_simulator) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[1.093887] (sensor_simulator) StdoutLine: {'line': b'-- Looking for connect\n'}
+[1.100854] (-) TimerEvent: {}
+[1.134084] (sensor_simulator) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[1.134226] (sensor_simulator) StdoutLine: {'line': b'-- Looking for remove\n'}
+[1.174177] (sensor_simulator) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[1.174384] (sensor_simulator) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[1.200980] (-) TimerEvent: {}
+[1.216085] (sensor_simulator) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[1.216258] (sensor_simulator) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[1.258237] (sensor_simulator) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[1.301090] (-) TimerEvent: {}
+[1.326638] (sensor_simulator) StdoutLine: {'line': b'-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.6.1") \n'}
+[1.327625] (sensor_simulator) StdoutLine: {'line': b'-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  \n'}
+[1.328857] (sensor_simulator) StdoutLine: {'line': b'-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.4") \n'}
+[1.329686] (sensor_simulator) StdoutLine: {'line': b'-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.4.5") \n'}
+[1.337086] (sensor_simulator) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") \n'}
+[1.344840] (sensor_simulator) StdoutLine: {'line': b'-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.5.1")  \n'}
+[1.346850] (sensor_simulator) StdoutLine: {'line': b'-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.13.2") \n'}
+[1.349419] (sensor_simulator) StdoutLine: {'line': b'-- Found utf8cpp: /usr/include/utf8cpp  \n'}
+[1.388201] (sensor_simulator) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.393381] (sensor_simulator) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.27\n'}
+[1.401190] (-) TimerEvent: {}
+[1.406911] (sensor_simulator) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[1.407423] (sensor_simulator) StdoutLine: {'line': b'-- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") \n'}
+[1.407484] (sensor_simulator) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.433977] (sensor_simulator) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") \n'}
+[1.434148] (sensor_simulator) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.436341] (sensor_simulator) StdoutLine: {'line': b'-- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) \n'}
+[1.436405] (sensor_simulator) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[1.501306] (-) TimerEvent: {}
+[1.601593] (-) TimerEvent: {}
+[1.683030] (sensor_simulator) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.685633] (sensor_simulator) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.701672] (-) TimerEvent: {}
+[1.801881] (-) TimerEvent: {}
+[1.900402] (sensor_simulator) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[1.901945] (-) TimerEvent: {}
+[2.002137] (-) TimerEvent: {}
+[2.102378] (-) TimerEvent: {}
+[2.121805] (sensor_simulator) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.202478] (-) TimerEvent: {}
+[2.302718] (-) TimerEvent: {}
+[2.339545] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[2.340497] (sensor_simulator) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[2.341404] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[2.342068] (sensor_simulator) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[2.342173] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[2.342769] (sensor_simulator) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[2.342852] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[2.343418] (sensor_simulator) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[2.343540] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[2.344006] (sensor_simulator) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[2.344081] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[2.344532] (sensor_simulator) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[2.344614] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[2.344706] (sensor_simulator) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.14  \n'}
+[2.344770] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[2.344857] (sensor_simulator) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.14  \n'}
+[2.344904] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[2.345358] (sensor_simulator) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[2.345446] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[2.345895] (sensor_simulator) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[2.345984] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[2.346432] (sensor_simulator) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[2.346490] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[2.346940] (sensor_simulator) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[2.347055] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[2.347509] (sensor_simulator) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[2.347608] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[2.348068] (sensor_simulator) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[2.348148] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[2.348609] (sensor_simulator) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[2.348704] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[2.349161] (sensor_simulator) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[2.349247] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[2.349702] (sensor_simulator) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[2.349768] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[2.350222] (sensor_simulator) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[2.350342] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[2.350828] (sensor_simulator) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[2.350898] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[2.351343] (sensor_simulator) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[2.351587] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[2.351691] (sensor_simulator) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  \n'}
+[2.351736] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[2.351838] (sensor_simulator) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.14  \n'}
+[2.351879] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[2.351992] (sensor_simulator) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  \n'}
+[2.352034] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[2.352504] (sensor_simulator) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[2.352581] (sensor_simulator) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[2.353088] (sensor_simulator) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[2.353446] (sensor_simulator) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::RenderingContextOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  \n'}
+[2.355693] (sensor_simulator) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.6.0") \n'}
+[2.402822] (-) TimerEvent: {}
+[2.405982] (sensor_simulator) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[2.406275] (sensor_simulator) StdoutLine: {'line': b'-- Found OpenMP: TRUE (found version "4.5")  \n'}
+[2.408111] (sensor_simulator) StdoutLine: {'line': b'-- Found pcl_ros: 2.6.2 (/opt/ros/jazzy/share/pcl_ros/cmake)\n'}
+[2.437275] (sensor_simulator) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:46 (find_package):\n'}
+[2.437402] (sensor_simulator) StderrLine: {'line': b'  Policy CMP0146 is not set: The FindCUDA module is removed.  Run "cmake\n'}
+[2.437442] (sensor_simulator) StderrLine: {'line': b'  --help-policy CMP0146" for policy details.  Use the cmake_policy command to\n'}
+[2.437481] (sensor_simulator) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[2.437512] (sensor_simulator) StderrLine: {'line': b'\n'}
+[2.437543] (sensor_simulator) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.437573] (sensor_simulator) StderrLine: {'line': b'\x1b[0m\n'}
+[2.445060] (sensor_simulator) StdoutLine: {'line': b'-- Found CUDA: /usr/local/cuda (found suitable exact version "12.8") \n'}
+[2.502921] (-) TimerEvent: {}
+[2.542542] (sensor_simulator) StdoutLine: {'line': b'-- Autodetected CUDA architecture(s):  8.6+PTX\n'}
+[2.542726] (sensor_simulator) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:56 (message):\n'}
+[2.542761] (sensor_simulator) StderrLine: {'line': b'  CUDA Architecture:\n'}
+[2.542789] (sensor_simulator) StderrLine: {'line': b'  -gencode;arch=compute_86,code=sm_86;-gencode;arch=compute_86,code=compute_86\n'}
+[2.542811] (sensor_simulator) StderrLine: {'line': b'\n'}
+[2.542832] (sensor_simulator) StderrLine: {'line': b'\x1b[0m\n'}
+[2.549834] (sensor_simulator) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.596345] (sensor_simulator) StdoutLine: {'line': b'-- Configuring done (2.6s)\n'}
+[2.602985] (-) TimerEvent: {}
+[2.646593] (sensor_simulator) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.653124] (sensor_simulator) StdoutLine: {'line': b'-- Build files have been written to: /home/zhr/YOPO-ROS2/Simulator/build/sensor_simulator\n'}
+[2.667768] (sensor_simulator) CommandEnded: {'returncode': 0}
+[2.668228] (sensor_simulator) JobProgress: {'identifier': 'sensor_simulator', 'progress': 'build'}
+[2.668633] (sensor_simulator) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zhr/YOPO-ROS2/Simulator/build/sensor_simulator', '--', '-j32', '-l32'], 'cwd': '/home/zhr/YOPO-ROS2/Simulator/build/sensor_simulator', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '', 'LANGUAGE': 'zh_CN', 'USER': 'zhr', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/zhr/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/snap/code/233/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/zhr', 'CHROME_DESKTOP': 'code.desktop', 'CONDA_SHLVL': '0', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/zhr/YOPO-ROS2', 'TERM_PROGRAM_VERSION': '1.115.0', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/233/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/zhr/snap/code/common/.cache/immodules/immodules.cache', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/233/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/233/usr/share/code/code', 'MANAGERPID': '2269', 'SYSTEMD_EXEC_PID': '2664', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', '_CONDA_ROOT': '/home/zhr/miniconda3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3577', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'zhr', 'JOURNAL_STREAM': '9:20044', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'FC_FONTATIONS': '1', 'PATH': '/home/zhr/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/zhr/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/zhr/miniconda3/condabin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/zhr-lab-PC:@/tmp/.ICE-unix/2511,unix/zhr-lab-PC:/tmp/.ICE-unix/2511', 'GTK_EXE_PREFIX': '/snap/code/233/usr', 'GDM_LANG': 'zh_CN', 'INVOCATION_ID': '2af8aa3a4b0e4746b5a8b6ed91be4186', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/233/usr/lib/locale', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/zhr/snap/code/233/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/home/zhr/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-9feb23b85d.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/zhr/snap/code/233/.local/share/glib-2.0/schemas', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/zhr', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/zhr/miniconda3/bin/python', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:185e0225-422e-4f04-bea7-4b1800b12a50', 'QT_ACCESSIBILITY': '1', 'NO_AT_BRIDGE': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'CONDA_DEFAULT_ENV': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', '_CONDA_EXE': '/home/zhr/miniconda3/bin/conda', 'FLIGHTMARE_PATH': '/home/zhr/flightmare', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/zhr/YOPO-ROS2/Simulator/build/sensor_simulator', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/zhr/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/home/zhr/snap/code/233/.local/share:/home/zhr/snap/code/233:/snap/code/233/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'CONDA_PREFIX': '', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.689752] (sensor_simulator) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mBuilding NVCC (Device) object CMakeFiles/raycast_cuda.dir/src/raycast_cuda_generated_sensor_simulator.cu.o\x1b[0m\n'}
+[2.694271] (sensor_simulator) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/sensor_simulator.dir/src/sensor_simulator.cpp.o\x1b[0m\n'}
+[2.695536] (sensor_simulator) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/sensor_simulator.dir/src/test_simulator.cpp.o\x1b[0m\n'}
+[2.703052] (-) TimerEvent: {}
+[2.803263] (-) TimerEvent: {}
+[2.903536] (-) TimerEvent: {}
+[3.003796] (-) TimerEvent: {}
+[3.104028] (-) TimerEvent: {}
+[3.204281] (-) TimerEvent: {}
+[3.304532] (-) TimerEvent: {}
+[3.404793] (-) TimerEvent: {}
+[3.505025] (-) TimerEvent: {}
+[3.605271] (-) TimerEvent: {}
+[3.705513] (-) TimerEvent: {}
+[3.805744] (-) TimerEvent: {}
+[3.905982] (-) TimerEvent: {}
+[4.006233] (-) TimerEvent: {}
+[4.106473] (-) TimerEvent: {}
+[4.206707] (-) TimerEvent: {}
+[4.306978] (-) TimerEvent: {}
+[4.407299] (-) TimerEvent: {}
+[4.507524] (-) TimerEvent: {}
+[4.607762] (-) TimerEvent: {}
+[4.708017] (-) TimerEvent: {}
+[4.808297] (-) TimerEvent: {}
+[4.908527] (-) TimerEvent: {}
+[5.008787] (-) TimerEvent: {}
+[5.088318] (sensor_simulator) StderrLine: {'line': b'/usr/include/opencv4/opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::buildMaps" is only partially overridden in class "cv::detail::AffineWarper"\n'}
+[5.088516] (sensor_simulator) StderrLine: {'line': b'  class AffineWarper : public PlaneWarper\n'}
+[5.088580] (sensor_simulator) StderrLine: {'line': b'        ^\n'}
+[5.088608] (sensor_simulator) StderrLine: {'line': b'\n'}
+[5.088631] (sensor_simulator) StderrLine: {'line': b'Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"\n'}
+[5.088654] (sensor_simulator) StderrLine: {'line': b'\n'}
+[5.088674] (sensor_simulator) StderrLine: {'line': b'/usr/include/opencv4/opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::warp" is only partially overridden in class "cv::detail::AffineWarper"\n'}
+[5.088696] (sensor_simulator) StderrLine: {'line': b'  class AffineWarper : public PlaneWarper\n'}
+[5.088716] (sensor_simulator) StderrLine: {'line': b'        ^\n'}
+[5.088735] (sensor_simulator) StderrLine: {'line': b'\n'}
+[5.108870] (-) TimerEvent: {}
+[5.142075] (sensor_simulator) StderrLine: {'line': b'/usr/include/opencv4/opencv2/stitching/detail/blenders.hpp(100): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::FeatherBlender"\n'}
+[5.142271] (sensor_simulator) StderrLine: {'line': b'  class FeatherBlender : public Blender\n'}
+[5.142315] (sensor_simulator) StderrLine: {'line': b'        ^\n'}
+[5.142349] (sensor_simulator) StderrLine: {'line': b'\n'}
+[5.142382] (sensor_simulator) StderrLine: {'line': b'/usr/include/opencv4/opencv2/stitching/detail/blenders.hpp(127): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::MultiBandBlender"\n'}
+[5.142414] (sensor_simulator) StderrLine: {'line': b'  class MultiBandBlender : public Blender\n'}
+[5.142445] (sensor_simulator) StderrLine: {'line': b'        ^\n'}
+[5.142483] (sensor_simulator) StderrLine: {'line': b'\n'}
+[5.208965] (-) TimerEvent: {}
+[5.251073] (sensor_simulator) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/Core/DenseStorage.h(223): warning #20012-D: __host__ annotation is ignored on a function("DenseStorage") that is explicitly defaulted on its first declaration\n'}
+[5.251235] (sensor_simulator) StderrLine: {'line': b'     __attribute__((host)) __attribute__((device)) \n'}
+[5.251265] (sensor_simulator) StderrLine: {'line': b'                    ^\n'}
+[5.251289] (sensor_simulator) StderrLine: {'line': b'\n'}
+[5.251328] (sensor_simulator) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/Core/DenseStorage.h(223): warning #20012-D: __device__ annotation is ignored on a function("DenseStorage") that is explicitly defaulted on its first declaration\n'}
+[5.251350] (sensor_simulator) StderrLine: {'line': b'     __attribute__((host)) __attribute__((device)) \n'}
+[5.251371] (sensor_simulator) StderrLine: {'line': b'                                          ^\n'}
+[5.251389] (sensor_simulator) StderrLine: {'line': b'\n'}
+[5.251562] (sensor_simulator) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/Core/DenseStorage.h(233): warning #20012-D: __host__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration\n'}
+[5.251584] (sensor_simulator) StderrLine: {'line': b'     __attribute__((host)) __attribute__((device)) \n'}
+[5.251602] (sensor_simulator) StderrLine: {'line': b'                    ^\n'}
+[5.251620] (sensor_simulator) StderrLine: {'line': b'\n'}
+[5.251861] (sensor_simulator) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/Core/DenseStorage.h(233): warning #20012-D: __device__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration\n'}
+[5.251884] (sensor_simulator) StderrLine: {'line': b'     __attribute__((host)) __attribute__((device)) \n'}
+[5.251903] (sensor_simulator) StderrLine: {'line': b'                                          ^\n'}
+[5.251921] (sensor_simulator) StderrLine: {'line': b'\n'}
+[5.252168] (sensor_simulator) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/Core/DenseStorage.h(248): warning #20012-D: __host__ annotation is ignored on a function("DenseStorage") that is explicitly defaulted on its first declaration\n'}
+[5.252187] (sensor_simulator) StderrLine: {'line': b'     __attribute__((host)) __attribute__((device)) \n'}
+[5.252205] (sensor_simulator) StderrLine: {'line': b'                    ^\n'}
+[5.252225] (sensor_simulator) StderrLine: {'line': b'\n'}
+[5.252471] (sensor_simulator) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/Core/DenseStorage.h(248): warning #20012-D: __device__ annotation is ignored on a function("DenseStorage") that is explicitly defaulted on its first declaration\n'}
+[5.252492] (sensor_simulator) StderrLine: {'line': b'     __attribute__((host)) __attribute__((device)) \n'}
+[5.252513] (sensor_simulator) StderrLine: {'line': b'                                          ^\n'}
+[5.252531] (sensor_simulator) StderrLine: {'line': b'\n'}
+[5.252815] (sensor_simulator) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/Core/DenseStorage.h(249): warning #20012-D: __host__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration\n'}
+[5.252833] (sensor_simulator) StderrLine: {'line': b'     __attribute__((host)) __attribute__((device)) \n'}
+[5.252851] (sensor_simulator) StderrLine: {'line': b'                    ^\n'}
+[5.252869] (sensor_simulator) StderrLine: {'line': b'\n'}
+[5.253122] (sensor_simulator) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/Core/DenseStorage.h(249): warning #20012-D: __device__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration\n'}
+[5.253142] (sensor_simulator) StderrLine: {'line': b'     __attribute__((host)) __attribute__((device)) \n'}
+[5.253160] (sensor_simulator) StderrLine: {'line': b'                                          ^\n'}
+[5.253178] (sensor_simulator) StderrLine: {'line': b'\n'}
+[5.309077] (-) TimerEvent: {}
+[5.409339] (-) TimerEvent: {}
+[5.509588] (-) TimerEvent: {}
+[5.609840] (-) TimerEvent: {}
+[5.710112] (-) TimerEvent: {}
+[5.810433] (-) TimerEvent: {}
+[5.910688] (-) TimerEvent: {}
+[6.010943] (-) TimerEvent: {}
+[6.111191] (-) TimerEvent: {}
+[6.211447] (-) TimerEvent: {}
+[6.311705] (-) TimerEvent: {}
+[6.411931] (-) TimerEvent: {}
+[6.512149] (-) TimerEvent: {}
+[6.612365] (-) TimerEvent: {}
+[6.712622] (-) TimerEvent: {}
+[6.812899] (-) TimerEvent: {}
+[6.913148] (-) TimerEvent: {}
+[7.013380] (-) TimerEvent: {}
+[7.113658] (-) TimerEvent: {}
+[7.213894] (-) TimerEvent: {}
+[7.285983] (sensor_simulator) StderrLine: {'line': b'/usr/include/opencv4/opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::buildMaps" is only partially overridden in class "cv::detail::AffineWarper"\n'}
+[7.286198] (sensor_simulator) StderrLine: {'line': b'  class AffineWarper : public PlaneWarper\n'}
+[7.286247] (sensor_simulator) StderrLine: {'line': b'        ^\n'}
+[7.286284] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.286318] (sensor_simulator) StderrLine: {'line': b'Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"\n'}
+[7.286352] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.286380] (sensor_simulator) StderrLine: {'line': b'/usr/include/opencv4/opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::warp" is only partially overridden in class "cv::detail::AffineWarper"\n'}
+[7.286411] (sensor_simulator) StderrLine: {'line': b'  class AffineWarper : public PlaneWarper\n'}
+[7.286439] (sensor_simulator) StderrLine: {'line': b'        ^\n'}
+[7.286482] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.313984] (-) TimerEvent: {}
+[7.337338] (sensor_simulator) StderrLine: {'line': b'/usr/include/opencv4/opencv2/stitching/detail/blenders.hpp(100): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::FeatherBlender"\n'}
+[7.337537] (sensor_simulator) StderrLine: {'line': b'  class FeatherBlender : public Blender\n'}
+[7.337587] (sensor_simulator) StderrLine: {'line': b'        ^\n'}
+[7.337622] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.337671] (sensor_simulator) StderrLine: {'line': b'/usr/include/opencv4/opencv2/stitching/detail/blenders.hpp(127): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::MultiBandBlender"\n'}
+[7.337704] (sensor_simulator) StderrLine: {'line': b'  class MultiBandBlender : public Blender\n'}
+[7.337735] (sensor_simulator) StderrLine: {'line': b'        ^\n'}
+[7.337766] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.384027] (sensor_simulator) StderrLine: {'line': b"Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.\n"}
+[7.384194] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.384227] (sensor_simulator) StderrLine: {'line': b"Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.\n"}
+[7.384255] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.404546] (sensor_simulator) StderrLine: {'line': b"Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.\n"}
+[7.404760] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.404815] (sensor_simulator) StderrLine: {'line': b"Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.\n"}
+[7.404856] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.404891] (sensor_simulator) StderrLine: {'line': b"Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.\n"}
+[7.404939] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.404972] (sensor_simulator) StderrLine: {'line': b"Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.\n"}
+[7.405005] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.405036] (sensor_simulator) StderrLine: {'line': b"Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.\n"}
+[7.405069] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.405099] (sensor_simulator) StderrLine: {'line': b"Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.\n"}
+[7.405137] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.405167] (sensor_simulator) StderrLine: {'line': b"Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.\n"}
+[7.405197] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.405226] (sensor_simulator) StderrLine: {'line': b"Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.\n"}
+[7.405267] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.405302] (sensor_simulator) StderrLine: {'line': b"Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.\n"}
+[7.405372] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.405408] (sensor_simulator) StderrLine: {'line': b"Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.\n"}
+[7.405443] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.405524] (sensor_simulator) StderrLine: {'line': b"Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.\n"}
+[7.405572] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.405604] (sensor_simulator) StderrLine: {'line': b"Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.\n"}
+[7.405636] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.405666] (sensor_simulator) StderrLine: {'line': b"Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.\n"}
+[7.405697] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.405726] (sensor_simulator) StderrLine: {'line': b"Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.\n"}
+[7.405755] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.405784] (sensor_simulator) StderrLine: {'line': b"Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.\n"}
+[7.405814] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.405844] (sensor_simulator) StderrLine: {'line': b"Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.\n"}
+[7.405874] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.405906] (sensor_simulator) StderrLine: {'line': b"Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.\n"}
+[7.405939] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.405970] (sensor_simulator) StderrLine: {'line': b"Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.\n"}
+[7.406003] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.406033] (sensor_simulator) StderrLine: {'line': b"Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.\n"}
+[7.406064] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.406100] (sensor_simulator) StderrLine: {'line': b"Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.\n"}
+[7.406131] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.406162] (sensor_simulator) StderrLine: {'line': b"Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.\n"}
+[7.406193] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.406222] (sensor_simulator) StderrLine: {'line': b"Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.\n"}
+[7.406252] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.414069] (-) TimerEvent: {}
+[7.424741] (sensor_simulator) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/Core/DenseStorage.h(223): warning #20012-D: __host__ annotation is ignored on a function("DenseStorage") that is explicitly defaulted on its first declaration\n'}
+[7.424977] (sensor_simulator) StderrLine: {'line': b'     __attribute__((host)) __attribute__((device)) \n'}
+[7.425031] (sensor_simulator) StderrLine: {'line': b'                    ^\n'}
+[7.425070] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.425106] (sensor_simulator) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/Core/DenseStorage.h(223): warning #20012-D: __device__ annotation is ignored on a function("DenseStorage") that is explicitly defaulted on its first declaration\n'}
+[7.425144] (sensor_simulator) StderrLine: {'line': b'     __attribute__((host)) __attribute__((device)) \n'}
+[7.425216] (sensor_simulator) StderrLine: {'line': b'                                          ^\n'}
+[7.425251] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.425283] (sensor_simulator) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/Core/DenseStorage.h(233): warning #20012-D: __host__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration\n'}
+[7.425315] (sensor_simulator) StderrLine: {'line': b'     __attribute__((host)) __attribute__((device)) \n'}
+[7.425345] (sensor_simulator) StderrLine: {'line': b'                    ^\n'}
+[7.425377] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.425407] (sensor_simulator) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/Core/DenseStorage.h(233): warning #20012-D: __device__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration\n'}
+[7.425448] (sensor_simulator) StderrLine: {'line': b'     __attribute__((host)) __attribute__((device)) \n'}
+[7.425491] (sensor_simulator) StderrLine: {'line': b'                                          ^\n'}
+[7.425525] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.425557] (sensor_simulator) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/Core/DenseStorage.h(248): warning #20012-D: __host__ annotation is ignored on a function("DenseStorage") that is explicitly defaulted on its first declaration\n'}
+[7.425589] (sensor_simulator) StderrLine: {'line': b'     __attribute__((host)) __attribute__((device)) \n'}
+[7.425620] (sensor_simulator) StderrLine: {'line': b'                    ^\n'}
+[7.425651] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.425683] (sensor_simulator) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/Core/DenseStorage.h(248): warning #20012-D: __device__ annotation is ignored on a function("DenseStorage") that is explicitly defaulted on its first declaration\n'}
+[7.425714] (sensor_simulator) StderrLine: {'line': b'     __attribute__((host)) __attribute__((device)) \n'}
+[7.425745] (sensor_simulator) StderrLine: {'line': b'                                          ^\n'}
+[7.425776] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.425807] (sensor_simulator) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/Core/DenseStorage.h(249): warning #20012-D: __host__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration\n'}
+[7.425845] (sensor_simulator) StderrLine: {'line': b'     __attribute__((host)) __attribute__((device)) \n'}
+[7.425874] (sensor_simulator) StderrLine: {'line': b'                    ^\n'}
+[7.425903] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.425933] (sensor_simulator) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/Core/DenseStorage.h(249): warning #20012-D: __device__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration\n'}
+[7.425967] (sensor_simulator) StderrLine: {'line': b'     __attribute__((host)) __attribute__((device)) \n'}
+[7.425998] (sensor_simulator) StderrLine: {'line': b'                                          ^\n'}
+[7.426030] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.514179] (-) TimerEvent: {}
+[7.614500] (-) TimerEvent: {}
+[7.714791] (-) TimerEvent: {}
+[7.815063] (-) TimerEvent: {}
+[7.876335] (sensor_simulator) StderrLine: {'line': b"Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.\n"}
+[7.876544] (sensor_simulator) StderrLine: {'line': b'          detected during instantiation of "std::complex<T> Eigen::complex_operator_detail::complex_multiply(const std::complex<T> &, const std::complex<T> &) [with T=float]" at line 234 of /usr/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h\n'}
+[7.876637] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.876678] (sensor_simulator) StderrLine: {'line': b"Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.\n"}
+[7.876714] (sensor_simulator) StderrLine: {'line': b'          detected during:\n'}
+[7.876748] (sensor_simulator) StderrLine: {'line': b'            instantiation of "std::complex<T> Eigen::complex_operator_detail::complex_divide_fast(const std::complex<T> &, const std::complex<T> &) [with T=float]" at line 96 of /usr/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h\n'}
+[7.876782] (sensor_simulator) StderrLine: {'line': b'            instantiation of "std::complex<T> Eigen::complex_operator_detail::complex_divide(const std::complex<T> &, const std::complex<T> &) [with T=float]" at line 234 of /usr/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h\n'}
+[7.876816] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.876848] (sensor_simulator) StderrLine: {'line': b"Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.\n"}
+[7.876880] (sensor_simulator) StderrLine: {'line': b'          detected during instantiation of "std::complex<T> Eigen::complex_operator_detail::complex_multiply(const std::complex<T> &, const std::complex<T> &) [with T=double]" at line 235 of /usr/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h\n'}
+[7.876913] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.876943] (sensor_simulator) StderrLine: {'line': b"Warning #20015-D: calling a constexpr __host__ function from a __host__ __device__ function is not allowed. The experimental flag '--expt-relaxed-constexpr' can be used to allow this.\n"}
+[7.876974] (sensor_simulator) StderrLine: {'line': b'          detected during:\n'}
+[7.877003] (sensor_simulator) StderrLine: {'line': b'            instantiation of "std::complex<T> Eigen::complex_operator_detail::complex_divide_fast(const std::complex<T> &, const std::complex<T> &) [with T=double]" at line 96 of /usr/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h\n'}
+[7.877034] (sensor_simulator) StderrLine: {'line': b'            instantiation of "std::complex<T> Eigen::complex_operator_detail::complex_divide(const std::complex<T> &, const std::complex<T> &) [with T=double]" at line 235 of /usr/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h\n'}
+[7.877065] (sensor_simulator) StderrLine: {'line': b'\n'}
+[7.915169] (-) TimerEvent: {}
+[8.015454] (-) TimerEvent: {}
+[8.115730] (-) TimerEvent: {}
+[8.215937] (-) TimerEvent: {}
+[8.316173] (-) TimerEvent: {}
+[8.416422] (-) TimerEvent: {}
+[8.516680] (-) TimerEvent: {}
+[8.616915] (-) TimerEvent: {}
+[8.717152] (-) TimerEvent: {}
+[8.817409] (-) TimerEvent: {}
+[8.917689] (-) TimerEvent: {}
+[9.017993] (-) TimerEvent: {}
+[9.118248] (-) TimerEvent: {}
+[9.218537] (-) TimerEvent: {}
+[9.318883] (-) TimerEvent: {}
+[9.419142] (-) TimerEvent: {}
+[9.519444] (-) TimerEvent: {}
+[9.619753] (-) TimerEvent: {}
+[9.720020] (-) TimerEvent: {}
+[9.820289] (-) TimerEvent: {}
+[9.920544] (-) TimerEvent: {}
+[10.020773] (-) TimerEvent: {}
+[10.121004] (-) TimerEvent: {}
+[10.221238] (-) TimerEvent: {}
+[10.299271] (sensor_simulator) StdoutLine: {'line': b'[ 30%] \x1b[32m\x1b[1mLinking CXX static library libraycast_cuda.a\x1b[0m\n'}
+[10.312120] (sensor_simulator) StdoutLine: {'line': b'[ 30%] Built target raycast_cuda\n'}
+[10.320348] (sensor_simulator) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/dataset_generator.dir/src/dataset_generator.cpp.o\x1b[0m\n'}
+[10.320503] (sensor_simulator) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/dataset_generator.dir/src/maps.cpp.o\x1b[0m\n'}
+[10.320595] (sensor_simulator) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/dataset_generator.dir/src/perlinnoise.cpp.o\x1b[0m\n'}
+[10.320623] (sensor_simulator) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/sensor_simulator_cuda.dir/src/perlinnoise.cpp.o\x1b[0m\n'}
+[10.321293] (-) TimerEvent: {}
+[10.321845] (sensor_simulator) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/sensor_simulator_cuda.dir/src/test_simulator_cuda.cpp.o\x1b[0m\n'}
+[10.321913] (sensor_simulator) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/sensor_simulator_cuda.dir/src/maps.cpp.o\x1b[0m\n'}
+[10.421407] (-) TimerEvent: {}
+[10.521690] (-) TimerEvent: {}
+[10.621959] (-) TimerEvent: {}
+[10.722230] (-) TimerEvent: {}
+[10.822512] (-) TimerEvent: {}
+[10.922753] (-) TimerEvent: {}
+[11.023024] (-) TimerEvent: {}
+[11.123322] (-) TimerEvent: {}
+[11.223535] (-) TimerEvent: {}
+[11.323781] (-) TimerEvent: {}
+[11.424012] (-) TimerEvent: {}
+[11.524276] (-) TimerEvent: {}
+[11.624537] (-) TimerEvent: {}
+[11.724832] (-) TimerEvent: {}
+[11.825070] (-) TimerEvent: {}
+[11.925296] (-) TimerEvent: {}
+[12.025523] (-) TimerEvent: {}
+[12.125796] (-) TimerEvent: {}
+[12.226085] (-) TimerEvent: {}
+[12.326340] (-) TimerEvent: {}
+[12.426616] (-) TimerEvent: {}
+[12.526907] (-) TimerEvent: {}
+[12.627204] (-) TimerEvent: {}
+[12.727505] (-) TimerEvent: {}
+[12.827801] (-) TimerEvent: {}
+[12.928070] (-) TimerEvent: {}
+[13.028318] (-) TimerEvent: {}
+[13.128537] (-) TimerEvent: {}
+[13.228779] (-) TimerEvent: {}
+[13.282056] (sensor_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zhr/YOPO-ROS2/Simulator/src/src/maps.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid mocka::Maps::\x1b[01;32m\x1b[KrecursiveDivision\x1b[m\x1b[K(int, int, int, int, Eigen::MatrixXi&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.282251] (sensor_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zhr/YOPO-ROS2/Simulator/src/src/maps.cpp:379:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kvalid\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.282295] (sensor_simulator) StderrLine: {'line': b'  379 |     bool \x1b[01;35m\x1b[Kvalid\x1b[m\x1b[K     = false; // used to judge whether the wall selection is valid\n'}
+[13.282330] (sensor_simulator) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[13.292498] (sensor_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zhr/YOPO-ROS2/Simulator/src/src/maps.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid mocka::Maps::\x1b[01;32m\x1b[KMaze3DGen\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.292664] (sensor_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zhr/YOPO-ROS2/Simulator/src/src/maps.cpp:869:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KnodeRad\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.292709] (sensor_simulator) StderrLine: {'line': b'  869 |   int    \x1b[01;35m\x1b[KnodeRad\x1b[m\x1b[K = 4;\n'}
+[13.292740] (sensor_simulator) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[13.328884] (-) TimerEvent: {}
+[13.340175] (sensor_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zhr/YOPO-ROS2/Simulator/src/src/maps.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid mocka::Maps::\x1b[01;32m\x1b[KrecursiveDivision\x1b[m\x1b[K(int, int, int, int, Eigen::MatrixXi&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.340315] (sensor_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zhr/YOPO-ROS2/Simulator/src/src/maps.cpp:379:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kvalid\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.340352] (sensor_simulator) StderrLine: {'line': b'  379 |     bool \x1b[01;35m\x1b[Kvalid\x1b[m\x1b[K     = false; // used to judge whether the wall selection is valid\n'}
+[13.340381] (sensor_simulator) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[13.349209] (sensor_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zhr/YOPO-ROS2/Simulator/src/src/maps.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid mocka::Maps::\x1b[01;32m\x1b[KMaze3DGen\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.349287] (sensor_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zhr/YOPO-ROS2/Simulator/src/src/maps.cpp:869:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KnodeRad\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.349318] (sensor_simulator) StderrLine: {'line': b'  869 |   int    \x1b[01;35m\x1b[KnodeRad\x1b[m\x1b[K = 4;\n'}
+[13.349345] (sensor_simulator) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[13.428976] (-) TimerEvent: {}
+[13.529197] (-) TimerEvent: {}
+[13.630297] (-) TimerEvent: {}
+[13.730596] (-) TimerEvent: {}
+[13.753019] (sensor_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zhr/YOPO-ROS2/Simulator/src/src/dataset_generator.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K main\x1b[m\x1b[K(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.753189] (sensor_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zhr/YOPO-ROS2/Simulator/src/src/dataset_generator.cpp:201:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kfound_num\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.753227] (sensor_simulator) StderrLine: {'line': b'  201 |                 int \x1b[01;35m\x1b[Kfound_num\x1b[m\x1b[K = kdtree.nearestKSearch(searchPoint, 1, pointIdxNKNSearch, pointNKNSquaredDistance);\n'}
+[13.753255] (sensor_simulator) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[13.754520] (sensor_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zhr/YOPO-ROS2/Simulator/src/src/dataset_generator.cpp:83:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.754553] (sensor_simulator) StderrLine: {'line': b'   83 | int main(\x1b[01;35m\x1b[Kint argc\x1b[m\x1b[K, char **argv)\n'}
+[13.754586] (sensor_simulator) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K~~~~^~~~\x1b[m\x1b[K\n'}
+[13.754611] (sensor_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zhr/YOPO-ROS2/Simulator/src/src/dataset_generator.cpp:83:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargv\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.754638] (sensor_simulator) StderrLine: {'line': b'   83 | int main(int argc, \x1b[01;35m\x1b[Kchar **argv\x1b[m\x1b[K)\n'}
+[13.754662] (sensor_simulator) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[13.830688] (-) TimerEvent: {}
+[13.930921] (-) TimerEvent: {}
+[14.031182] (-) TimerEvent: {}
+[14.131457] (-) TimerEvent: {}
+[14.231695] (-) TimerEvent: {}
+[14.276403] (sensor_simulator) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX executable sensor_simulator\x1b[0m\n'}
+[14.331804] (-) TimerEvent: {}
+[14.432096] (-) TimerEvent: {}
+[14.532358] (-) TimerEvent: {}
+[14.632652] (-) TimerEvent: {}
+[14.732934] (-) TimerEvent: {}
+[14.833206] (-) TimerEvent: {}
+[14.911578] (sensor_simulator) StdoutLine: {'line': b'[ 84%] Built target sensor_simulator\n'}
+[14.933321] (-) TimerEvent: {}
+[15.033598] (-) TimerEvent: {}
+[15.133856] (-) TimerEvent: {}
+[15.234145] (-) TimerEvent: {}
+[15.334469] (-) TimerEvent: {}
+[15.434762] (-) TimerEvent: {}
+[15.535065] (-) TimerEvent: {}
+[15.635343] (-) TimerEvent: {}
+[15.735611] (-) TimerEvent: {}
+[15.835855] (-) TimerEvent: {}
+[15.936105] (-) TimerEvent: {}
+[16.036354] (-) TimerEvent: {}
+[16.136606] (-) TimerEvent: {}
+[16.236886] (-) TimerEvent: {}
+[16.337176] (-) TimerEvent: {}
+[16.437410] (-) TimerEvent: {}
+[16.537680] (-) TimerEvent: {}
+[16.637990] (-) TimerEvent: {}
+[16.738256] (-) TimerEvent: {}
+[16.760992] (sensor_simulator) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable dataset_generator\x1b[0m\n'}
+[16.838347] (-) TimerEvent: {}
+[16.938597] (-) TimerEvent: {}
+[17.038834] (-) TimerEvent: {}
+[17.139065] (-) TimerEvent: {}
+[17.239309] (-) TimerEvent: {}
+[17.339563] (-) TimerEvent: {}
+[17.439810] (-) TimerEvent: {}
+[17.484926] (sensor_simulator) StdoutLine: {'line': b'[ 92%] Built target dataset_generator\n'}
+[17.539901] (-) TimerEvent: {}
+[17.640133] (-) TimerEvent: {}
+[17.740397] (-) TimerEvent: {}
+[17.840650] (-) TimerEvent: {}
+[17.940888] (-) TimerEvent: {}
+[18.041182] (-) TimerEvent: {}
+[18.141413] (-) TimerEvent: {}
+[18.241674] (-) TimerEvent: {}
+[18.341935] (-) TimerEvent: {}
+[18.442174] (-) TimerEvent: {}
+[18.542434] (-) TimerEvent: {}
+[18.642668] (-) TimerEvent: {}
+[18.742892] (-) TimerEvent: {}
+[18.843115] (-) TimerEvent: {}
+[18.943358] (-) TimerEvent: {}
+[19.043635] (-) TimerEvent: {}
+[19.143939] (-) TimerEvent: {}
+[19.244173] (-) TimerEvent: {}
+[19.344426] (-) TimerEvent: {}
+[19.444656] (-) TimerEvent: {}
+[19.544885] (-) TimerEvent: {}
+[19.645145] (-) TimerEvent: {}
+[19.745438] (-) TimerEvent: {}
+[19.845669] (-) TimerEvent: {}
+[19.945903] (-) TimerEvent: {}
+[20.046126] (-) TimerEvent: {}
+[20.146347] (-) TimerEvent: {}
+[20.246579] (-) TimerEvent: {}
+[20.346807] (-) TimerEvent: {}
+[20.447042] (-) TimerEvent: {}
+[20.547284] (-) TimerEvent: {}
+[20.647538] (-) TimerEvent: {}
+[20.747801] (-) TimerEvent: {}
+[20.848030] (-) TimerEvent: {}
+[20.948260] (-) TimerEvent: {}
+[21.048509] (-) TimerEvent: {}
+[21.148750] (-) TimerEvent: {}
+[21.248990] (-) TimerEvent: {}
+[21.349208] (-) TimerEvent: {}
+[21.449432] (-) TimerEvent: {}
+[21.549698] (-) TimerEvent: {}
+[21.649965] (-) TimerEvent: {}
+[21.750191] (-) TimerEvent: {}
+[21.850418] (-) TimerEvent: {}
+[21.950655] (-) TimerEvent: {}
+[22.050866] (-) TimerEvent: {}
+[22.151077] (-) TimerEvent: {}
+[22.251303] (-) TimerEvent: {}
+[22.351516] (-) TimerEvent: {}
+[22.451767] (-) TimerEvent: {}
+[22.552022] (-) TimerEvent: {}
+[22.652264] (-) TimerEvent: {}
+[22.752528] (-) TimerEvent: {}
+[22.755135] (sensor_simulator) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable sensor_simulator_cuda\x1b[0m\n'}
+[22.852628] (-) TimerEvent: {}
+[22.952876] (-) TimerEvent: {}
+[23.053124] (-) TimerEvent: {}
+[23.153380] (-) TimerEvent: {}
+[23.253653] (-) TimerEvent: {}
+[23.327042] (sensor_simulator) StdoutLine: {'line': b'[100%] Built target sensor_simulator_cuda\n'}
+[23.332531] (sensor_simulator) CommandEnded: {'returncode': 0}
+[23.332925] (sensor_simulator) JobProgress: {'identifier': 'sensor_simulator', 'progress': 'install'}
+[23.336462] (sensor_simulator) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zhr/YOPO-ROS2/Simulator/build/sensor_simulator'], 'cwd': '/home/zhr/YOPO-ROS2/Simulator/build/sensor_simulator', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '', 'LANGUAGE': 'zh_CN', 'USER': 'zhr', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/zhr/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/snap/code/233/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/zhr', 'CHROME_DESKTOP': 'code.desktop', 'CONDA_SHLVL': '0', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/zhr/YOPO-ROS2', 'TERM_PROGRAM_VERSION': '1.115.0', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/233/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/zhr/snap/code/common/.cache/immodules/immodules.cache', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/233/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/233/usr/share/code/code', 'MANAGERPID': '2269', 'SYSTEMD_EXEC_PID': '2664', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', '_CONDA_ROOT': '/home/zhr/miniconda3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3577', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'zhr', 'JOURNAL_STREAM': '9:20044', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'FC_FONTATIONS': '1', 'PATH': '/home/zhr/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/zhr/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/zhr/miniconda3/condabin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/zhr-lab-PC:@/tmp/.ICE-unix/2511,unix/zhr-lab-PC:/tmp/.ICE-unix/2511', 'GTK_EXE_PREFIX': '/snap/code/233/usr', 'GDM_LANG': 'zh_CN', 'INVOCATION_ID': '2af8aa3a4b0e4746b5a8b6ed91be4186', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/233/usr/lib/locale', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/zhr/snap/code/233/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/home/zhr/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-9feb23b85d.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/zhr/snap/code/233/.local/share/glib-2.0/schemas', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/zhr', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/zhr/miniconda3/bin/python', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:185e0225-422e-4f04-bea7-4b1800b12a50', 'QT_ACCESSIBILITY': '1', 'NO_AT_BRIDGE': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'CONDA_DEFAULT_ENV': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', '_CONDA_EXE': '/home/zhr/miniconda3/bin/conda', 'FLIGHTMARE_PATH': '/home/zhr/flightmare', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/zhr/YOPO-ROS2/Simulator/build/sensor_simulator', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/zhr/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/home/zhr/snap/code/233/.local/share:/home/zhr/snap/code/233:/snap/code/233/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'CONDA_PREFIX': '', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[23.339644] (sensor_simulator) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[23.339756] (sensor_simulator) StdoutLine: {'line': b'-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/lib/sensor_simulator/sensor_simulator\n'}
+[23.340260] (sensor_simulator) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/lib/sensor_simulator/sensor_simulator" to ""\n'}
+[23.340338] (sensor_simulator) StdoutLine: {'line': b'-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/lib/sensor_simulator/sensor_simulator_cuda\n'}
+[23.341110] (sensor_simulator) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/lib/sensor_simulator/sensor_simulator_cuda" to ""\n'}
+[23.341188] (sensor_simulator) StdoutLine: {'line': b'-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/lib/sensor_simulator/dataset_generator\n'}
+[23.341631] (sensor_simulator) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/lib/sensor_simulator/dataset_generator" to ""\n'}
+[23.341696] (sensor_simulator) StdoutLine: {'line': b'-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/include\n'}
+[23.341737] (sensor_simulator) StdoutLine: {'line': b'-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/include/perlinnoise.hpp\n'}
+[23.341761] (sensor_simulator) StdoutLine: {'line': b'-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/include/sensor_simulator.cuh\n'}
+[23.341793] (sensor_simulator) StdoutLine: {'line': b'-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/include/maps.hpp\n'}
+[23.341815] (sensor_simulator) StdoutLine: {'line': b'-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/include/sensor_simulator.h\n'}
+[23.341844] (sensor_simulator) StdoutLine: {'line': b'-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/include/cuda_toolkit\n'}
+[23.341868] (sensor_simulator) StdoutLine: {'line': b'-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/include/cuda_toolkit/matrix.cuh\n'}
+[23.341893] (sensor_simulator) StdoutLine: {'line': b'-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/include/cuda_toolkit/se3.cuh\n'}
+[23.341921] (sensor_simulator) StdoutLine: {'line': b'-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/include/cuda_toolkit/helper_math.h\n'}
+[23.341983] (sensor_simulator) StdoutLine: {'line': b'-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/config\n'}
+[23.342017] (sensor_simulator) StdoutLine: {'line': b'-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/config/config.yaml\n'}
+[23.342081] (sensor_simulator) StdoutLine: {'line': b'-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/ament_index/resource_index/package_run_dependencies/sensor_simulator\n'}
+[23.342132] (sensor_simulator) StdoutLine: {'line': b'-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/ament_index/resource_index/parent_prefix_path/sensor_simulator\n'}
+[23.342181] (sensor_simulator) StdoutLine: {'line': b'-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/environment/ament_prefix_path.sh\n'}
+[23.342218] (sensor_simulator) StdoutLine: {'line': b'-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/environment/ament_prefix_path.dsv\n'}
+[23.342254] (sensor_simulator) StdoutLine: {'line': b'-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/environment/path.sh\n'}
+[23.342294] (sensor_simulator) StdoutLine: {'line': b'-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/environment/path.dsv\n'}
+[23.342330] (sensor_simulator) StdoutLine: {'line': b'-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/local_setup.bash\n'}
+[23.342365] (sensor_simulator) StdoutLine: {'line': b'-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/local_setup.sh\n'}
+[23.342402] (sensor_simulator) StdoutLine: {'line': b'-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/local_setup.zsh\n'}
+[23.342440] (sensor_simulator) StdoutLine: {'line': b'-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/local_setup.dsv\n'}
+[23.342480] (sensor_simulator) StdoutLine: {'line': b'-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/package.dsv\n'}
+[23.342524] (sensor_simulator) StdoutLine: {'line': b'-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/ament_index/resource_index/packages/sensor_simulator\n'}
+[23.342569] (sensor_simulator) StdoutLine: {'line': b'-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[23.342609] (sensor_simulator) StdoutLine: {'line': b'-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/cmake/sensor_simulatorConfig.cmake\n'}
+[23.342653] (sensor_simulator) StdoutLine: {'line': b'-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/cmake/sensor_simulatorConfig-version.cmake\n'}
+[23.342692] (sensor_simulator) StdoutLine: {'line': b'-- Installing: /home/zhr/YOPO-ROS2/Simulator/install/sensor_simulator/share/sensor_simulator/package.xml\n'}
+[23.343446] (sensor_simulator) CommandEnded: {'returncode': 0}
+[23.350414] (sensor_simulator) JobEnded: {'identifier': 'sensor_simulator', 'rc': 0}
+[23.350816] (-) EventReactorShutdown: {}

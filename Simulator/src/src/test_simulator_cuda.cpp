@@ -11,7 +11,7 @@
 #include <sensor_msgs/msg/image.hpp>
 #include <sensor_msgs/msg/point_cloud2.hpp>
 // 移除pcl_ros的point_cloud包含，直接使用sensor_msgs的point_cloud2
-#include <cv_bridge/cv_bridge.h>
+#include <cv_bridge/cv_bridge.hpp>
 #include <iostream>
 #include <vector>
 #include <yaml-cpp/yaml.h>
@@ -54,7 +54,7 @@ public:
         float depth_fps = config["depth_fps"].as<float>();
         float lidar_fps = config["lidar_fps"].as<float>();
         
-        std::string ply_file = config["ply_file"].as<std::string>();
+        std::string ply_file = resolvePathRelativeToConfig(CONFIG_FILE_PATH, config["ply_file"].as<std::string>());
         std::string odom_topic = config["odom_topic"].as<std::string>();
         std::string depth_topic = config["depth_topic"].as<std::string>();
         std::string lidar_topic = config["lidar_topic"].as<std::string>();
